@@ -1,0 +1,2 @@
+# Keep generated README stable across OS line endings (CI uses git diff --exit-code).
+README.md text eol=lf
