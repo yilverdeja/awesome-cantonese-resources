@@ -61,6 +61,24 @@
     ]
   },
   {
+    "id": "curated-essential-picks",
+    "title": "Essential picks",
+    "description": "A short list of especially helpful reference tools and learning resources that many Cantonese learners use again and again.",
+    "kind": "curated_list",
+    "target_level": "All Levels",
+    "order": 5,
+    "resource_ids": [
+      "pleco",
+      "ham-baang-laang",
+      "words-hk",
+      "jyutping-org",
+      "inject-jyutping",
+      "forvo-yue",
+      "jyutdict",
+      "cantone-app"
+    ]
+  },
+  {
     "id": "curated-hk-in-person-courses",
     "title": "In-person courses in Hong Kong",
     "description": "Universities, private centres, and SCOLAR-funded vocational programmes for learners in or moving to Hong Kong.",

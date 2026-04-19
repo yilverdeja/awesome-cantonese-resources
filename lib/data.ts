@@ -1,6 +1,6 @@
 import resourcesData from "../data/resources.json";
 import collectionsData from "../data/collections.json";
-import type { Resource, Collection, Category } from "@/types";
+import type { Resource, Collection, Category, Level } from "@/types";
 
 const resources = resourcesData as Resource[];
 const collections = collectionsData as Collection[];
@@ -79,4 +79,21 @@ export function getResourcePreviewSample(count: number): Resource[] {
 
 export function getCategoriesForFilters(): Category[] {
   return [...RESOURCE_CATEGORY_ORDER];
+}
+
+/** Used on the resources page level filter. */
+export const RESOURCE_LEVEL_OPTIONS: Level[] = [
+  "Beginner",
+  "Intermediate",
+  "Advanced",
+  "All Levels",
+];
+
+/** Curated list that powers the home-page resource spotlight. */
+export const HOME_SPOTLIGHT_COLLECTION_ID = "curated-essential-picks";
+
+export function getHomeSpotlightResources(): Resource[] {
+  const data = getCollectionWithResources(HOME_SPOTLIGHT_COLLECTION_ID);
+  if (data?.resources.length) return data.resources;
+  return getResourcePreviewSample(12);
 }

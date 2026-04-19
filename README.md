@@ -39,6 +39,7 @@ The README section between the markers below is **generated**. Edit the JSON (or
 - [Beginner starter kit](#collection-starter-kit-beginner)
 - [Intermediate starter kit](#collection-starter-kit-intermediate)
 - [Advanced starter kit](#collection-starter-kit-advanced)
+- [Essential picks](#collection-curated-essential-picks)
 - [In-person courses in Hong Kong](#collection-curated-hk-in-person-courses)
 
 ### Categories
@@ -111,6 +112,20 @@ Grammar references, literary and dubbed immersion, specialized vocabulary, and r
 - **[Jujiso — Cantonese-dubbed shows search](https://www.jujiso.com/vsearch/-------------.html?wd=%E7%B2%A4%E8%AF%AD)** — Streaming index/search for Yue/Cantonese-dubbed anime and shows.
 - **[Cantonese dubs (Google Drive folder)](https://drive.google.com/drive/folders/1XQda3XOcTjlOiAdJeW7HQCxgndz3Bifz)** — Community drive of Cantonese-dubbed media (some with English subs).
 - **[Cantonese with soft subtitles / transcript (playlist)](https://www.youtube.com/playlist?list=PLhFsPvkfpCXnWDUSPmA-8xUp7vPz-zCeg)** — YouTube playlist with spoken-form soft subtitles (last updated 2021 per source).
+
+<a id="collection-curated-essential-picks"></a>
+## Essential picks
+
+A short list of especially helpful reference tools and learning resources that many Cantonese learners use again and again.
+
+- **[Pleco](https://www.pleco.com/)** — Major Chinese dictionary app with Cantonese add-ons (Jyutping, audio).
+- **[Ham Baang Laang](https://hambaanglaang.hk/)** — Graded readers in colloquial Cantonese with audio and illustrations.
+- **[words.hk](https://words.hk/)** — Community Cantonese–English dictionary (LINE Dictionary Cantonese–English successor).
+- **[Jyutping.org](https://jyutping.org/en/)** — Reference site for Jyutping romanization.
+- **[Inject Jyutping](https://chromewebstore.google.com/detail/inject-jyutping/lfgpgjkjglogbndlkikjgbbfoiofbdjp?pli=1)** — Chrome extension to show Jyutping on Chinese web pages.
+- **[Forvo (Cantonese / Yue)](https://forvo.com/languages/yue/)** — User-contributed pronunciations for Yue/Cantonese words.
+- **[JyutDict](https://github.com/aaronhktan/jyut-dict)** — Open-source Cantonese dictionary desktop app project.
+- **[Cantone](https://play.google.com/store/apps/details?id=com.cantone.cantone&hl=en&gl=US)** — Android app for Cantonese learning.
 
 <a id="collection-curated-hk-in-person-courses"></a>
 ## In-person courses in Hong Kong

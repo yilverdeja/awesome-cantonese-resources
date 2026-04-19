@@ -50,8 +50,8 @@ export function HomeHero() {
           className="mt-5 max-w-2xl text-lg text-muted-foreground sm:text-xl"
         >
           Browse dictionaries, courses, podcasts, video channels, and community
-          projects—curated from open data so you can find the next best step in
-          your Cantonese journey.
+          projects in one place—so you can find the next best step in your
+          Cantonese journey.
         </motion.p>
         <motion.div
           custom={3}

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ChevronRight } from "lucide-react";
 
 import type { Collection } from "@/types";
 import { Badge } from "@/components/ui/badge";
@@ -27,8 +28,8 @@ export function CollectionCard({ collection }: CollectionCardProps) {
     : null;
 
   return (
-    <Link href={`/collections/${collection.id}`} className="block h-full">
-      <Card className="h-full border-border/80 transition-colors hover:border-primary/40 hover:bg-muted/20">
+    <Link href={`/collections/${collection.id}`} className="group block h-full">
+      <Card className="h-full border-border/80 transition-colors group-hover:border-primary/40 group-hover:bg-muted/20">
         <CardHeader className="space-y-2">
           <div className="flex flex-wrap items-center gap-2">
             <Badge variant="outline" className="text-xs font-normal">
@@ -40,7 +41,15 @@ export function CollectionCard({ collection }: CollectionCardProps) {
               </Badge>
             ) : null}
           </div>
-          <CardTitle className="text-lg">{collection.title}</CardTitle>
+          <div className="flex items-start justify-between gap-2">
+            <CardTitle className="text-lg group-hover:text-primary">
+              {collection.title}
+            </CardTitle>
+            <ChevronRight
+              className="mt-1 size-5 shrink-0 text-muted-foreground transition-transform group-hover:translate-x-0.5 group-hover:text-foreground"
+              aria-hidden
+            />
+          </div>
           <CardDescription className="line-clamp-3 text-sm leading-relaxed">
             {collection.description}
           </CardDescription>

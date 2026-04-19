@@ -5,108 +5,162 @@ import { HomeHero } from "@/components/home/home-hero";
 import { ResourceCard } from "@/components/resources/resource-card";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import {
-  getCollectionsSorted,
-  getResourcePreviewSample,
-} from "@/lib/data";
+import { getCollectionsSorted, getHomeSpotlightResources } from "@/lib/data";
 import { siteConfig } from "@/lib/site-config";
-
-const PREVIEW_COUNT = 12;
 
 export default function HomePage() {
   const collections = getCollectionsSorted();
-  const previewResources = getResourcePreviewSample(PREVIEW_COUNT);
+  const spotlightResources = getHomeSpotlightResources();
 
   return (
     <>
       <HomeHero />
 
-      <main className="mx-auto max-w-6xl space-y-16 px-4 py-14 sm:px-6 sm:py-20">
-        <section className="grid gap-10 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] lg:items-start">
-          <div className="space-y-4">
-            <h2 className="text-2xl font-semibold tracking-tight text-foreground">
-              Why Cantonese—and why this site
-            </h2>
-            <p className="text-muted-foreground leading-relaxed">
-              Cantonese connects communities across Hong Kong, Macau, Guangdong,
-              and the diaspora. {siteConfig.name} surfaces practical tools and
-              media so learners spend less time searching and more time
-              listening, reading, and speaking.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              The list is intentionally broad: if it helps people learn or use
-              Cantonese, it can belong. Editors may skip items that feel
-              off-topic or redundant next to a clearly stronger option.
-            </p>
-          </div>
-          <aside className="rounded-2xl border border-border/80 bg-card/60 p-6 text-sm text-muted-foreground shadow-sm">
-            <h3 className="font-medium text-foreground">Single source of truth</h3>
-            <p className="mt-2 leading-relaxed">
-              Resource and collection data live in JSON in this repository. The
-              Markdown README is generated from the same files, so the catalog
-              you see here stays aligned with the awesome list.
-            </p>
-          </aside>
+      <main className="mx-auto max-w-6xl space-y-20 px-4 py-14 sm:px-6 sm:py-20">
+        <section className="mx-auto max-w-3xl space-y-5">
+          <h2 className="text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
+            Why Cantonese—and why this site
+          </h2>
+          <p className="text-base text-muted-foreground leading-relaxed sm:text-lg">
+            Cantonese connects communities across Hong Kong, Macau, Guangdong,
+            and the diaspora. {siteConfig.name} brings practical tools and media
+            into one place so you can spend less time searching and more time
+            listening, reading, and speaking.
+          </p>
+          <p className="text-base text-muted-foreground leading-relaxed sm:text-lg">
+            The list is broad on purpose: if it helps people learn or use
+            Cantonese, it belongs here. We may leave out items that feel off-topic
+            or that duplicate something stronger already on the list.
+          </p>
         </section>
 
         <Separator />
 
-        <section className="grid gap-10 lg:grid-cols-2">
-          <div className="space-y-3">
-            <h2 className="text-xl font-semibold tracking-tight">
-              This site vs the GitHub README
+        <section className="mx-auto max-w-3xl space-y-4">
+          <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">
+            Resources and collections
+          </h2>
+          <p className="text-base text-muted-foreground leading-relaxed sm:text-lg">
+            <strong className="font-medium text-foreground">Resources</strong> are
+            individual picks—apps, channels, books, courses, dictionaries,
+            communities, and more. Each one links out to the original site or
+            store.
+          </p>
+          <p className="text-base text-muted-foreground leading-relaxed sm:text-lg">
+            <strong className="font-medium text-foreground">Collections</strong>{" "}
+            group resources into starter paths (for example, your first week of
+            listening and reading) or topical lists (like in-person classes in a
+            particular city). They are a good place to begin when you want a
+            small, ordered set of ideas instead of the full catalog.
+          </p>
+        </section>
+
+        <Separator />
+
+        <section className="space-y-6">
+          <div className="mx-auto max-w-3xl space-y-3 text-center sm:text-left">
+            <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">
+              Finding what you need
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              The README is link-first and easy to scan in version control. This
-              web app adds layout, search, and filters so you can explore the same
-              entries without scrolling a very long document.
+              On the full{" "}
+              <Link
+                href="/resources"
+                className="font-medium text-foreground underline-offset-4 hover:underline"
+              >
+                Resources
+              </Link>{" "}
+              page you can combine a few simple controls to narrow the list:
             </p>
           </div>
-          <div className="space-y-3">
-            <h2 className="text-xl font-semibold tracking-tight">
-              Resources vs collections
-            </h2>
-            <p className="text-muted-foreground leading-relaxed">
-              <strong className="text-foreground">Resources</strong> are individual
-              links (apps, channels, books, communities).{" "}
-              <strong className="text-foreground">Collections</strong> bundle them
-              into starter paths or topical lists—great when you want a coherent
-              next few steps instead of the full catalog.
-            </p>
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="rounded-2xl border border-border/80 bg-card/50 p-6 shadow-sm">
+              <h3 className="font-semibold text-foreground">Search</h3>
+              <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
+                Type part of a name, a word from the short description, or a tag
+                you care about—helpful when you half-remember a tool someone
+                recommended.
+              </p>
+            </div>
+            <div className="rounded-2xl border border-border/80 bg-card/50 p-6 shadow-sm">
+              <h3 className="font-semibold text-foreground">Category</h3>
+              <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
+                Focus on a kind of resource: apps, dictionaries, courses,
+                podcasts, video channels, communities, and the rest of the
+                catalog.
+              </p>
+            </div>
+            <div className="rounded-2xl border border-border/80 bg-card/50 p-6 shadow-sm sm:col-span-2 lg:col-span-1">
+              <h3 className="font-semibold text-foreground">Level</h3>
+              <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
+                Show items tagged for beginners, intermediate, or advanced
+                learners. Anything marked for all levels stays visible no matter
+                which level you pick.
+              </p>
+            </div>
           </div>
         </section>
 
-        <section className="space-y-6">
-          <h2 className="text-xl font-semibold tracking-tight">How to use it</h2>
-          <ul className="grid gap-3 text-muted-foreground sm:grid-cols-2">
-            <li className="rounded-xl border border-border/70 bg-muted/20 px-4 py-3">
-              <span className="font-medium text-foreground">New learners:</span>{" "}
-              open a starter collection, then branch out to categories you care
-              about.
-            </li>
-            <li className="rounded-xl border border-border/70 bg-muted/20 px-4 py-3">
-              <span className="font-medium text-foreground">Looking for a format:</span>{" "}
-              use the Resources page to filter by category and search by name or
-              tags.
-            </li>
-            <li className="rounded-xl border border-border/70 bg-muted/20 px-4 py-3">
-              <span className="font-medium text-foreground">Every card opens the source:</span>{" "}
-              resource links launch the external site in a new tab.
-            </li>
-            <li className="rounded-xl border border-border/70 bg-muted/20 px-4 py-3">
-              <span className="font-medium text-foreground">Contributing:</span>{" "}
-              propose additions or fixes via GitHub (see README contributing
-              section).
-            </li>
-          </ul>
+        <Separator />
+
+        <section className="space-y-8">
+          <div className="mx-auto max-w-3xl space-y-4">
+            <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">
+              How to use this site
+            </h2>
+            <ul className="space-y-4 text-muted-foreground">
+              <li className="flex gap-3 rounded-2xl border border-border/70 bg-muted/15 px-5 py-4 leading-relaxed">
+                <span className="mt-0.5 flex size-7 shrink-0 items-center justify-center rounded-full bg-primary/15 text-sm font-semibold text-primary">
+                  1
+                </span>
+                <span>
+                  <span className="font-medium text-foreground">
+                    New to Cantonese?
+                  </span>{" "}
+                  Start with a starter collection: it walks through pronunciation,
+                  your first dictionary, gentle input, and similar steps in a
+                  sensible order.
+                </span>
+              </li>
+              <li className="flex gap-3 rounded-2xl border border-border/70 bg-muted/15 px-5 py-4 leading-relaxed">
+                <span className="mt-0.5 flex size-7 shrink-0 items-center justify-center rounded-full bg-primary/15 text-sm font-semibold text-primary">
+                  2
+                </span>
+                <span>
+                  <span className="font-medium text-foreground">
+                    Looking for something specific?
+                  </span>{" "}
+                  Open the Resources page and combine search, category, and level
+                  until the list feels right. Clear one filter at a time if the
+                  list gets too small.
+                </span>
+              </li>
+              <li className="flex gap-3 rounded-2xl border border-border/70 bg-muted/15 px-5 py-4 leading-relaxed">
+                <span className="mt-0.5 flex size-7 shrink-0 items-center justify-center rounded-full bg-primary/15 text-sm font-semibold text-primary">
+                  3
+                </span>
+                <span>
+                  <span className="font-medium text-foreground">
+                    Prefer a guided theme?
+                  </span>{" "}
+                  Browse collections for topical bundles—travel, in-person
+                  classes in a city, immersion ideas, and more—then open the
+                  resources that fit your goals.
+                </span>
+              </li>
+            </ul>
+          </div>
         </section>
 
         <section className="space-y-6">
           <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
             <div>
-              <h2 className="text-xl font-semibold tracking-tight">Collections</h2>
-              <p className="text-sm text-muted-foreground">
-                Curated paths and topical bundles from the dataset.
+              <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">
+                Collections
+              </h2>
+              <p className="mt-1 max-w-xl text-muted-foreground">
+                Curated paths and topic lists—pick one that matches where you are
+                today.
               </p>
             </div>
             <Button asChild variant="outline" className="w-fit rounded-2xl">
@@ -123,49 +177,48 @@ export default function HomePage() {
         <section className="space-y-6">
           <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
             <div>
-              <h2 className="text-xl font-semibold tracking-tight">
-                Resource spotlight
+              <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">
+                Popular picks
               </h2>
-              <p className="text-sm text-muted-foreground">
-                A stable alphabetical slice of the catalog—open anything in a new
-                tab.
+              <p className="mt-1 max-w-xl text-muted-foreground">
+                A small set of especially useful tools many learners rely on—also
+                listed as the &quot;Essential picks&quot; collection.
               </p>
             </div>
             <Button asChild className="w-fit rounded-2xl">
-              <Link href="/resources">View all resources</Link>
+              <Link href="/resources">Browse all resources</Link>
             </Button>
           </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {previewResources.map((r) => (
+            {spotlightResources.map((r) => (
               <ResourceCard key={r.id} resource={r} />
             ))}
           </div>
         </section>
 
-        <section className="rounded-2xl border border-dashed border-border bg-muted/15 px-6 py-8 text-center">
-          <h2 className="text-lg font-semibold tracking-tight">Want to contribute?</h2>
-          <p className="mx-auto mt-2 max-w-xl text-sm text-muted-foreground">
-            Add or correct entries in the JSON data, run the README generator, and
-            open a pull request—or file an issue with the name, URL, and a short
-            description.
+        <section className="rounded-2xl border border-border bg-muted/20 px-6 py-10 text-center sm:px-10">
+          <h2 className="text-xl font-semibold tracking-tight sm:text-2xl">
+            Are we missing something?
+          </h2>
+          <p className="mx-auto mt-3 max-w-xl text-muted-foreground leading-relaxed">
+            Know a Cantonese course, channel, dictionary, or community that would
+            help others? Spot a broken link or an outdated description? We would
+            love to hear from you.
           </p>
           {siteConfig.githubRepoUrl ? (
-            <Button asChild className="mt-5 rounded-2xl" variant="secondary">
+            <Button asChild className="mt-6 rounded-2xl" size="lg">
               <a
                 href={siteConfig.githubRepoUrl}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Open repository
+                Visit the project repository
               </a>
             </Button>
           ) : (
-            <p className="mt-4 text-xs text-muted-foreground">
-              Set{" "}
-              <code className="rounded bg-muted px-1 py-0.5 font-mono text-[0.7rem]">
-                NEXT_PUBLIC_GITHUB_REPO_URL
-              </code>{" "}
-              to show a repository button here.
+            <p className="mt-6 text-sm text-muted-foreground">
+              When the public repository link is configured for this deployment, a
+              button will appear here so you can send suggestions directly.
             </p>
           )}
         </section>

@@ -1,9 +1,27 @@
 import { getAllResources, getCategoriesForFilters } from "@/lib/data";
 import { ResourcesExplorer } from "@/components/resources/resources-explorer";
+import {
+  parseCategoryParam,
+  parseLevelParam,
+} from "@/lib/resource-routes";
 
-export default function ResourcesPage() {
+type PageProps = {
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
+};
+
+export default async function ResourcesPage({ searchParams }: PageProps) {
   const resources = getAllResources();
   const categories = getCategoriesForFilters();
+  const resolved = searchParams ? await searchParams : undefined;
+  const initialCategory = parseCategoryParam(resolved?.category);
+  const initialLevel = parseLevelParam(resolved?.level);
 
-  return <ResourcesExplorer resources={resources} categories={categories} />;
+  return (
+    <ResourcesExplorer
+      resources={resources}
+      categories={categories}
+      initialCategory={initialCategory}
+      initialLevel={initialLevel}
+    />
+  );
 }

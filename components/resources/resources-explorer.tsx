@@ -3,7 +3,8 @@
 import { useMemo, useState } from "react";
 import { Filter, Search } from "lucide-react";
 
-import type { Category, Resource } from "@/types";
+import type { Category, Level, Resource } from "@/types";
+import { RESOURCE_LEVEL_OPTIONS } from "@/lib/data";
 import { formatCategoryLabel } from "@/lib/format-category";
 import { ResourceCard } from "@/components/resources/resource-card";
 import { Button } from "@/components/ui/button";
@@ -28,13 +29,23 @@ import { Separator } from "@/components/ui/separator";
 type ResourcesExplorerProps = {
   resources: Resource[];
   categories: Category[];
+  initialCategory?: Category | null;
+  initialLevel?: Level | null;
 };
+
+function resourceMatchesLevel(resource: Resource, level: Level | "all"): boolean {
+  if (level === "all") return true;
+  const lv = resource.levels;
+  return lv.includes(level) || lv.includes("All Levels");
+}
 
 function FilterFields({
   query,
   setQuery,
   category,
   setCategory,
+  level,
+  setLevel,
   categories,
   idPrefix,
 }: {
@@ -42,6 +53,8 @@ function FilterFields({
   setQuery: (v: string) => void;
   category: "all" | Category;
   setCategory: (v: "all" | Category) => void;
+  level: "all" | Level;
+  setLevel: (v: "all" | Level) => void;
   categories: Category[];
   idPrefix: string;
 }) {
@@ -82,6 +95,25 @@ function FilterFields({
           </SelectContent>
         </Select>
       </div>
+      <div className="space-y-2">
+        <Label htmlFor={`${idPrefix}-level`}>Level</Label>
+        <Select
+          value={level}
+          onValueChange={(v) => setLevel(v as "all" | Level)}
+        >
+          <SelectTrigger id={`${idPrefix}-level`} className="w-full rounded-2xl">
+            <SelectValue placeholder="Level" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="all">Any level</SelectItem>
+            {RESOURCE_LEVEL_OPTIONS.map((l) => (
+              <SelectItem key={l} value={l}>
+                {l}
+              </SelectItem>
+            ))}
+          </SelectContent>
+        </Select>
+      </div>
     </div>
   );
 }
@@ -89,34 +121,74 @@ function FilterFields({
 export function ResourcesExplorer({
   resources,
   categories,
+  initialCategory = null,
+  initialLevel = null,
 }: ResourcesExplorerProps) {
   const [query, setQuery] = useState("");
-  const [category, setCategory] = useState<"all" | Category>("all");
+  const [category, setCategory] = useState<"all" | Category>(
+    initialCategory ?? "all",
+  );
+  const [level, setLevel] = useState<"all" | Level>(initialLevel ?? "all");
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     return resources.filter((r) => {
       if (category !== "all" && r.category !== category) return false;
+      if (!resourceMatchesLevel(r, level)) return false;
       if (!q) return true;
       const haystack = [r.name, r.description, r.tags.join(" ")]
         .join(" ")
         .toLowerCase();
       return haystack.includes(q);
     });
-  }, [resources, query, category]);
+  }, [resources, query, category, level]);
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-12">
-      <header className="mb-8 space-y-2">
-        <h1 className="text-3xl font-semibold tracking-tight">Resources</h1>
-        <p className="max-w-2xl text-muted-foreground">
-          Search and filter the full catalog. Each card opens the original site in
-          a new tab.
-        </p>
+      <header className="mb-8 space-y-4">
+        <div className="space-y-2">
+          <h1 className="text-3xl font-semibold tracking-tight">Resources</h1>
+          <p className="max-w-2xl text-muted-foreground">
+            Browse the full catalog. Use the filters to narrow things down, or
+            jump in and scroll—the list is here to help you find your next
+            favourite tool or lesson.
+          </p>
+        </div>
+
+        <section
+          aria-labelledby="filter-guide-heading"
+          className="rounded-2xl border border-border/80 bg-muted/20 px-5 py-5 sm:px-6"
+        >
+          <h2
+            id="filter-guide-heading"
+            className="text-sm font-semibold tracking-tight text-foreground"
+          >
+            Finding what you need
+          </h2>
+          <ul className="mt-3 list-inside list-disc space-y-2 text-sm text-muted-foreground marker:text-primary">
+            <li>
+              <span className="text-foreground/90">Search</span> matches the
+              resource name, short description, and tags—handy when you remember
+              a keyword but not the exact title.
+            </li>
+            <li>
+              <span className="text-foreground/90">Category</span> groups entries
+              by type (apps, dictionaries, courses, podcasts, communities, and
+              more).
+            </li>
+            <li>
+              <span className="text-foreground/90">Level</span> highlights items
+              tagged for beginners through advanced learners (entries marked “all
+              levels” always stay visible).
+            </li>
+          </ul>
+        </section>
+
         <p className="text-sm text-muted-foreground">
           Showing{" "}
-          <span className="font-medium text-foreground">{filtered.length}</span> of{" "}
+          <span className="font-medium text-foreground">{filtered.length}</span>{" "}
+          of{" "}
           <span className="font-medium text-foreground">{resources.length}</span>
         </p>
       </header>
@@ -130,6 +202,8 @@ export function ResourcesExplorer({
               setQuery={setQuery}
               category={category}
               setCategory={setCategory}
+              level={level}
+              setLevel={setLevel}
               categories={categories}
               idPrefix="desktop"
             />
@@ -155,6 +229,8 @@ export function ResourcesExplorer({
                   setQuery={setQuery}
                   category={category}
                   setCategory={setCategory}
+                  level={level}
+                  setLevel={setLevel}
                   categories={categories}
                   idPrefix="mobile"
                 />
@@ -170,8 +246,8 @@ export function ResourcesExplorer({
 
           {filtered.length === 0 ? (
             <p className="rounded-2xl border border-dashed border-border px-4 py-10 text-center text-sm text-muted-foreground">
-              No resources match these filters. Try clearing search or choosing
-              &quot;All categories&quot;.
+              No resources match these filters. Try clearing search, widening the
+              level, or choosing &quot;All categories&quot;.
             </p>
           ) : null}
         </div>

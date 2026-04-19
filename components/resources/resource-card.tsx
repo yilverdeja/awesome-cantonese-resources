@@ -5,7 +5,6 @@ import { formatCategoryLabel } from "@/lib/format-category";
 import { Badge } from "@/components/ui/badge";
 import {
   Card,
-  CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
@@ -41,11 +40,6 @@ export function ResourceCard({ resource }: ResourceCardProps) {
             {resource.description}
           </CardDescription>
         </CardHeader>
-        <CardContent className="pt-0">
-          <span className="text-xs font-medium text-primary">
-            Open in new tab
-          </span>
-        </CardContent>
       </Card>
     </a>
   );
