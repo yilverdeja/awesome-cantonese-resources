@@ -1,0 +1,84 @@
+[
+  {
+    "id": "starter-kit-beginner",
+    "title": "Beginner starter kit",
+    "description": "Pronunciation and romanization, essential dictionaries, gentle video input, and a first graded reader — a small coherent path for day one.",
+    "kind": "starter_kit",
+    "target_level": "Beginner",
+    "order": 1,
+    "resource_ids": [
+      "jyutping-org",
+      "jyutping-chart-syllables-talkbank",
+      "forvo-yue",
+      "inject-jyutping",
+      "pleco",
+      "words-hk",
+      "youtube-comprehensible-cantonese",
+      "cuhk-cantonese-elementary-lessons",
+      "ham-baang-laang",
+      "cantone-app"
+    ]
+  },
+  {
+    "id": "starter-kit-intermediate",
+    "title": "Intermediate starter kit",
+    "description": "More reading and listening, colloquial graded stories, podcasts, and open tools to mine real Cantonese.",
+    "kind": "starter_kit",
+    "target_level": "Intermediate",
+    "order": 2,
+    "resource_ids": [
+      "ham-baang-laang",
+      "storybooks-canada-yue",
+      "podcast-chatty-cantonese",
+      "podcast-poetic-cantonese",
+      "youtube-canto-big-circle",
+      "tv-rthk-hong-kong-stories",
+      "jyutdict",
+      "cc-canto",
+      "searchcanto",
+      "language-crush-cantonese-conversations"
+    ]
+  },
+  {
+    "id": "starter-kit-advanced",
+    "title": "Advanced starter kit",
+    "description": "Grammar references, literary and dubbed immersion, specialized vocabulary, and rich annotated media.",
+    "kind": "starter_kit",
+    "target_level": "Advanced",
+    "order": 3,
+    "resource_ids": [
+      "book-cantonese-comprehensive-grammar-multimedia",
+      "ref-basic-cantonese-grammar-pdf",
+      "ref-cantolounge-grammar-archive",
+      "wiki-cantonese-writing",
+      "podcast-leslie-frank-medical-soundcloud",
+      "site-canto-hk",
+      "ref-jon-chui-d100-read-along-sample",
+      "music-canto-jar",
+      "streaming-jujiso",
+      "tv-cantonese-dubs-google-drive",
+      "youtube-cantonese-soft-subtitles-playlist"
+    ]
+  },
+  {
+    "id": "curated-hk-in-person-courses",
+    "title": "In-person courses in Hong Kong",
+    "description": "Universities, private centres, and SCOLAR-funded vocational programmes for learners in or moving to Hong Kong.",
+    "kind": "curated_list",
+    "target_level": "All Levels",
+    "order": 10,
+    "resource_ids": [
+      "course-yale-cuhk-clc",
+      "course-polyu-clc-ncs",
+      "course-hkust-cle",
+      "course-hkuspace-chinese-leisure",
+      "course-hku-clc",
+      "institution-q-language-cantonese",
+      "institution-practical-mandarin-cantonese",
+      "scolar-vcl-ncs-program",
+      "course-yale-china-cla-scolar-vcl",
+      "course-hkuspace-scolar-vcl-ncs",
+      "course-ymca-coc-scolar-vcl"
+    ]
+  }
+]
