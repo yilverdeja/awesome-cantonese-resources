@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { Menu } from "lucide-react";
 
+import { ThemeToggle } from "@/components/layout/theme-toggle";
 import { siteConfig } from "@/lib/site-config";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -15,6 +16,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import { Separator } from "@/components/ui/separator";
 
 const nav = [
   { href: "/", label: "Home" },
@@ -63,17 +65,21 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-border/80 bg-background/80 backdrop-blur-md">
-      <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-4 px-4 sm:h-16 sm:px-6">
+      <div className="mx-auto flex h-14 max-w-6xl items-center gap-4 px-4 sm:h-16 sm:px-6">
         <Link
           href="/"
-          className="font-semibold tracking-tight text-foreground hover:opacity-90"
+          className="shrink-0 font-semibold tracking-tight text-foreground hover:opacity-90"
         >
           {siteConfig.name}
         </Link>
 
-        <NavLinks className="hidden md:flex" />
+        <div className="hidden flex-1 items-center justify-end gap-3 md:flex">
+          <NavLinks />
+          <span className="h-6 w-px shrink-0 bg-border" aria-hidden />
+          <ThemeToggle />
+        </div>
 
-        <div className="flex items-center gap-2 md:hidden">
+        <div className="flex flex-1 justify-end md:hidden">
           <Sheet open={mobileOpen} onOpenChange={setMobileOpen}>
             <SheetTrigger asChild>
               <Button variant="outline" size="icon-sm" aria-label="Open menu">
@@ -89,6 +95,11 @@ export function SiteHeader() {
                   className="flex-col items-stretch"
                   onNavigate={() => setMobileOpen(false)}
                 />
+              </div>
+              <Separator className="my-6" />
+              <div className="flex items-center justify-between gap-3">
+                <span className="text-sm font-medium text-foreground">Theme</span>
+                <ThemeToggle onSwitch={() => setMobileOpen(false)} />
               </div>
             </SheetContent>
           </Sheet>
