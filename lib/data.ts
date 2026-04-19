@@ -1,38 +1,82 @@
-import resourcesData from '../data/resources.json';
-import collectionsData from '../data/collections.json';
-import { Resource, Collection } from '../types';
+import resourcesData from "../data/resources.json";
+import collectionsData from "../data/collections.json";
+import type { Resource, Collection, Category } from "@/types";
 
-// Cast the imported JSON to your TypeScript types
 const resources = resourcesData as Resource[];
 const collections = collectionsData as Collection[];
 
-// 1. Get all resources
+/** Stable category order for filters and README-style grouping. */
+export const RESOURCE_CATEGORY_ORDER: Category[] = [
+  "Community",
+  "App",
+  "BrowserExtension",
+  "OpenSource",
+  "Creator",
+  "VideoChannel",
+  "Podcast",
+  "TV",
+  "Book",
+  "GradedReader",
+  "Dictionary",
+  "Tool",
+  "Pronunciation",
+  "Course",
+  "SelfStudy",
+  "Reference",
+  "Blog",
+  "Music",
+  "LanguageExchange",
+  "Map",
+  "Other",
+];
+
 export function getAllResources(): Resource[] {
   return resources;
 }
 
-// 2. Get a single resource by its ID
 export function getResourceById(id: string): Resource | undefined {
-  return resources.find(r => r.id === id);
+  return resources.find((r) => r.id === id);
 }
 
-// 3. Get all collections (Starter Kits)
 export function getAllCollections(): Collection[] {
   return collections;
 }
 
-// 4. Get a specific collection AND populate it with its actual resources
 export function getCollectionWithResources(collectionId: string) {
-  const collection = collections.find(c => c.id === collectionId);
+  const collection = collections.find((c) => c.id === collectionId);
   if (!collection) return null;
 
-  // Map the array of string IDs into an array of actual Resource objects
   const populatedResources = collection.resource_ids
-    .map(id => getResourceById(id))
-    .filter((r): r is Resource => r !== undefined); // Remove any undefined items
+    .map((id) => getResourceById(id))
+    .filter((r): r is Resource => r !== undefined);
 
   return {
     ...collection,
-    resources: populatedResources
+    resources: populatedResources,
   };
+}
+
+/** Collections for navigation: `order` ascending (missing last), then `id`. */
+export function getCollectionsSorted(): Collection[] {
+  return [...collections].sort((a, b) => {
+    const ao = a.order ?? Number.POSITIVE_INFINITY;
+    const bo = b.order ?? Number.POSITIVE_INFINITY;
+    if (ao !== bo) return ao - bo;
+    return a.id.localeCompare(b.id);
+  });
+}
+
+/**
+ * Home-page teaser: deterministic alphabetical slice so the grid is stable
+ * between builds (not random).
+ */
+export function getResourcePreviewSample(count: number): Resource[] {
+  const sorted = [...resources].sort((a, b) =>
+    a.name.localeCompare(b.name, "en", { sensitivity: "base" }),
+  );
+  return sorted.slice(0, count);
+}
+
+export function getCategoriesForFilters(): Category[] {
+  return [...RESOURCE_CATEGORY_ORDER];
 }
