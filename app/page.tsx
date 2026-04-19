@@ -2,15 +2,18 @@ import Link from "next/link";
 
 import { CollectionCard } from "@/components/collections/collection-card";
 import { HomeHero } from "@/components/home/home-hero";
+import { HomeStats } from "@/components/home/home-stats";
 import { ResourceCard } from "@/components/resources/resource-card";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { getCollectionsSorted, getHomeSpotlightResources } from "@/lib/data";
+import { getHomePageStats } from "@/lib/site-stats";
 import { siteConfig } from "@/lib/site-config";
 
 export default function HomePage() {
   const collections = getCollectionsSorted();
   const spotlightResources = getHomeSpotlightResources();
+  const stats = getHomePageStats();
 
   return (
     <>
@@ -54,6 +57,10 @@ export default function HomePage() {
             small, ordered set of ideas instead of the full catalog.
           </p>
         </section>
+
+        <Separator />
+
+        <HomeStats stats={stats} />
 
         <Separator />
 
