@@ -1,0 +1,50 @@
+name: Lifecycle
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "data/resources.json"
+
+permissions:
+  contents: write
+  discussions: write
+
+concurrency:
+  group: lifecycle-master
+  cancel-in-progress: false
+
+jobs:
+  sync-discussions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Sync Discussions and mapping file
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx tsx scripts/gitops/lifecycle.ts
+
+      - name: Commit mapping updates (if changed)
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/discussion-map.json
+          git commit -m "chore(gitops): sync discussion map"
+          git push
+

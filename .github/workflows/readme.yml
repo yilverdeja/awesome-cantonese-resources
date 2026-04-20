@@ -1,16 +1,9 @@
 name: README
 
 on:
-  push:
-    paths:
-      - "data/resources.json"
-      - "data/collections.json"
-      - "scripts/generate-readme.ts"
-      - "types/index.ts"
-      - "README.md"
-      - "package.json"
-      - "package-lock.json"
   pull_request:
+    branches:
+      - master
     paths:
       - "data/resources.json"
       - "data/collections.json"

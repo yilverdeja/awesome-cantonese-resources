@@ -1,0 +1,51 @@
+name: Builder
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "data/resources.json"
+      - "data/collections.json"
+      - "data/ratings.json"
+      - "scripts/generate-readme.ts"
+      - "types/index.ts"
+      - "package.json"
+      - "package-lock.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: builder-master
+  cancel-in-progress: false
+
+jobs:
+  build-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Regenerate README list section
+        run: npm run readme
+
+      - name: Commit README (if changed)
+        run: |
+          if git diff --quiet README.md; then
+            echo "README is already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "docs(readme): update generated list"
+          git push
+

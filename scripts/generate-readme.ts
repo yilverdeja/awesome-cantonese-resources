@@ -5,6 +5,7 @@
  * - Category catalog: one section per Category type that has at least one resource; categories ordered as in CATEGORY_ORDER.
  * - Resources within a category: sorted by `name` (locale en), case-insensitive.
  * - Each resource line: **[name](url)** — description (full `description` as one line; newlines collapsed to spaces).
+ *   - If `data/ratings.json` exists and contains the resource id, append ` (score: N)`.
  * - Do not print levels, platforms, tags, features, cost, or related_ids on each list line (see README schema section).
  */
 import { readFileSync, writeFileSync } from "node:fs";
@@ -82,13 +83,42 @@ function sortResourcesByName(a: Resource, b: Resource): number {
   return a.name.localeCompare(b.name, "en", { sensitivity: "base" });
 }
 
-function resourceLine(r: Resource): string {
-  const name = escapeMarkdownLabel(r.name);
-  const desc = oneLine(r.description);
-  return `- **[${name}](${r.url})** — ${desc}`;
+type RatingsFile = Record<
+  string,
+  { score: number; upvotes?: number; reactions?: Record<string, number> }
+>;
+
+function readRatingsOrEmpty(): RatingsFile {
+  try {
+    const text = readFileSync(join(root, "data/ratings.json"), "utf8");
+    return JSON.parse(text) as RatingsFile;
+  } catch {
+    return {};
+  }
 }
 
-function buildGenerated(resources: Resource[], collections: Collection[]): string {
+function scoreForId(id: string, ratings: RatingsFile): number {
+  const s = ratings[id]?.score;
+  return typeof s === "number" ? s : 0;
+}
+
+function ratingSuffix(id: string, ratings: RatingsFile): string {
+  const score = ratings[id]?.score;
+  if (typeof score !== "number") return "";
+  return ` (score: ${score})`;
+}
+
+function resourceLine(r: Resource, ratings: RatingsFile): string {
+  const name = escapeMarkdownLabel(r.name);
+  const desc = oneLine(r.description);
+  return `- **[${name}](${r.url})** — ${desc}${ratingSuffix(r.id, ratings)}`;
+}
+
+function buildGenerated(
+  resources: Resource[],
+  collections: Collection[],
+  ratings: RatingsFile,
+): string {
   const byId = new Map(resources.map((r) => [r.id, r]));
 
   const sortedCollections = [...collections].sort(sortCollections);
@@ -129,7 +159,7 @@ function buildGenerated(resources: Resource[], collections: Collection[]): strin
     for (const id of c.resource_ids) {
       const r = byId.get(id);
       if (!r) continue;
-      parts.push(resourceLine(r));
+      parts.push(resourceLine(r, ratings));
     }
     parts.push("");
   }
@@ -139,9 +169,16 @@ function buildGenerated(resources: Resource[], collections: Collection[]): strin
     parts.push(`<a id="${anchorCategory(cat)}"></a>`);
     parts.push(`## ${title}`);
     parts.push("");
-    const inCat = resources.filter((r) => r.category === cat).sort(sortResourcesByName);
+    const inCat = resources
+      .filter((r) => r.category === cat)
+      .sort((a, b) => {
+        const sa = scoreForId(a.id, ratings);
+        const sb = scoreForId(b.id, ratings);
+        if (sa !== sb) return sb - sa; // score desc
+        return sortResourcesByName(a, b); // tie-breaker: name
+      });
     for (const r of inCat) {
-      parts.push(resourceLine(r));
+      parts.push(resourceLine(r, ratings));
     }
     parts.push("");
   }
@@ -168,7 +205,8 @@ function main(): void {
     readFileSync(join(root, "data/collections.json"), "utf8"),
   ) as Collection[];
 
-  const generated = buildGenerated(resources, collections);
+  const ratings = readRatingsOrEmpty();
+  const generated = buildGenerated(resources, collections, ratings);
 
   const before = readme.slice(0, i0 + MARKER_BEGIN.length);
   const after = readme.slice(i1);
