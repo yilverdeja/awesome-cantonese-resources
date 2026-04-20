@@ -24,7 +24,7 @@ export default function HomePage() {
       <HomeHero />
 
       <main className="mx-auto max-w-6xl space-y-20 px-4 py-14 sm:px-6 sm:py-20">
-        <section className="mx-auto max-w-3xl space-y-5">
+        <section id="about" className="mx-auto max-w-3xl space-y-5 scroll-mt-24">
           <h2 className="text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
             Why Cantonese—and why this site
           </h2>
@@ -87,7 +87,7 @@ export default function HomePage() {
 
         <Separator />
 
-        <section className="space-y-8">
+        <section id="how-to-use" className="space-y-8 scroll-mt-24">
           <div className="mx-auto max-w-3xl space-y-4">
             <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">
               How to use this site
@@ -209,11 +209,16 @@ export default function HomePage() {
 
         <Separator />
 
-        <HomeStats stats={stats} />
+        <section id="stats" className="scroll-mt-24">
+          <HomeStats stats={stats} />
+        </section>
 
         <Separator />
 
-        <section className="rounded-2xl border border-border bg-muted/20 px-6 py-10 text-center sm:px-10">
+        <section
+          id="contribution"
+          className="rounded-2xl border border-border bg-muted/20 px-6 py-10 text-center scroll-mt-24 sm:px-10"
+        >
           <h2 className="text-xl font-semibold tracking-tight sm:text-2xl">
             Are we missing something?
           </h2>
@@ -265,7 +270,9 @@ export default function HomePage() {
           </div>
         </section>
 
-        <HomeFaq />
+        <section id="faq" className="scroll-mt-24">
+          <HomeFaq />
+        </section>
       </main>
     </>
   );
