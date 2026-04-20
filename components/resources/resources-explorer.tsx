@@ -156,35 +156,6 @@ export function ResourcesExplorer({
           </p>
         </div>
 
-        <section
-          aria-labelledby="filter-guide-heading"
-          className="rounded-2xl border border-border/80 bg-muted/20 px-5 py-5 sm:px-6"
-        >
-          <h2
-            id="filter-guide-heading"
-            className="text-sm font-semibold tracking-tight text-foreground"
-          >
-            Finding what you need
-          </h2>
-          <ul className="mt-3 list-inside list-disc space-y-2 text-sm text-muted-foreground marker:text-primary">
-            <li>
-              <span className="text-foreground/90">Search</span> matches the
-              resource name, short description, and tags—handy when you remember
-              a keyword but not the exact title.
-            </li>
-            <li>
-              <span className="text-foreground/90">Category</span> groups entries
-              by type (apps, dictionaries, courses, podcasts, communities, and
-              more).
-            </li>
-            <li>
-              <span className="text-foreground/90">Level</span> highlights items
-              tagged for beginners through advanced learners (entries marked “all
-              levels” always stay visible).
-            </li>
-          </ul>
-        </section>
-
         <p className="text-sm text-muted-foreground">
           Showing{" "}
           <span className="font-medium text-foreground">{filtered.length}</span>{" "}

@@ -31,7 +31,7 @@ export function HomeHero() {
           animate="show"
           className="text-sm font-medium text-primary"
         >
-          Cantonese (Yue) for learners everywhere
+          Cantonese for learners everywhere
         </motion.p>
         <motion.h1
           custom={1}
