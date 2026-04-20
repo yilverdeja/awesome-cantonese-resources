@@ -62,7 +62,7 @@ The README section between the markers below is **generated**. Edit the JSON (or
 - [Blog](#category-blog)
 - [Music](#category-music)
 - [Language Exchange](#category-languageexchange)
-- [Map](#category-map)
+- [List](#category-list)
 
 <a id="collection-starter-kit-beginner"></a>
 ## Beginner starter kit
@@ -420,8 +420,8 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 
 - **[Speaking Language Exchange](https://speakinglanguageexchange.com/)** — Platform to find language exchange partners including Cantonese.
 
-<a id="category-map"></a>
-## Map
+<a id="category-list"></a>
+## List
 
 - **[Bilibili — Cantonese lyrics section (list)](https://space.bilibili.com/454869715/lists/102883?type=season)** — Season/list of Cantonese lyrics videos on the creator's Bilibili space.
 - **[Cantonese anime list (Firefly Anime)](https://fireflyanime.blogspot.com/p/cantonese-anime.html?m=1)** — Blog list of anime available with Cantonese dubs.

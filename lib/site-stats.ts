@@ -40,7 +40,7 @@ const CATEGORY_COUNT_PHRASE: Record<
     singular: "language-exchange pick",
     plural: "language-exchange picks",
   },
-  Map: { singular: "map or list", plural: "maps or lists" },
+  List: { singular: "map or list", plural: "maps or lists" },
   Other: { singular: "other resource", plural: "other resources" },
 };
 

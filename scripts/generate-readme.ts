@@ -39,7 +39,7 @@ const CATEGORY_ORDER: Category[] = [
   "Blog",
   "Music",
   "LanguageExchange",
-  "Map",
+  "List",
   "Other",
 ];
 

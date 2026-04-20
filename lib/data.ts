@@ -26,7 +26,7 @@ export const RESOURCE_CATEGORY_ORDER: Category[] = [
   "Blog",
   "Music",
   "LanguageExchange",
-  "Map",
+  "List",
   "Other",
 ];
 

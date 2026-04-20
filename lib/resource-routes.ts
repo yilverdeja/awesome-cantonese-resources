@@ -29,7 +29,9 @@ export function parseCategoryParam(
 ): Category | null {
   const v = Array.isArray(value) ? value[0] : value;
   if (!v) return null;
-  return RESOURCE_CATEGORY_ORDER.includes(v as Category) ? (v as Category) : null;
+  const needle = v.trim().toLowerCase();
+  const match = RESOURCE_CATEGORY_ORDER.find((c) => c.toLowerCase() === needle);
+  return match ?? null;
 }
 
 export function parseLevelParam(
@@ -37,7 +39,9 @@ export function parseLevelParam(
 ): Level | null {
   const v = Array.isArray(value) ? value[0] : value;
   if (!v) return null;
-  return RESOURCE_LEVEL_OPTIONS.includes(v as Level) ? (v as Level) : null;
+  const needle = v.trim().toLowerCase();
+  const match = RESOURCE_LEVEL_OPTIONS.find((l) => l.toLowerCase() === needle);
+  return match ?? null;
 }
 
 export function parseCostParam(
@@ -45,10 +49,10 @@ export function parseCostParam(
 ): ResourceCostParam | null {
   const v = Array.isArray(value) ? value[0] : value;
   if (!v) return null;
-  if (v === "not_applicable") return "not_applicable";
-  return RESOURCE_COST_OPTIONS.includes(v as Exclude<Cost, null>)
-    ? (v as Exclude<Cost, null>)
-    : null;
+  const needle = v.trim().toLowerCase();
+  if (needle === "not_applicable") return "not_applicable";
+  const match = RESOURCE_COST_OPTIONS.find((c) => c.toLowerCase() === needle);
+  return match ?? null;
 }
 
 export function parsePlatformParam(
@@ -56,5 +60,7 @@ export function parsePlatformParam(
 ): Platform | null {
   const v = Array.isArray(value) ? value[0] : value;
   if (!v) return null;
-  return RESOURCE_PLATFORM_OPTIONS.includes(v as Platform) ? (v as Platform) : null;
+  const needle = v.trim().toLowerCase();
+  const match = RESOURCE_PLATFORM_OPTIONS.find((p) => p.toLowerCase() === needle);
+  return match ?? null;
 }

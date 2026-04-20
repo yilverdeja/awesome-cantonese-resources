@@ -15,10 +15,19 @@ export default async function ResourcesPage({ searchParams }: PageProps) {
   const resources = getAllResources();
   const categories = getCategoriesForFilters();
   const resolved = searchParams ? await searchParams : undefined;
-  const initialCategory = parseCategoryParam(resolved?.category);
-  const initialLevel = parseLevelParam(resolved?.level);
-  const initialCost = parseCostParam(resolved?.cost);
-  const initialPlatform = parsePlatformParam(resolved?.platform);
+  const getParam = (key: string) => {
+    if (!resolved) return undefined;
+    if (key in resolved) return resolved[key];
+    const actualKey = Object.keys(resolved).find(
+      (k) => k.toLowerCase() === key.toLowerCase(),
+    );
+    return actualKey ? resolved[actualKey] : undefined;
+  };
+
+  const initialCategory = parseCategoryParam(getParam("category"));
+  const initialLevel = parseLevelParam(getParam("level"));
+  const initialCost = parseCostParam(getParam("cost"));
+  const initialPlatform = parsePlatformParam(getParam("platform"));
 
   return (
     <ResourcesExplorer

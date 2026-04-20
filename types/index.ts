@@ -20,7 +20,7 @@ export type Category =
   | "Blog"
   | "Music"
   | "LanguageExchange"
-  | "Map"
+  | "List"
   | "Other";
 
 export type Platform =

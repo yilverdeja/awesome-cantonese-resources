@@ -873,7 +873,7 @@
   {
     "id": "tv-cantonese-anime-list-firefly",
     "name": "Cantonese anime list (Firefly Anime)",
-    "category": "Map",
+    "category": "List",
     "description": "Blog list of anime available with Cantonese dubs.",
     "url": "https://fireflyanime.blogspot.com/p/cantonese-anime.html?m=1",
     "levels": ["Intermediate", "Advanced"],
@@ -1575,7 +1575,7 @@
   {
     "id": "docs-cantonese-captions-spreadsheet",
     "name": "Cantonese Captions index (Google Sheets)",
-    "category": "Map",
+    "category": "List",
     "description": "Spreadsheet index linked from Cantonese Captions project.",
     "url": "https://docs.google.com/spreadsheets/d/1CmN8GPalrb45YFIPrWgh7GRYyoUhnizEOImY6kAW82w/edit#gid=396865486",
     "levels": ["Intermediate", "Advanced"],
@@ -1887,7 +1887,7 @@
   {
     "id": "map-dubdb-cantonese-language-dubs",
     "name": "DubDB — Cantonese-language dubs",
-    "category": "Map",
+    "category": "List",
     "description": "Fandom wiki category indexing Cantonese dubs.",
     "url": "https://dubdb.fandom.com/wiki/Category:Cantonese-language_dubs",
     "levels": ["Intermediate", "Advanced"],
@@ -1900,7 +1900,7 @@
   {
     "id": "map-dubdb-hong-kong-dubs",
     "name": "DubDB — Hong Kong dubs",
-    "category": "Map",
+    "category": "List",
     "description": "Fandom wiki category for Hong Kong dubs.",
     "url": "https://dubdb.fandom.com/wiki/Category:Hong_Kong_dubs",
     "levels": ["Intermediate", "Advanced"],
@@ -1913,7 +1913,7 @@
   {
     "id": "map-dubdb-british-hong-kong-dubs",
     "name": "DubDB — British Hong Kong dubs",
-    "category": "Map",
+    "category": "List",
     "description": "Fandom wiki category for British Hong Kong era dubs.",
     "url": "https://dubdb.fandom.com/wiki/Category:British_Hong_Kong_dubs",
     "levels": ["Intermediate", "Advanced"],
@@ -2095,7 +2095,7 @@
   {
     "id": "bilibili-cantonese-lyrics-season",
     "name": "Bilibili — Cantonese lyrics section (list)",
-    "category": "Map",
+    "category": "List",
     "description": "Season/list of Cantonese lyrics videos on the creator's Bilibili space.",
     "url": "https://space.bilibili.com/454869715/lists/102883?type=season",
     "levels": ["Intermediate", "Advanced"],
@@ -2147,7 +2147,7 @@
   {
     "id": "reddit-favorite-resources-thread",
     "name": "Reddit — long list of favorite Cantonese resources",
-    "category": "Map",
+    "category": "List",
     "description": "Curated thread on r/Cantonese with many links.",
     "url": "https://www.reddit.com/r/Cantonese/comments/1h74rzu/a_long_list_of_some_of_my_favorite_cantonese/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button",
     "levels": ["All Levels"],
@@ -2173,7 +2173,7 @@
   {
     "id": "map-hsu-libguide-cantonese",
     "name": "HSU Library Guide — Cantonese internet resources",
-    "category": "Map",
+    "category": "List",
     "description": "Academic libguide with vetted Cantonese learning links.",
     "url": "https://libguides.library.hsu.edu.hk/cantonese/internet",
     "levels": ["All Levels"],
@@ -2277,7 +2277,7 @@
   {
     "id": "map-savecanto-courses-worldwide",
     "name": "SaveCanto — worldwide Cantonese courses map",
-    "category": "Map",
+    "category": "List",
     "description": "Interactive map of Cantonese classes worldwide (Save Cantonese project).",
     "url": "https://savecanto-map.vercel.app/",
     "levels": ["All Levels"],
