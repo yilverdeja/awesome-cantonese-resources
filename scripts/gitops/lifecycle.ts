@@ -95,6 +95,16 @@ async function createRatingDiscussion(params: {
     `- **url**: ${params.resource.url}`,
     "",
     "Use upvotes and reactions to rate this resource.",
+    "",
+    "### How to rate",
+    "- 👎 THUMBS_DOWN: ⭐ (1 star)",
+    "- 😕 CONFUSED: ⭐⭐ (2 stars)",
+    "- 👍 THUMBS_UP: ⭐⭐⭐ (3 stars)",
+    "- ❤️ HEART: ⭐⭐⭐⭐ (4 stars)",
+    "- 🎉 HOORAY: ⭐⭐⭐⭐⭐ (5 stars)",
+    "",
+    "### Reviews welcome",
+    "If you've used this resource, leave a comment with what you liked/disliked, who it's best for, and any tips for other learners.",
   ].join("\n");
 
   const data = await graphql<{
@@ -206,6 +216,7 @@ async function main(): Promise<void> {
     );
   }
 
+  let created = 0;
   for (const id of idsToCreate) {
     if (map[id]) continue;
     const resource = byId.get(id);
@@ -216,7 +227,16 @@ async function main(): Promise<void> {
       resource,
     });
     map[id] = discussionId;
+    created += 1;
     console.log(`Created discussion for ${id}: ${discussionId}`);
+    // Throttle to reduce GitHub abuse-limit hits during bootstrap.
+    if (mode === "bootstrap") {
+      await new Promise((r) => setTimeout(r, 900));
+      if (created % 25 === 0) {
+        console.log("Throttle break (5s) to avoid rate limits.");
+        await new Promise((r) => setTimeout(r, 5000));
+      }
+    }
   }
 
   // In bootstrap mode we can still close+lock stale mappings that no longer exist.

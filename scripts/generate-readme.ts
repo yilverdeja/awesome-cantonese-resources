@@ -85,7 +85,12 @@ function sortResourcesByName(a: Resource, b: Resource): number {
 
 type RatingsFile = Record<
   string,
-  { score: number; upvotes?: number; reactions?: Record<string, number> }
+  {
+    score: number;
+    avg_stars?: number;
+    votes?: number;
+    stars?: Record<string, number>;
+  }
 >;
 
 function readRatingsOrEmpty(): RatingsFile {
@@ -103,7 +108,14 @@ function scoreForId(id: string, ratings: RatingsFile): number {
 }
 
 function ratingSuffix(id: string, ratings: RatingsFile): string {
-  const score = ratings[id]?.score;
+  const r = ratings[id];
+  if (!r) return "";
+  if (typeof r.avg_stars === "number" && typeof r.votes === "number") {
+    if (r.votes <= 0) return "";
+    return ` (${r.avg_stars}★, ${r.votes} votes)`;
+  }
+  // Backwards compatibility for older ratings.json shapes.
+  const score = r.score;
   if (typeof score !== "number") return "";
   return ` (score: ${score})`;
 }

@@ -95,18 +95,13 @@ This makes the automation resilient to display-name changes as long as the slug 
 
 ## Rating math
 
-Current scoring (confirmed):
+Current scoring (star reactions, no upvotes):
 
 \[
-score = (upvoteCount \\times 1)
-      + (THUMBS\\_UP \\times 1)
-      + (HEART \\times 3)
-      + (HOORAY \\times 5)
-      + (THUMBS\\_DOWN \\times -2)
-      + (CONFUSED \\times -1)
+THUMBS\\_DOWN = 1\\star,\nCONFUSED = 2\\star,\nTHUMBS\\_UP = 3\\star,\nHEART = 4\\star,\nHOORAY = 5\\star
 \]
 
-- `upvoteCount` comes from the Discussion `upvoteCount` field.\n+- Reaction totals come from `reactionGroups` (per reaction type).
+- We compute:\n+  - `votes` = total star reactions\n+  - `avg_stars` = weighted average (1–5)\n+  - `score` = `avg_raw * ln(1 + votes)` for sorting (balances rating + sample size)
 
 If a resource has no rating entry in `data/ratings.json`, the README generator will omit the suffix.
 

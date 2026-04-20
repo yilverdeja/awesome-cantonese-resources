@@ -23,6 +23,14 @@ export class GraphQLRequestError extends Error {
   }
 }
 
+function isSubmittedTooQuickly(errors?: GraphQLErrorItem[]): boolean {
+  return (
+    (errors ?? []).some((e) =>
+      e.message.toLowerCase().includes("was submitted too quickly"),
+    ) ?? false
+  );
+}
+
 export async function graphql<TData>(
   query: string,
   variables: Record<string, unknown>,
@@ -87,7 +95,11 @@ export async function graphql<TData>(
         requestId ? ` (request ${requestId})` : ""
       }: ${json.errors.map((e) => e.message).join(" | ")}`;
       if (attempt <= retries) {
-        await sleep(400 * 2 ** (attempt - 1) + Math.floor(Math.random() * 400));
+        // Secondary rate limit / abuse protections often surface as GraphQL errors.
+        // "was submitted too quickly" benefits from a slower backoff.
+        const base = isSubmittedTooQuickly(json.errors) ? 1500 : 400;
+        const jitter = isSubmittedTooQuickly(json.errors) ? 1500 : 400;
+        await sleep(base * 2 ** (attempt - 1) + Math.floor(Math.random() * jitter));
         continue;
       }
       throw new GraphQLRequestError(msg, json.errors);

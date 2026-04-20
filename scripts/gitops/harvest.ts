@@ -15,7 +15,6 @@ type ReactionContent =
 
 type DiscussionInfo = {
   id: string;
-  upvoteCount: number;
   locked: boolean;
   closed: boolean;
   reactionGroups: { content: ReactionContent; users: { totalCount: number } }[];
@@ -37,31 +36,45 @@ function chunk<T>(arr: T[], size: number): T[][] {
 }
 
 function scoreFor(d: DiscussionInfo): {
-  score: number;
-  upvotes: number;
-  reactions: Record<string, number>;
+  score: number; // sort score (not displayed as-is)
+  avg_stars: number;
+  votes: number;
+  stars: Record<string, number>;
 } {
   const reactions: Record<string, number> = {};
   for (const g of d.reactionGroups ?? []) {
     reactions[g.content] = g.users.totalCount;
   }
-  const upvotes = d.upvoteCount ?? 0;
 
-  // Custom weights (confirmed by repo owner).
-  const weights: Record<string, number> = {
-    UPVOTECOUNT: 1,
-    THUMBS_UP: 1,
-    HEART: 3,
+  // Star mapping (Option A): reactions represent 1–5 stars.
+  const starsByReaction: Record<string, number> = {
+    THUMBS_DOWN: 1,
+    CONFUSED: 2,
+    THUMBS_UP: 3,
+    HEART: 4,
     HOORAY: 5,
-    THUMBS_DOWN: -2,
-    CONFUSED: -1,
   };
 
-  let score = upvotes * (weights.UPVOTECOUNT ?? 1);
-  for (const [k, v] of Object.entries(reactions)) {
-    score += v * (weights[k] ?? 0);
+  let votes = 0;
+  let weightedSum = 0;
+  const stars: Record<string, number> = {};
+
+  for (const [reaction, count] of Object.entries(reactions)) {
+    const s = starsByReaction[reaction];
+    if (!s) continue;
+    stars[reaction] = count;
+    votes += count;
+    weightedSum += s * count;
   }
-  return { score, upvotes, reactions };
+
+  const avgRaw = votes > 0 ? weightedSum / votes : 0;
+  const avg_stars = Math.round(avgRaw * 10) / 10; // one decimal for display
+
+  // Sorting score: balance rating and sample size without overcomplicating.
+  // score ~= avg * ln(1+votes). (monotone in both)
+  const score = avgRaw * Math.log1p(votes);
+
+  return { score, avg_stars, votes, stars };
 }
 
 async function fetchDiscussionsByIds(ids: string[]): Promise<DiscussionInfo[]> {
@@ -69,7 +82,6 @@ async function fetchDiscussionsByIds(ids: string[]): Promise<DiscussionInfo[]> {
   const fields = `
     ... on Discussion {
       id
-      upvoteCount
       locked
       closed
       reactionGroups {
@@ -90,7 +102,7 @@ async function fetchDiscussionsByIds(ids: string[]): Promise<DiscussionInfo[]> {
     const data = await graphql<Record<string, DiscussionInfo | null>>(query, {});
     for (const key of Object.keys(data)) {
       const node = data[key];
-      if (node && typeof node.upvoteCount === "number") out.push(node);
+      if (node && typeof node.id === "string") out.push(node);
     }
   }
   return out;
@@ -123,7 +135,12 @@ async function main(): Promise<void> {
 
   const ratings: Record<
     string,
-    { score: number; upvotes: number; reactions: Record<string, number> }
+    {
+      score: number;
+      avg_stars: number;
+      votes: number;
+      stars: Record<string, number>;
+    }
   > = {};
 
   for (const [resourceId, discussionId] of entries) {
