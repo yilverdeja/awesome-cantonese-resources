@@ -1,6 +1,6 @@
 import resourcesData from "../data/resources.json";
 import collectionsData from "../data/collections.json";
-import type { Resource, Collection, Category, Level } from "@/types";
+import type { Resource, Collection, Category, Cost, Level, Platform } from "@/types";
 
 const resources = resourcesData as Resource[];
 const collections = collectionsData as Collection[];
@@ -87,6 +87,39 @@ export const RESOURCE_LEVEL_OPTIONS: Level[] = [
   "Intermediate",
   "Advanced",
   "All Levels",
+];
+
+/** Used on the resources page cost filter. */
+export const RESOURCE_COST_OPTIONS: Exclude<Cost, null>[] = [
+  "Free",
+  "Freemium",
+  "Paid",
+  "Unknown",
+];
+
+/** Used on the resources page platform filter. */
+export const RESOURCE_PLATFORM_OPTIONS: Platform[] = [
+  "Web",
+  "iOS",
+  "Android",
+  "Desktop",
+  "Chrome",
+  "Firefox",
+  "YouTube",
+  "Instagram",
+  "Facebook",
+  "Spotify",
+  "SoundCloud",
+  "RadioPublic",
+  "GoogleDrive",
+  "GoogleDocs",
+  "InPerson",
+  "Podcast",
+  "ArchiveOrg",
+  "GitHub",
+  "Reddit",
+  "Discord",
+  "Bilibili",
 ];
 
 /** Curated list that powers the home-page resource spotlight. */

@@ -2,7 +2,9 @@ import { getAllResources, getCategoriesForFilters } from "@/lib/data";
 import { ResourcesExplorer } from "@/components/resources/resources-explorer";
 import {
   parseCategoryParam,
+  parseCostParam,
   parseLevelParam,
+  parsePlatformParam,
 } from "@/lib/resource-routes";
 
 type PageProps = {
@@ -15,6 +17,8 @@ export default async function ResourcesPage({ searchParams }: PageProps) {
   const resolved = searchParams ? await searchParams : undefined;
   const initialCategory = parseCategoryParam(resolved?.category);
   const initialLevel = parseLevelParam(resolved?.level);
+  const initialCost = parseCostParam(resolved?.cost);
+  const initialPlatform = parsePlatformParam(resolved?.platform);
 
   return (
     <ResourcesExplorer
@@ -22,6 +26,8 @@ export default async function ResourcesPage({ searchParams }: PageProps) {
       categories={categories}
       initialCategory={initialCategory}
       initialLevel={initialLevel}
+      initialCost={initialCost}
+      initialPlatform={initialPlatform}
     />
   );
 }
