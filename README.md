@@ -73,7 +73,7 @@ Pronunciation and romanization, essential dictionaries, gentle video input, and 
 - **[Jyutping chart (syllables, TalkBank)](https://sla.talkbank.org/Jyutping/index.html)** — Interactive Jyutping chart organized by syllable.
 - **[Forvo (Cantonese / Yue)](https://forvo.com/languages/yue/)** — User-contributed pronunciations for Yue/Cantonese words.
 - **[Inject Jyutping](https://chromewebstore.google.com/detail/inject-jyutping/lfgpgjkjglogbndlkikjgbbfoiofbdjp?pli=1)** — Chrome extension to show Jyutping on Chinese web pages.
-- **[Pleco](https://www.pleco.com/)** — Major Chinese dictionary app with Cantonese add-ons (Jyutping, audio).
+- **[Pleco](https://www.pleco.com/)** — Major Chinese dictionary app with Cantonese add-ons (Jyutping, audio). (5★, 1 votes)
 - **[words.hk](https://words.hk/)** — Community Cantonese–English dictionary (LINE Dictionary Cantonese–English successor).
 - **[Comprehensible Cantonese](https://www.youtube.com/@comprehensiblecantonese)** — Comprehensible-input style Cantonese videos.
 - **[CUHK ILC — Elementary Cantonese lessons](https://www.ilc.cuhk.edu.hk/workshop/chinese/cantonese/onlinetutorial/courseListA.aspx#pgContent)** — CUHK self-study workshop: elementary Cantonese online tutorials.
@@ -118,7 +118,7 @@ Grammar references, literary and dubbed immersion, specialized vocabulary, and r
 
 A short list of especially helpful reference tools and learning resources that many Cantonese learners use again and again.
 
-- **[Pleco](https://www.pleco.com/)** — Major Chinese dictionary app with Cantonese add-ons (Jyutping, audio).
+- **[Pleco](https://www.pleco.com/)** — Major Chinese dictionary app with Cantonese add-ons (Jyutping, audio). (5★, 1 votes)
 - **[Ham Baang Laang](https://hambaanglaang.hk/)** — Graded readers in colloquial Cantonese with audio and illustrations.
 - **[words.hk](https://words.hk/)** — Community Cantonese–English dictionary (LINE Dictionary Cantonese–English successor).
 - **[Jyutping.org](https://jyutping.org/en/)** — Reference site for Jyutping romanization.
@@ -164,12 +164,12 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 <a id="category-app"></a>
 ## App
 
+- **[Drops Cantonese](https://languagedrops.com/language/learn-cantonese)** — Vocabulary-focused Cantonese lessons in the Drops app. (4★, 1 votes)
 - **[Duolingo (Mandarin to Cantonese)](https://www.duolingo.com/)** — Duolingo path for learners with Mandarin background moving into Cantonese. (2★, 1 votes)
 - **[0243.hk](https://www.0243.hk/)** — Hong Kong–related Cantonese utility site.
 - **[Canto Numbers](https://canto-numbers.netlify.app)** — Web app for practicing Cantonese numbers.
 - **[Cantone](https://play.google.com/store/apps/details?id=com.cantone.cantone&hl=en&gl=US)** — Android app for Cantonese learning.
 - **[Cantonese.ai — WhatsApp speech-to-text](https://cantonese.ai/)** — WhatsApp plugin for Cantonese speech-to-text (related repos on GitHub).
-- **[Drops Cantonese](https://languagedrops.com/language/learn-cantonese)** — Vocabulary-focused Cantonese lessons in the Drops app.
 - **[LingQ Cantonese](https://www.lingq.com/en/learn-cantonese-online/)** — Reading- and listening-based Cantonese course on LingQ.
 - **[Order Local HK](https://orderlocal.hk)** — App for ordering food locally in Hong Kong with Cantonese context.
 - **[TalkDimSum](https://yumcha.talkdimsum.com/)** — Dim sum–focused Cantonese food and phrase helper.
@@ -308,13 +308,13 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 ## Dictionary
 
 - **[CantoWords](https://cantowords.com/)** — Cantonese dictionary and word resources (cantowords.hk). (5★, 1 votes)
+- **[Pleco](https://www.pleco.com/)** — Major Chinese dictionary app with Cantonese add-ons (Jyutping, audio). (5★, 1 votes)
 - **[Cantodict](http://www.cantonese.sheik.co.uk/)** — Long-running online Cantonese–English dictionary (CantoDict).
 - **[Cantodict Parser](https://www.cantonese.sheik.co.uk/dictionary/parser/)** — Sentence parser tool on Cantodict.
 - **[Cantonese Plus](https://www.cantoneseplus.com/)** — Cantonese learning site with dictionary and phrase tools.
 - **[Cantonese Plus Phrase Breakdown](https://www.cantoneseplus.com/PhraseBreakDown)** — Phrase breakdown / parser on Cantonese Plus.
 - **[CC-Canto](https://cantonese.org/)** — Community Cantonese dictionary data and cantonese.org hub.
 - **[MDBG Chinese Dictionary](https://www.mdbg.net/chinese/dictionary)** — MDBG dictionary (Chinese; useful alongside Cantonese resources).
-- **[Pleco](https://www.pleco.com/)** — Major Chinese dictionary app with Cantonese add-ons (Jyutping, audio).
 - **[SearchCanto](https://searchcanto.com/)** — Search interface for Cantonese dictionary data.
 - **[words.hk](https://words.hk/)** — Community Cantonese–English dictionary (LINE Dictionary Cantonese–English successor).
 
