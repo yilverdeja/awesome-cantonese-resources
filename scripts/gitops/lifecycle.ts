@@ -43,6 +43,12 @@ function diffIds(prev: Set<string>, next: Set<string>): {
   return { added, removed };
 }
 
+function readMode(): "diff" | "bootstrap" {
+  const v = (process.env.LIFECYCLE_MODE ?? "").toLowerCase().trim();
+  if (v === "bootstrap" || v === "backfill") return "bootstrap";
+  return "diff";
+}
+
 async function resolveCategoryId(params: {
   owner: string;
   repo: string;
@@ -156,13 +162,16 @@ async function main(): Promise<void> {
   const mapPath = resolve(root, "data", "discussion-map.json");
 
   const nextResources = readJson<Resource[]>(resourcesPath);
-  const prevResources = safeParseJsonArray(gitShowText("HEAD~1:data/resources.json"));
+  const mode = readMode();
+  const prevResources =
+    mode === "diff"
+      ? safeParseJsonArray(gitShowText("HEAD~1:data/resources.json"))
+      : [];
 
-  const { added, removed } = diffIds(toIdSet(prevResources), toIdSet(nextResources));
-  if (!added.length && !removed.length) {
-    console.log("No resource id additions/removals detected. Nothing to do.");
-    return;
-  }
+  const { added, removed } =
+    mode === "diff"
+      ? diffIds(toIdSet(prevResources), toIdSet(nextResources))
+      : { added: [], removed: [] };
 
   const repoId = await getRepoNodeId(owner, repo);
   const categoryId = await resolveCategoryId({
@@ -181,7 +190,23 @@ async function main(): Promise<void> {
 
   const byId = new Map(nextResources.map((r) => [r.id, r]));
 
-  for (const id of added) {
+  const idsToCreate =
+    mode === "bootstrap"
+      ? Array.from(byId.keys()).filter((id) => !map[id]).sort()
+      : added;
+
+  if (mode === "diff" && !added.length && !removed.length) {
+    console.log("No resource id additions/removals detected. Nothing to do.");
+    return;
+  }
+
+  if (mode === "bootstrap") {
+    console.log(
+      `Bootstrap mode: creating discussions for ${idsToCreate.length} unmapped resources.`,
+    );
+  }
+
+  for (const id of idsToCreate) {
     if (map[id]) continue;
     const resource = byId.get(id);
     if (!resource) continue;
@@ -194,7 +219,14 @@ async function main(): Promise<void> {
     console.log(`Created discussion for ${id}: ${discussionId}`);
   }
 
-  for (const id of removed) {
+  // In bootstrap mode we can still close+lock stale mappings that no longer exist.
+  const nextIds = new Set(byId.keys());
+  const removedIds =
+    mode === "bootstrap"
+      ? Object.keys(map).filter((rid) => !nextIds.has(rid)).sort()
+      : removed;
+
+  for (const id of removedIds) {
     const discussionId = map[id];
     if (!discussionId) continue;
     await closeAndLockDiscussion(discussionId);

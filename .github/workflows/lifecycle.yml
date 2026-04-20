@@ -6,13 +6,19 @@ on:
       - master
     paths:
       - "data/resources.json"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "diff (default) or bootstrap (create discussions for all unmapped resources)"
+        required: false
+        default: "diff"
 
 permissions:
   contents: write
   discussions: write
 
 concurrency:
-  group: lifecycle-master
+  group: gitops-master
   cancel-in-progress: false
 
 jobs:
@@ -34,6 +40,7 @@ jobs:
       - name: Sync Discussions and mapping file
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LIFECYCLE_MODE: ${{ github.event.inputs.mode }}
         run: npx tsx scripts/gitops/lifecycle.ts
 
       - name: Commit mapping updates (if changed)
@@ -46,5 +53,11 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/discussion-map.json
           git commit -m "chore(gitops): sync discussion map"
-          git push
+          for i in 1 2 3; do
+            git pull --rebase origin master || true
+            if git push; then exit 0; fi
+            sleep 2
+          done
+          echo "Push failed after retries."
+          exit 1
 
