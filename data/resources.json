@@ -2613,19 +2613,6 @@
     "features": []
   },
   {
-    "id": "instagram-gei3dak1-cantonese",
-    "name": "Instagram — @gei3dak1.cantonese",
-    "category": "Creator",
-    "description": "Jyutping-titled Cantonese learning account.",
-    "url": "https://www.instagram.com/gei3dak1.cantonese/",
-    "levels": ["All Levels"],
-    "tags": ["instagram", "jyutping"],
-    "related_ids": [],
-    "cost": null,
-    "platforms": ["Instagram"],
-    "features": []
-  },
-  {
     "id": "instagram-winniecantonese",
     "name": "Instagram — @winniecantonese",
     "category": "Creator",
