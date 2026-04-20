@@ -22,6 +22,12 @@ export default async function ResourcesPage({ searchParams }: PageProps) {
 
   return (
     <ResourcesExplorer
+      key={[
+        initialCategory ?? "all",
+        initialLevel ?? "all",
+        initialCost ?? "all",
+        initialPlatform ?? "all",
+      ].join("|")}
       resources={resources}
       categories={categories}
       initialCategory={initialCategory}
