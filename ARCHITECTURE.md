@@ -31,12 +31,11 @@ flowchart TD
   Gatekeeper --> Merge[MergeToMaster]
   Merge --> Lifecycle[LifecycleWorkflow]
   Lifecycle --> DiscussionMap[data/discussion-map.json]
+  Lifecycle --> Readme[README.md]
   Schedule[ScheduleOrManual] --> Harvester[HarvesterWorkflow]
   Harvester --> Ratings[data/ratings.json]
   DiscussionMap --> Harvester
-  Ratings --> Builder[BuilderWorkflow]
-  Merge --> Builder
-  Builder --> Readme[README.md]
+  Ratings --> Readme
 ```
 
 ## Workflows
@@ -69,15 +68,16 @@ Implementation lives in `scripts/gitops/lifecycle.ts`.
 Runs on a schedule (every 12 hours) and via manual trigger.
 
 - Reads `data/discussion-map.json`.
-- Fetches each Discussion’s `upvoteCount` and reaction totals via the GitHub GraphQL API.
+- Fetches each Discussion’s reaction totals via the GitHub GraphQL API.
 - Computes a per-resource rating and writes `data/ratings.json`.
 - Commits and pushes `data/ratings.json` back to the repo.
+- Regenerates and commits `README.md` if it changed.
 
 Implementation lives in `scripts/gitops/harvest.ts`.
 
-### D. Builder (`.github/workflows/builder.yml`)
+### D. Builder (`.github/workflows/builder.yml`, manual)
 
-Runs on pushes to `master` when `data/resources.json`, `data/collections.json`, or `data/ratings.json` changes.
+Manual utility workflow (workflow dispatch) to regenerate and commit `README.md` on demand.
 
 - Runs `npm run readme`.
 - If `README.md` changed, commits and pushes the updated file.

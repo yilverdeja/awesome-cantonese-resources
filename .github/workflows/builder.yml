@@ -1,17 +1,7 @@
 name: Builder
 
 on:
-  push:
-    branches:
-      - master
-    paths:
-      - "data/resources.json"
-      - "data/collections.json"
-      - "data/ratings.json"
-      - "scripts/generate-readme.ts"
-      - "types/index.ts"
-      - "package.json"
-      - "package-lock.json"
+  workflow_dispatch: {}
 
 permissions:
   contents: write
