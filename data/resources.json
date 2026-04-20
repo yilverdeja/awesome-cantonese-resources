@@ -2741,31 +2741,5 @@
     "cost": null,
     "platforms": ["Instagram"],
     "features": []
-  },
-  {
-    "id": "instagram-daisylearns",
-    "name": "Instagram — @daisylearns",
-    "category": "Creator",
-    "description": "Cantonese / Chinese learning journey content.",
-    "url": "https://www.instagram.com/daisylearns/",
-    "levels": ["Beginner", "Intermediate"],
-    "tags": ["instagram"],
-    "related_ids": [],
-    "cost": null,
-    "platforms": ["Instagram"],
-    "features": []
-  },
-  {
-    "id": "instagram-guresu-x",
-    "name": "Instagram — @guresu_x",
-    "category": "Creator",
-    "description": "Guresu learner journey on Instagram.",
-    "url": "https://www.instagram.com/guresu_x/",
-    "levels": ["Intermediate", "Advanced"],
-    "tags": ["instagram"],
-    "related_ids": ["youtube-guresu"],
-    "cost": null,
-    "platforms": ["Instagram"],
-    "features": []
   }
 ]
