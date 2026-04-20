@@ -2457,19 +2457,6 @@
     "features": []
   },
   {
-    "id": "instagram-mauyeung-hokye",
-    "name": "Instagram — @mauyeung.hokye",
-    "category": "Creator",
-    "description": "Cantonese learning / 學野 content.",
-    "url": "https://www.instagram.com/mauyeung.hokye/",
-    "levels": ["All Levels"],
-    "tags": ["instagram"],
-    "related_ids": [],
-    "cost": null,
-    "platforms": ["Instagram"],
-    "features": []
-  },
-  {
     "id": "instagram-cantochat",
     "name": "Instagram — @cantochat",
     "category": "Creator",
