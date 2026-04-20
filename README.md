@@ -222,7 +222,6 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 - **[Instagram — @jyuttoi_cantonese](https://www.instagram.com/jyuttoi_cantonese/)** — Jyutping / Cantonese learning reels and posts.
 - **[Instagram — @kebbeth](https://www.instagram.com/kebbeth/)** — Cantonese learning creator.
 - **[Instagram — @kingkongcantonese](https://www.instagram.com/kingkongcantonese/)** — Cantonese learning channel on Instagram.
-- **[Instagram — @mauyeung.hokye](https://www.instagram.com/mauyeung.hokye/)** — Cantonese learning / 學野 content.
 - **[Instagram — @mslinchinese](https://www.instagram.com/mslinchinese/)** — Chinese/Cantonese teaching content.
 - **[Instagram — @open_cant](https://www.instagram.com/opencant/)** — Open Cantonese–focused Instagram content.
 - **[Instagram — @poeticcantonese](https://www.instagram.com/poeticcantonese/)** — Poetic Cantonese podcast Instagram.

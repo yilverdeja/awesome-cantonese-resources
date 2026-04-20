@@ -144,7 +144,7 @@ async function closeAndLockDiscussion(discussionId: string): Promise<void> {
   await graphql(
     `
     mutation($id: ID!) {
-      lockLockable(input: {lockableId: $id, lockReason: RESOLVED}) {
+      lockLockable(input: {lockableId: $id}) {
         lockedRecord { locked }
       }
     }
