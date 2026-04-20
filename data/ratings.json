@@ -840,16 +840,16 @@
     "votes": 0
   },
   "drops-cantonese": {
-    "avg_stars": 0,
-    "score": 0,
+    "avg_stars": 4,
+    "score": 2.772588722239781,
     "stars": {
       "CONFUSED": 0,
-      "HEART": 0,
+      "HEART": 1,
       "HOORAY": 0,
       "THUMBS_DOWN": 0,
       "THUMBS_UP": 0
     },
-    "votes": 0
+    "votes": 1
   },
   "duolingo-cantonese-from-mandarin": {
     "avg_stars": 2,
@@ -1091,18 +1091,6 @@
     },
     "votes": 0
   },
-  "instagram-gei3dak1-cantonese": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
   "instagram-gp-cantonese": {
     "avg_stars": 0,
     "score": 0,
@@ -1164,18 +1152,6 @@
     "votes": 0
   },
   "instagram-kingkongcantonese": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
-  "instagram-mauyeung-hokye": {
     "avg_stars": 0,
     "score": 0,
     "stars": {
@@ -1584,16 +1560,16 @@
     "votes": 0
   },
   "pleco": {
-    "avg_stars": 0,
-    "score": 0,
+    "avg_stars": 5,
+    "score": 3.4657359027997265,
     "stars": {
       "CONFUSED": 0,
       "HEART": 0,
-      "HOORAY": 0,
+      "HOORAY": 1,
       "THUMBS_DOWN": 0,
       "THUMBS_UP": 0
     },
-    "votes": 0
+    "votes": 1
   },
   "podcast-chatty-cantonese": {
     "avg_stars": 0,
