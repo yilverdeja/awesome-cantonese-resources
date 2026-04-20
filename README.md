@@ -215,7 +215,6 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 - **[Instagram — @dope.cantonese](https://www.instagram.com/dope.cantonese/)** — Cantonese slang and learning content.
 - **[Instagram — @eighteenstrokes](https://www.instagram.com/eighteenstrokes/)** — Chinese / Cantonese writing and stroke learning content.
 - **[Instagram — @gabgabcantonese](https://www.instagram.com/gabgabcantonese/)** — Conversational Cantonese content.
-- **[Instagram — @gei3dak1.cantonese](https://www.instagram.com/gei3dak1.cantonese/)** — Jyutping-titled Cantonese learning account.
 - **[Instagram — @gp.cantonese](https://www.instagram.com/gp.cantonese/)** — Cantonese learning posts.
 - **[Instagram — @hambaanglaang](https://www.instagram.com/hambaanglaang/)** — Official Ham Baang Laang Instagram.
 - **[Instagram — @hongkong.english.record](https://www.instagram.com/hongkong.english.record/)** — Hong Kong English/Cantonese language content.
