@@ -120,14 +120,12 @@ export function HomeHeroGraphic() {
             subtitle="Comprehensible channels"
             icon={<IconPlay className="size-5" />}
             delay={0.18}
-            className="sm:translate-y-2"
           />
           <Tile
             title="Reading"
             subtitle="Graded stories, readers"
             icon={<IconBook className="size-5" />}
             delay={0.26}
-            className="sm:-translate-y-1"
           />
           <Tile
             title="Find what fits"
