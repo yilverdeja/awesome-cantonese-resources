@@ -39,12 +39,12 @@ export function HomeGuidedPath({ collections }: HomeGuidedPathProps) {
         ))}
       </div>
 
-      <div className="-mx-4 sm:hidden">
-        <div className="flex snap-x snap-mandatory gap-4 overflow-x-auto px-4 pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+      <div className="sm:hidden">
+        <div className="flex snap-x snap-mandatory gap-4 overflow-x-auto pb-2 pe-1 ps-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {collections.map((c) => (
             <div
               key={c.id}
-              className="w-[min(20rem,85%)] shrink-0 snap-start"
+              className="w-[min(20rem,85%)] shrink-0 snap-start scroll-ms-4 first:ms-0"
             >
               <CollectionCard collection={c} />
             </div>
