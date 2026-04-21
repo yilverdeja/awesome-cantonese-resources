@@ -152,7 +152,7 @@ export function HomeFaq() {
             <strong className="font-medium text-foreground">Collections</strong>{" "}
             group those picks into starter paths or themed lists. See the{" "}
             <a
-              href="#catalog-and-filtering"
+              href="#how-it-works-heading"
               className="font-medium text-foreground underline-offset-4 hover:underline"
             >
               catalog overview
