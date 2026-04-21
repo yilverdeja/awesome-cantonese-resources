@@ -30,7 +30,7 @@ export function ThemeToggle({ onSwitch }: ThemeToggleProps) {
   if (!mounted) {
     return (
       <Button
-        variant="outline"
+        variant="ghost"
         size="icon-sm"
         className="rounded-2xl"
         disabled
@@ -44,7 +44,7 @@ export function ThemeToggle({ onSwitch }: ThemeToggleProps) {
   return (
     <Button
       type="button"
-      variant="outline"
+      variant="ghost"
       size="icon-sm"
       className="rounded-2xl"
       onClick={handleClick}
