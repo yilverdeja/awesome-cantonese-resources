@@ -1,17 +1,34 @@
 "use client";
 
 import Link from "next/link";
+import { ExternalLink } from "lucide-react";
 import { motion, useReducedMotion } from "framer-motion";
 
+import { getResourceById } from "@/lib/data";
 import { Button } from "@/components/ui/button";
 
 function Demo() {
   const reduceMotion = useReducedMotion();
 
   const chips = [
-    { label: "Category: Podcast", delay: 0.15 },
-    { label: "Level: Beginner", delay: 0.95 },
+    { label: "Category: Dictionary", delay: 0.15 },
+    { label: "Level: Advanced", delay: 0.95 },
   ] as const;
+
+  const itemIds = ["pleco", "cantowords", "cantodict"] as const;
+  const items = itemIds
+    .map((id, index) => {
+      const r = getResourceById(id);
+      if (!r) return null;
+      return {
+        id,
+        name: r.name,
+        description: r.description,
+        href: r.url,
+        showAt: 0.35 + index * 0.7,
+      };
+    })
+    .filter((v): v is NonNullable<typeof v> => Boolean(v));
 
   return (
     <div className="relative overflow-hidden rounded-2xl border border-border/80 bg-card/50 p-5 shadow-sm">
@@ -35,13 +52,9 @@ function Demo() {
       </div>
 
       <div className="mt-4 space-y-2">
-        {[
-          { name: "Chatty Cantonese", showAt: 0.35 },
-          { name: "Poetic Cantonese", showAt: 1.15 },
-          { name: "…and more", showAt: 1.55 },
-        ].map((row) => (
-          <motion.div
-            key={row.name}
+        {items.map((row) => (
+          <motion.a
+            key={row.id}
             initial={{ opacity: 0, x: -10 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-20% 0px" }}
@@ -50,18 +63,24 @@ function Demo() {
               duration: 0.45,
               ease: [0.22, 1, 0.36, 1],
             }}
-            className="flex items-center justify-between rounded-xl border border-border/70 bg-background/70 px-4 py-3"
+            href={row.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center justify-between rounded-xl border border-border/70 bg-background/70 px-4 py-3 outline-none transition-colors hover:bg-muted/30 focus-visible:ring-[3px] focus-visible:ring-ring/50"
           >
             <div className="min-w-0">
               <div className="truncate text-sm font-semibold text-foreground">
                 {row.name}
               </div>
               <div className="truncate text-xs text-muted-foreground">
-                Tap to open the original source
+                {row.description}
               </div>
             </div>
-            <div className="ml-4 h-2 w-20 rounded-full bg-muted" aria-hidden />
-          </motion.div>
+            <ExternalLink
+              className="ml-4 size-4 shrink-0 text-muted-foreground opacity-70 transition-opacity group-hover:opacity-100"
+              aria-hidden
+            />
+          </motion.a>
         ))}
       </div>
 
