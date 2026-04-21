@@ -75,16 +75,16 @@ export function SiteFooter() {
               <span className="text-sm font-semibold text-foreground">Navigation</span>
               <div className="flex flex-col gap-2 text-sm">
                 <Link
-                  href="/#about"
+                  href="/#start-here"
                   className="text-muted-foreground hover:text-foreground"
                 >
-                  About
+                  Start here
                 </Link>
                 <Link
-                  href="/#how-to-use"
+                  href="/#how-it-works"
                   className="text-muted-foreground hover:text-foreground"
                 >
-                  How to use
+                  How it works
                 </Link>
                 <Link
                   href="/#stats"
@@ -93,10 +93,10 @@ export function SiteFooter() {
                   Stats
                 </Link>
                 <Link
-                  href="/#contribution"
+                  href="/#contribute"
                   className="text-muted-foreground hover:text-foreground"
                 >
-                  Contribution
+                  Contribute
                 </Link>
                 <Link href="/#faq" className="text-muted-foreground hover:text-foreground">
                   FAQ

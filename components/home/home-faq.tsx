@@ -87,23 +87,6 @@ export function HomeFaq() {
         <details className="group rounded-2xl border border-border/80 bg-card/40 px-5 py-4 shadow-sm open:bg-card/60">
           <summary className="cursor-pointer list-none font-medium text-foreground [&::-webkit-details-marker]:hidden">
             <span className="flex items-center justify-between gap-3">
-              How do you choose what gets listed?
-              <span className="text-muted-foreground transition group-open:rotate-180">
-                ▾
-              </span>
-            </span>
-          </summary>
-          <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
-            Inclusion is broad: if it helps people learn or use Cantonese, it can
-            belong here. We may skip items that feel off-topic, redundant next to a
-            clearly stronger entry, or low-quality. When in doubt, suggest it and we
-            can discuss.
-          </p>
-        </details>
-
-        <details className="group rounded-2xl border border-border/80 bg-card/40 px-5 py-4 shadow-sm open:bg-card/60">
-          <summary className="cursor-pointer list-none font-medium text-foreground [&::-webkit-details-marker]:hidden">
-            <span className="flex items-center justify-between gap-3">
               Are listings endorsements or paid placements?
               <span className="text-muted-foreground transition group-open:rotate-180">
                 ▾
@@ -175,39 +158,6 @@ export function HomeFaq() {
               catalog overview
             </a>{" "}
             on this page for how to search and filter the full list.
-          </p>
-        </details>
-
-        <details className="group rounded-2xl border border-border/80 bg-card/40 px-5 py-4 shadow-sm open:bg-card/60">
-          <summary className="cursor-pointer list-none font-medium text-foreground [&::-webkit-details-marker]:hidden">
-            <span className="flex items-center justify-between gap-3">
-              How often is the list updated?
-              <span className="text-muted-foreground transition group-open:rotate-180">
-                ▾
-              </span>
-            </span>
-          </summary>
-          <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
-            The site reflects the in-repo dataset whenever maintainers merge
-            changes—there is no fixed schedule. If something looks out of date,
-            please send a note.
-          </p>
-        </details>
-
-        <details className="group rounded-2xl border border-border/80 bg-card/40 px-5 py-4 shadow-sm open:bg-card/60">
-          <summary className="cursor-pointer list-none font-medium text-foreground [&::-webkit-details-marker]:hidden">
-            <span className="flex items-center justify-between gap-3">
-              What romanization or character standards does the catalog use?
-              <span className="text-muted-foreground transition group-open:rotate-180">
-                ▾
-              </span>
-            </span>
-          </summary>
-          <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
-            Entries follow each linked resource&apos;s own conventions. Many
-            materials use traditional Chinese script and Jyutping, but the list
-            includes a mix of tools and courses—check the description and the target
-            site for details.
           </p>
         </details>
       </div>
