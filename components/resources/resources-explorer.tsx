@@ -24,6 +24,7 @@ import {
 import {
   Sheet,
   SheetContent,
+  SheetFooter,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
@@ -283,36 +284,43 @@ export function ResourcesExplorer({
                   Filters
                 </Button>
               </SheetTrigger>
-              <SheetContent side="left" className="w-[min(100%,22rem)]">
-                <SheetHeader>
-                  <div className="flex items-center justify-between gap-3">
-                    <SheetTitle>Filters</SheetTitle>
-                    <Button
-                      type="button"
-                      variant="ghost"
-                      size="sm"
-                      className="h-8 rounded-2xl px-3"
-                      onClick={clearFilters}
-                    >
-                      Clear
-                    </Button>
-                  </div>
+              <SheetContent side="left" className="data-[side=left]:w-80 gap-0 p-0">
+                <SheetHeader className="px-5 pt-5 pb-4">
+                  <SheetTitle>Filters</SheetTitle>
+                  <p className="text-sm text-muted-foreground">
+                    Showing{" "}
+                    <span className="font-medium text-foreground">{filtered.length}</span>{" "}
+                    of{" "}
+                    <span className="font-medium text-foreground">{resources.length}</span>
+                  </p>
                 </SheetHeader>
-                <Separator className="my-4" />
-                <FilterFields
-                  query={query}
-                  setQuery={setQuery}
-                  category={category}
-                  setCategory={setCategory}
-                  level={level}
-                  setLevel={setLevel}
-                  cost={cost}
-                  setCost={setCost}
-                  platform={platform}
-                  setPlatform={setPlatform}
-                  categories={categories}
-                  idPrefix="mobile"
-                />
+                <Separator />
+                <div className="flex-1 overflow-y-auto px-5 py-4">
+                  <FilterFields
+                    query={query}
+                    setQuery={setQuery}
+                    category={category}
+                    setCategory={setCategory}
+                    level={level}
+                    setLevel={setLevel}
+                    cost={cost}
+                    setCost={setCost}
+                    platform={platform}
+                    setPlatform={setPlatform}
+                    categories={categories}
+                    idPrefix="mobile"
+                  />
+                </div>
+                <SheetFooter className="px-5 pb-5 pt-4 border-t border-border/60">
+                  <Button
+                    type="button"
+                    variant="outline"
+                    className="w-full rounded-2xl"
+                    onClick={clearFilters}
+                  >
+                    Clear filters
+                  </Button>
+                </SheetFooter>
               </SheetContent>
             </Sheet>
           </div>
