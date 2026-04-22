@@ -3,9 +3,10 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
-import { Menu, Star } from "lucide-react";
+import { ExternalLink, Menu, Moon, Star, Sun } from "lucide-react";
 
 import { ThemeToggle } from "@/components/layout/theme-toggle";
+import { useTheme } from "next-themes";
 import { siteConfig } from "@/lib/site-config";
 import { githubRepoBaseUrl } from "@/lib/github-links";
 import { cn } from "@/lib/utils";
@@ -148,6 +149,40 @@ function NavLinks({
   );
 }
 
+function ThemeMobileRow({ onSwitch }: { onSwitch?: () => void }) {
+  const { resolvedTheme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  const isDark = resolvedTheme === "dark";
+
+  return (
+    <button
+      type="button"
+      onClick={() => {
+        setTheme(isDark ? "light" : "dark");
+        onSwitch?.();
+      }}
+      disabled={!mounted}
+      aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
+      className="flex w-full items-center gap-3 rounded-2xl px-4 py-3 text-base font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground disabled:pointer-events-none disabled:opacity-50"
+    >
+      {isDark ? (
+        <Moon className="size-4 shrink-0" aria-hidden />
+      ) : (
+        <Sun className="size-4 shrink-0" aria-hidden />
+      )}
+      <span className="flex-1 text-left">Appearance</span>
+      {mounted ? (
+        <span className="text-sm font-normal opacity-60">{isDark ? "Dark" : "Light"}</span>
+      ) : null}
+    </button>
+  );
+}
+
 export function SiteHeader() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -177,28 +212,32 @@ export function SiteHeader() {
             </SheetTrigger>
             <SheetContent
               side="right"
-              className="w-[min(100%,22rem)] px-5 pb-6 pt-5"
+              className="data-[side=right]:w-80 gap-0 p-0"
             >
-              <SheetHeader>
+              <SheetHeader className="px-5 pt-5 pb-0">
                 <SheetTitle className="text-left">{siteConfig.name}</SheetTitle>
               </SheetHeader>
-              <div className="mt-6 flex flex-col gap-2">
+              <div className="mt-4 flex flex-col gap-1 px-3 pb-6">
                 <NavLinks
                   className="flex-col items-stretch"
                   onNavigate={() => setMobileOpen(false)}
                   variant="mobile"
                 />
-              </div>
-              <div className="mt-5">
-                <GithubRepoButton
-                  className="w-full justify-between px-4 py-3 text-base"
-                  onNavigate={() => setMobileOpen(false)}
-                />
-              </div>
-              <Separator className="my-6" />
-              <div className="flex items-center justify-between gap-3 rounded-2xl border border-border/80 bg-card/40 px-4 py-3">
-                <span className="text-sm font-medium text-foreground">Theme</span>
-                <ThemeToggle onSwitch={() => setMobileOpen(false)} />
+                <Separator className="my-2" />
+                {siteConfig.githubRepoUrl ? (
+                  <a
+                    href={githubRepoBaseUrl(siteConfig.githubRepoUrl) ?? undefined}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => setMobileOpen(false)}
+                    className="flex items-center gap-3 rounded-2xl px-4 py-3 text-base font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+                  >
+                    <GitHubMark className="size-4 shrink-0" />
+                    <span className="flex-1">GitHub</span>
+                    <ExternalLink className="size-3.5 shrink-0 opacity-40" aria-hidden />
+                  </a>
+                ) : null}
+                <ThemeMobileRow onSwitch={() => setMobileOpen(false)} />
               </div>
             </SheetContent>
           </Sheet>
