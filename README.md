@@ -147,6 +147,7 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 <a id="category-community"></a>
 ## Community
 
+- **[CanCLID](https://github.com/CanCLID)** — A group dedicated to enhancing the infrastructure for the Cantonese language.
 - **[CanTone](https://www.cantonehk.com/)** — Hong Kong–focused Cantonese community and information.
 - **[Cantonese Alliance](https://cantonesealliance.org/)** — Community organization supporting Cantonese language and culture.
 - **[Cantonese Captions (Google Drive)](https://drive.google.com/drive/u/0/folders/1dQU8lb0dprmDNDr_Q6utOP_I7JcSQt-R)** — Community drive of Cantonese caption / subtitle resources.
@@ -164,15 +165,15 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 <a id="category-app"></a>
 ## App
 
-- **[0243.hk](https://www.0243.hk/)** — Hong Kong–related Cantonese utility site.
 - **[Canto Numbers](https://canto-numbers.netlify.app)** — Web app for practicing Cantonese numbers.
 - **[Cantone](https://play.google.com/store/apps/details?id=com.cantone.cantone&hl=en&gl=US)** — Android app for Cantonese learning.
+- **[CanTONEse](https://apps.apple.com/us/app/cantonese/id1546692785)** — Interactive lessons that emphasize the general difference between the 6 tones.
+- **[Cantonese Cracker](https://apps.apple.com/hk/app/cantonese-cracker/id6446240589)** — To master the listening & speaking skills of Cantonese for daily social communication and their needs.
 - **[Cantonese.ai — WhatsApp speech-to-text](https://cantonese.ai/)** — WhatsApp plugin for Cantonese speech-to-text (related repos on GitHub).
 - **[Drops Cantonese](https://languagedrops.com/language/learn-cantonese)** — Vocabulary-focused Cantonese lessons in the Drops app.
-- **[Duolingo (Mandarin to Cantonese)](https://www.duolingo.com/)** — Duolingo path for learners with Mandarin background moving into Cantonese.
+- **[Duolingo (Mandarin to Cantonese)](https://www.duolingo.com/course/zh-HK/zh/Learn-Chinese%20Cantonese)** — Duolingo path for learners with Mandarin background moving into Cantonese.
 - **[LingQ Cantonese](https://www.lingq.com/en/learn-cantonese-online/)** — Reading- and listening-based Cantonese course on LingQ.
-- **[Order Local HK](https://orderlocal.hk)** — App for ordering food locally in Hong Kong with Cantonese context.
-- **[TalkDimSum](https://yumcha.talkdimsum.com/)** — Dim sum–focused Cantonese food and phrase helper.
+- **[TalkDimSum](https://technicat.itch.io/talkdimsum)** — Dim sum–focused Cantonese food and phrase helper.
 
 <a id="category-browserextension"></a>
 ## Browser Extension
@@ -186,7 +187,6 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 ## Open Source
 
 - **[Baggio Wong (GitHub)](https://github.com/BaggioWongHK?tab=repositories)** — GitHub profile for Baggio Wong (Jyutping chart and Cantolounge tooling).
-- **[CanCLID](https://github.com/CanCLID)** — Cantonese Linguistics in Digital Society — corpus, input, and tooling umbrella.
 - **[Canto Numbers (GitHub)](https://github.com/yilverdeja/canto-numbers)** — Source for the Canto Numbers web app.
 - **[Chinese Worksheet Generator (GitHub)](https://github.com/lucivpav/cwg)** — Source for Chinese Worksheet Generator (cwg).
 - **[ChinVocab Canto Sounds DB](https://chinvocab.com/csdb)** — Cantonese sounds database on Chin Vocab.
@@ -195,7 +195,7 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 - **[Miteiru](https://github.com/hockyy/miteiru)** — Tooling for Japanese/CJK learners; repo listed among Cantonese open-source projects.
 - **[PyCantonese](https://github.com/jacksonllee/pycantonese)** — Python library for Cantonese NLP and corpus work.
 - **[Rime Cantonese](https://github.com/rime/rime-cantonese)** — Rime input schema for Cantonese (Jyutping).
-- **[TalkDimSum (open source)](https://github.com/technicat/talkdimsum)** — Source repository for the TalkDimSum project.
+- **[TalkDimSum (source code)](https://codeberg.org/technicat/talkdimsum)** — Archived source repository for the TalkDimSum project.
 - **[TianZiGeBiShun (GitHub)](https://github.com/bunian/tianzigebishun)** — Source for an2.net worksheet generator.
 
 <a id="category-creator"></a>
@@ -412,6 +412,7 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 <a id="category-music"></a>
 ## Music
 
+- **[0243.hk](https://www.0243.hk/)** — A specialized tool dedicated to Cantonese lyric writing based on the '0243' method matching tonal pitch to musical notes.
 - **[Canto Jar](https://cantojar.com)** — Cantonese song lyrics, breakdowns, and learning posts.
 - **[Canto Jar — Terence Lam “Magical Medicine” transcription](https://cantojar.com/cantonese-songs-magical-medicine-by-terence-lam-ka-him-%E7%A5%9E%E5%A5%87%E7%9A%84%E7%B3%8A%E5%A1%8C%E9%AD%94%E8%97%A5-%E6%9E%97%E5%AE%B6%E8%AC%99/)** — Line-by-line Cantonese lyric transcription and notes.
 
