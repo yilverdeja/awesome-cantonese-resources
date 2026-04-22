@@ -24,6 +24,8 @@ export const siteConfig = {
   suggestionsEmail: process.env.NEXT_PUBLIC_SUGGESTIONS_EMAIL?.trim() ?? "",
   /** Optional: URL to a form or other page for anonymous suggestions. */
   suggestionsFormUrl: process.env.NEXT_PUBLIC_SUGGESTIONS_FORM_URL?.trim() ?? "",
+  /** Minimum votes required before a rating appears in the README or web app. */
+  minRatingVotes: 10,
   footerExploreCategories: [
     { label: "All Apps", category: "App" },
     { label: "All Communities", category: "Community" },

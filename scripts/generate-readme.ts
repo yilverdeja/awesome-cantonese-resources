@@ -12,6 +12,7 @@ import { readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import type { Category, Collection, Resource } from "../types";
+import { siteConfig } from "../lib/site-config";
 
 const root = join(fileURLToPath(new URL(".", import.meta.url)), "..");
 
@@ -103,15 +104,16 @@ function readRatingsOrEmpty(): RatingsFile {
 }
 
 function scoreForId(id: string, ratings: RatingsFile): number {
-  const s = ratings[id]?.score;
-  return typeof s === "number" ? s : 0;
+  const r = ratings[id];
+  if (!r || typeof r.votes !== "number" || r.votes < siteConfig.minRatingVotes) return 0;
+  return typeof r.score === "number" ? r.score : 0;
 }
 
 function ratingSuffix(id: string, ratings: RatingsFile): string {
   const r = ratings[id];
   if (!r) return "";
   if (typeof r.avg_stars === "number" && typeof r.votes === "number") {
-    if (r.votes <= 0) return "";
+    if (r.votes < siteConfig.minRatingVotes) return "";
     return ` (${r.avg_stars}★, ${r.votes} votes)`;
   }
   // Backwards compatibility for older ratings.json shapes.
