@@ -1,4 +1,4 @@
-import { MessageSquarePlus, Bug, HelpCircle } from "lucide-react";
+import { MessageSquarePlus, Bug, HelpCircle, Star } from "lucide-react";
 
 import { siteConfig } from "@/lib/site-config";
 import {
@@ -21,6 +21,10 @@ export function HomeContribute() {
     ? githubDiscussionsCategoryUrl(siteConfig.githubRepoUrl, "suggest-resources")
     : null;
 
+  const ratingsUrl = siteConfig.githubRepoUrl
+    ? githubDiscussionsCategoryUrl(siteConfig.githubRepoUrl, "resource-ratings")
+    : null;
+
   const qaUrl = siteConfig.githubRepoUrl
     ? githubDiscussionsCategoryUrl(siteConfig.githubRepoUrl, "q-a")
     : null;
@@ -30,13 +34,13 @@ export function HomeContribute() {
 
   return (
     <section
-      id="contribute"
+      id="help"
       className="rounded-2xl border border-border bg-muted/25 px-6 py-10 scroll-mt-24 sm:px-10"
-      aria-labelledby="contribute-heading"
+      aria-labelledby="help-heading"
     >
       <div className="mx-auto max-w-3xl text-center">
         <h2
-          id="contribute-heading"
+          id="help-heading"
           className="text-2xl font-semibold tracking-tight text-foreground sm:text-3xl"
         >
           Built by the community
@@ -48,20 +52,32 @@ export function HomeContribute() {
       </div>
 
       <div className="mt-7 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:flex-wrap">
-        {issueUrl ? (
+        {/* Suggest a resource */}
+        {suggestUrl ? (
           <Button asChild size="lg" className="rounded-2xl">
-            <a href={issueUrl} target="_blank" rel="noopener noreferrer">
-              <Bug className="mr-2 size-4" />
-              Report a bug
+            <a href={suggestUrl} target="_blank" rel="noopener noreferrer">
+              <MessageSquarePlus className="mr-2 size-4" />
+              Suggest a resource
             </a>
           </Button>
         ) : null}
 
-        {suggestUrl ? (
+        {/* Rate or review a resource */}
+        {ratingsUrl ? (
           <Button asChild size="lg" variant="outline" className="rounded-2xl">
-            <a href={suggestUrl} target="_blank" rel="noopener noreferrer">
-              <MessageSquarePlus className="mr-2 size-4" />
-              Suggest a resource
+            <a href={ratingsUrl} target="_blank" rel="noopener noreferrer">
+              <Star className="mr-2 size-4" />
+              Rate or review a resource
+            </a>
+          </Button>
+        ) : null}
+
+        {/* Report a bug */}
+        {issueUrl ? (
+          <Button asChild size="lg" variant="outline" className="rounded-2xl">
+            <a href={issueUrl} target="_blank" rel="noopener noreferrer">
+              <Bug className="mr-2 size-4" />
+              Report a bug
             </a>
           </Button>
         ) : null}

@@ -1,0 +1,49 @@
+name: Bug Report
+description: Report a broken link, incorrect information, or a problem with the web app
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep Canto Resources accurate! Please fill out the details below.
+
+  - type: dropdown
+    id: bug-type
+    attributes:
+      label: What kind of bug is this?
+      options:
+        - Broken or incorrect link
+        - Wrong resource information (name, description, category, etc.)
+        - Web app issue (UI, filtering, layout, etc.)
+        - Data issue (ratings, collections, etc.)
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: resource-name
+    attributes:
+      label: Resource name (if applicable)
+      description: Which resource is affected? Leave blank if this is a web app issue.
+      placeholder: e.g. Cantonese Class 101
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the problem
+      description: What did you expect to happen? What happened instead?
+      placeholder: The link for "X" goes to a 404 page. The correct URL is...
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Correct URL (if applicable)
+      placeholder: https://...
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Screenshots, browser info, or anything else that helps.

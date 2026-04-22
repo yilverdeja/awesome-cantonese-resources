@@ -68,11 +68,17 @@ export function SiteFooter() {
                     {label}
                   </Link>
                 ))}
+                <Link
+                  href="/contribute"
+                  className="text-muted-foreground hover:text-foreground"
+                >
+                  Contribute
+                </Link>
               </div>
             </div>
 
             <div className="space-y-3">
-              <span className="text-sm font-semibold text-foreground">Navigation</span>
+              <span className="text-sm font-semibold text-foreground">Landing Page</span>
               <div className="flex flex-col gap-2 text-sm">
                 <Link
                   href="/#start-here"
@@ -93,10 +99,10 @@ export function SiteFooter() {
                   Stats
                 </Link>
                 <Link
-                  href="/#contribute"
+                  href="#help"
                   className="text-muted-foreground hover:text-foreground"
                 >
-                  Contribute
+                  Help us improve
                 </Link>
                 <Link href="/#faq" className="text-muted-foreground hover:text-foreground">
                   FAQ

@@ -1,0 +1,51 @@
+name: Feature Request
+description: Suggest an improvement to the web app or this project
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea for the web app or project? We'd love to hear it.
+
+        > If you want to **suggest a new resource**, please use [GitHub Discussions → Suggest Resources](https://github.com/yilverdeja/awesome-cantonese-resources/discussions/categories/suggest-resources) instead.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which area does this affect?
+      options:
+        - Web app (UI / features)
+        - Data / resources
+        - GitHub Actions / automation
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the current limitation or pain point.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: What would you like to see? How should it work?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any other approaches you thought of?
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Screenshots, mockups, or references to similar implementations.

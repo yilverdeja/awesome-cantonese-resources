@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Suggest a resource
+    url: https://github.com/yilverdeja/awesome-cantonese-resources/discussions/categories/suggest-resources
+    about: Propose a new Cantonese learning resource to add to the directory
+  - name: Ask a question (Q&A)
+    url: https://github.com/yilverdeja/awesome-cantonese-resources/discussions/categories/q-a
+    about: Ask the community anything about the project or Cantonese learning
+  - name: Contribution guide
+    url: https://github.com/yilverdeja/awesome-cantonese-resources/blob/master/CONTRIBUTION.md
+    about: Read the developer contribution guide before opening a PR

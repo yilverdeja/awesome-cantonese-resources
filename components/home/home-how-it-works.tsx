@@ -147,7 +147,7 @@ export function HomeHowItWorks() {
               <Link href="/resources">Explore resources</Link>
             </Button>
             <Button asChild variant="outline" className="w-fit rounded-2xl">
-              <a href="#contribute">Help improve the list</a>
+              <a href="#help">Help improve the list</a>
             </Button>
           </div>
         </div>

@@ -457,13 +457,24 @@ Each **collection** in `data/collections.json` has `title`, `description`, `kind
 
 ## Contributing
 
-We welcome additions and fixes.
+We welcome additions, fixes, and improvements. Here are the quickest ways to help:
 
-1. **Prefer pull requests** that update `data/resources.json` / `data/collections.json` with a valid `url`, clear English `description`, and a sensible `category`.
-2. Run **`npm run readme`** after JSON changes so the generated README section updates.
-3. If you are not comfortable editing JSON, **open an issue** with the name, URL, one-paragraph description, and what type of resource it is; a maintainer can format it.
+| What you want to do | Where to go |
+|---|---|
+| Suggest a new resource | [Discussions → Suggest Resources](https://github.com/yilverdeja/awesome-cantonese-resources/discussions/categories/suggest-resources) |
+| Report a broken link or wrong info | [Open a Bug Report](https://github.com/yilverdeja/awesome-cantonese-resources/issues/new/choose) |
+| Rate or leave feedback on a resource | [Discussions → Resource Ratings](https://github.com/yilverdeja/awesome-cantonese-resources/discussions/categories/resource-ratings) |
+| Ask a question | [Discussions → Q&A](https://github.com/yilverdeja/awesome-cantonese-resources/discussions/categories/q-a) |
 
-**Quality bar:** Cantonese-related is enough to propose something; we may decline or defer entries that duplicate existing coverage without adding value, or that look like a stretch for this list.
+**Contributing via pull request:**
+
+1. Edit `data/resources.json` or `data/collections.json` with a valid `url`, clear English `description`, and a sensible `category`.
+2. Run `npm run readme` after JSON changes so the generated README section updates.
+3. Do not edit `data/discussion-map.json` or `data/ratings.json` — these are bot-managed and PRs that touch them will be rejected automatically.
+
+**Quality bar:** Cantonese-related is enough to propose something; we may decline or defer entries that duplicate existing coverage without adding value.
+
+For a full developer guide including environment setup, schema reference, and automation details, see [CONTRIBUTION.md](./CONTRIBUTION.md).
 
 ## Maintainers
 
