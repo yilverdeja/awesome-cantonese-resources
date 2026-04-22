@@ -1,9 +1,20 @@
 import resourcesData from "../data/resources.json";
 import collectionsData from "../data/collections.json";
+import discussionUrlsData from "../data/discussion-urls.json";
+import ratingsData from "../data/ratings.json";
 import type { Resource, Collection, Category, Cost, Level, Platform } from "@/types";
+
+export type RatingEntry = {
+  score: number;
+  avg_stars: number;
+  votes: number;
+  stars: Record<string, number>;
+};
 
 const resources = resourcesData as Resource[];
 const collections = collectionsData as Collection[];
+const discussionUrls = discussionUrlsData as Record<string, string>;
+const ratings = ratingsData as Record<string, RatingEntry>;
 
 /** Stable category order for filters and README-style grouping. */
 export const RESOURCE_CATEGORY_ORDER: Category[] = [
@@ -129,4 +140,12 @@ export function getHomeSpotlightResources(): Resource[] {
   const data = getCollectionWithResources(HOME_SPOTLIGHT_COLLECTION_ID);
   if (data?.resources.length) return data.resources;
   return getResourcePreviewSample(12);
+}
+
+export function getAllDiscussionUrls(): Record<string, string> {
+  return discussionUrls;
+}
+
+export function getAllRatings(): Record<string, RatingEntry> {
+  return ratings;
 }

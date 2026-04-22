@@ -84,9 +84,11 @@ function assertNoBotManagedEdits(): void {
   }
 
   const changed = new Set(gitDiffNameOnly(shas.baseSha, shas.headSha));
-  const forbidden = ["data/ratings.json", "data/discussion-map.json"].filter((p) =>
-    changed.has(p),
-  );
+  const forbidden = [
+    "data/ratings.json",
+    "data/discussion-map.json",
+    "data/discussion-urls.json",
+  ].filter((p) => changed.has(p));
   if (forbidden.length) {
     die(
       `PR modifies bot-managed file(s): ${forbidden.join(

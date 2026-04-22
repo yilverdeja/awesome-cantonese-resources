@@ -15,6 +15,8 @@ type ReactionContent =
 
 type DiscussionInfo = {
   id: string;
+  number: number;
+  url: string;
   locked: boolean;
   closed: boolean;
   reactionGroups: { content: ReactionContent; users: { totalCount: number } }[];
@@ -82,6 +84,8 @@ async function fetchDiscussionsByIds(ids: string[]): Promise<DiscussionInfo[]> {
   const fields = `
     ... on Discussion {
       id
+      number
+      url
       locked
       closed
       reactionGroups {
@@ -152,6 +156,17 @@ async function main(): Promise<void> {
 
   writeJsonStable(ratingsPath, ratings);
   console.log(`Wrote ratings for ${Object.keys(ratings).length} resources.`);
+
+  const discussionUrls: Record<string, string> = {};
+  for (const [resourceId, discussionId] of entries) {
+    const d = byDiscussionId.get(discussionId);
+    if (d && !d.closed && !d.locked && d.url) {
+      discussionUrls[resourceId] = d.url;
+    }
+  }
+  const urlsPath = resolve(root, "data", "discussion-urls.json");
+  writeJsonStable(urlsPath, discussionUrls);
+  console.log(`Wrote discussion URLs for ${Object.keys(discussionUrls).length} resources.`);
 }
 
 main().catch((e) => die((e as Error).stack ?? String(e)));

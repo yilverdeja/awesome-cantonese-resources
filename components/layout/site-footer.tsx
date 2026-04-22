@@ -74,6 +74,12 @@ export function SiteFooter() {
                 >
                   Contribute
                 </Link>
+                <Link
+                  href="/rate-resources"
+                  className="text-muted-foreground hover:text-foreground"
+                >
+                  Rate Resources
+                </Link>
               </div>
             </div>
 
