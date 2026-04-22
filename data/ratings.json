@@ -600,16 +600,16 @@
     "votes": 0
   },
   "chinvocab": {
-    "avg_stars": 0,
-    "score": 0,
+    "avg_stars": 5,
+    "score": 3.4657359027997265,
     "stars": {
       "CONFUSED": 0,
       "HEART": 0,
-      "HOORAY": 0,
+      "HOORAY": 1,
       "THUMBS_DOWN": 0,
       "THUMBS_UP": 0
     },
-    "votes": 0
+    "votes": 1
   },
   "chinvocab-canto-sounds-db": {
     "avg_stars": 0,
@@ -816,16 +816,16 @@
     "votes": 0
   },
   "dr-chaak-ming-lau": {
-    "avg_stars": 0,
-    "score": 0,
+    "avg_stars": 5,
+    "score": 3.4657359027997265,
     "stars": {
       "CONFUSED": 0,
       "HEART": 0,
-      "HOORAY": 0,
+      "HOORAY": 1,
       "THUMBS_DOWN": 0,
       "THUMBS_UP": 0
     },
-    "votes": 0
+    "votes": 1
   },
   "drive-cantonese-captions": {
     "avg_stars": 0,
@@ -900,16 +900,16 @@
     "votes": 0
   },
   "ham-baang-laang": {
-    "avg_stars": 0,
-    "score": 0,
+    "avg_stars": 5,
+    "score": 3.4657359027997265,
     "stars": {
       "CONFUSED": 0,
       "HEART": 0,
-      "HOORAY": 0,
+      "HOORAY": 1,
       "THUMBS_DOWN": 0,
       "THUMBS_UP": 0
     },
-    "votes": 0
+    "votes": 1
   },
   "hong-kong-vision-tool": {
     "avg_stars": 0,
@@ -1356,16 +1356,16 @@
     "votes": 0
   },
   "jyutping-org": {
-    "avg_stars": 0,
-    "score": 0,
+    "avg_stars": 5,
+    "score": 3.4657359027997265,
     "stars": {
       "CONFUSED": 0,
       "HEART": 0,
-      "HOORAY": 0,
+      "HOORAY": 1,
       "THUMBS_DOWN": 0,
       "THUMBS_UP": 0
     },
-    "votes": 0
+    "votes": 1
   },
   "language-crush-cantonese-conversations": {
     "avg_stars": 0,
@@ -1872,16 +1872,16 @@
     "votes": 0
   },
   "site-canto-hk": {
-    "avg_stars": 0,
-    "score": 0,
+    "avg_stars": 5,
+    "score": 3.4657359027997265,
     "stars": {
       "CONFUSED": 0,
       "HEART": 0,
-      "HOORAY": 0,
+      "HOORAY": 1,
       "THUMBS_DOWN": 0,
       "THUMBS_UP": 0
     },
-    "votes": 0
+    "votes": 1
   },
   "site-cantonese-learning-com": {
     "avg_stars": 0,
@@ -2052,16 +2052,16 @@
     "votes": 0
   },
   "tool-cantonese-tools": {
-    "avg_stars": 0,
-    "score": 0,
+    "avg_stars": 4,
+    "score": 2.772588722239781,
     "stars": {
       "CONFUSED": 0,
-      "HEART": 0,
+      "HEART": 1,
       "HOORAY": 0,
       "THUMBS_DOWN": 0,
       "THUMBS_UP": 0
     },
-    "votes": 0
+    "votes": 1
   },
   "tool-cantonesetools-org": {
     "avg_stars": 0,
@@ -2280,16 +2280,16 @@
     "votes": 0
   },
   "words-hk": {
-    "avg_stars": 0,
-    "score": 0,
+    "avg_stars": 5,
+    "score": 3.4657359027997265,
     "stars": {
       "CONFUSED": 0,
       "HEART": 0,
-      "HOORAY": 0,
+      "HOORAY": 1,
       "THUMBS_DOWN": 0,
       "THUMBS_UP": 0
     },
-    "votes": 0
+    "votes": 1
   },
   "youtube-5-minute-cantonese": {
     "avg_stars": 0,
