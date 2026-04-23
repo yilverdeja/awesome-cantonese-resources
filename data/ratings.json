@@ -479,6 +479,18 @@
     },
     "votes": 0
   },
+  "cantonese-cracker": {
+    "avg_stars": 0,
+    "score": 0,
+    "stars": {
+      "CONFUSED": 0,
+      "HEART": 0,
+      "HOORAY": 0,
+      "THUMBS_DOWN": 0,
+      "THUMBS_UP": 0
+    },
+    "votes": 0
+  },
   "cantonese-creators-collective": {
     "avg_stars": 0,
     "score": 0,
@@ -540,6 +552,18 @@
     "votes": 0
   },
   "cantonese-popup-dictionary": {
+    "avg_stars": 0,
+    "score": 0,
+    "stars": {
+      "CONFUSED": 0,
+      "HEART": 0,
+      "HOORAY": 0,
+      "THUMBS_DOWN": 0,
+      "THUMBS_UP": 0
+    },
+    "votes": 0
+  },
+  "cantonese-tone-app": {
     "avg_stars": 0,
     "score": 0,
     "stars": {
@@ -1524,18 +1548,6 @@
     "votes": 0
   },
   "open-baggiowonghk-github": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
-  "order-local-hk": {
     "avg_stars": 0,
     "score": 0,
     "stars": {
