@@ -70,15 +70,15 @@ The README section between the markers below is **generated**. Edit the JSON (or
 Pronunciation and romanization, essential dictionaries, gentle video input, and a first graded reader — a small coherent path for day one.
 
 - **[Jyutping.org](https://jyutping.org/en/)** — Reference site for Jyutping romanization.
-- **[Jyutping chart (syllables, TalkBank)](https://sla.talkbank.org/Jyutping/index.html)** — Interactive Jyutping chart organized by syllable.
+- **[The Jyutping Tutor](https://sla.talkbank.org/Jyutping/index.html)** — Interactive Jyutping chart organized by syllable.
 - **[Forvo (Cantonese / Yue)](https://forvo.com/languages/yue/)** — User-contributed pronunciations for Yue/Cantonese words.
 - **[Inject Jyutping](https://chromewebstore.google.com/detail/inject-jyutping/lfgpgjkjglogbndlkikjgbbfoiofbdjp?pli=1)** — Chrome extension to show Jyutping on Chinese web pages.
 - **[Pleco](https://www.pleco.com/)** — Major Chinese dictionary app with Cantonese add-ons (Jyutping, audio).
-- **[words.hk](https://words.hk/)** — Community Cantonese–English dictionary (LINE Dictionary Cantonese–English successor).
+- **[Words HK](https://words.hk/)** — Community Cantonese–English dictionary.
 - **[Comprehensible Cantonese](https://www.youtube.com/@comprehensiblecantonese)** — Comprehensible-input style Cantonese videos.
 - **[CUHK ILC — Elementary Cantonese lessons](https://www.ilc.cuhk.edu.hk/workshop/chinese/cantonese/onlinetutorial/courseListA.aspx#pgContent)** — CUHK self-study workshop: elementary Cantonese online tutorials.
 - **[Ham Baang Laang](https://hambaanglaang.hk/)** — Graded readers in colloquial Cantonese with audio and illustrations.
-- **[Cantone](https://play.google.com/store/apps/details?id=com.cantone.cantone&hl=en&gl=US)** — Android app for Cantonese learning.
+- **[Cantone (Android)](https://play.google.com/store/apps/details?id=com.cantone.cantone&hl=en&gl=US)** — Android app for Cantonese learning.
 
 <a id="collection-starter-kit-intermediate"></a>
 ## Intermediate starter kit
@@ -91,8 +91,8 @@ More reading and listening, colloquial graded stories, podcasts, and open tools 
 - **[Poetic Cantonese](https://poeticcantonese.com/)** — Podcast site for Poetic Cantonese.
 - **[Canto Big Circle](https://www.youtube.com/@CantoBigCircle/playlists)** — YouTube playlists from Canto Big Circle.
 - **[RTHK Hong Kong Stories (documentary)](https://www.youtube.com/watch?v=QFmpVKZlwAA&list=PLuwJy35eAVaK3Ku-iXNXdsfLaJuXuoQjI&index=1&ab_channel=RTHK%E9%A6%99%E6%B8%AF%E9%9B%BB%E5%8F%B0)** — RTHK documentary series about Hong Kong (YouTube playlist).
-- **[JyutDict](https://github.com/aaronhktan/jyut-dict)** — Open-source Cantonese dictionary desktop app project.
-- **[CC-Canto](https://cantonese.org/)** — Community Cantonese dictionary data and cantonese.org hub.
+- **[JyutDict (GitHub)](https://github.com/aaronhktan/jyut-dict)** — Open-source Cantonese dictionary desktop app project.
+- **[CC-Canto](https://cantonese.org/)** — A fast, free online Cantonese-English dictionary from Pleco.
 - **[SearchCanto](https://searchcanto.com/)** — Search interface for Cantonese dictionary data.
 - **[Language Crush — Cantonese Conversations](https://languagecrush.com/reading/course/258)** — Reading course with Cantonese conversations (free with sign-up).
 
@@ -120,12 +120,12 @@ A short list of especially helpful reference tools and learning resources that m
 
 - **[Pleco](https://www.pleco.com/)** — Major Chinese dictionary app with Cantonese add-ons (Jyutping, audio).
 - **[Ham Baang Laang](https://hambaanglaang.hk/)** — Graded readers in colloquial Cantonese with audio and illustrations.
-- **[words.hk](https://words.hk/)** — Community Cantonese–English dictionary (LINE Dictionary Cantonese–English successor).
+- **[Words HK](https://words.hk/)** — Community Cantonese–English dictionary.
 - **[Jyutping.org](https://jyutping.org/en/)** — Reference site for Jyutping romanization.
 - **[Inject Jyutping](https://chromewebstore.google.com/detail/inject-jyutping/lfgpgjkjglogbndlkikjgbbfoiofbdjp?pli=1)** — Chrome extension to show Jyutping on Chinese web pages.
 - **[Forvo (Cantonese / Yue)](https://forvo.com/languages/yue/)** — User-contributed pronunciations for Yue/Cantonese words.
-- **[JyutDict](https://github.com/aaronhktan/jyut-dict)** — Open-source Cantonese dictionary desktop app project.
-- **[Cantone](https://play.google.com/store/apps/details?id=com.cantone.cantone&hl=en&gl=US)** — Android app for Cantonese learning.
+- **[JyutDict (GitHub)](https://github.com/aaronhktan/jyut-dict)** — Open-source Cantonese dictionary desktop app project.
+- **[Cantone (Android)](https://play.google.com/store/apps/details?id=com.cantone.cantone&hl=en&gl=US)** — Android app for Cantonese learning.
 
 <a id="collection-curated-hk-in-person-courses"></a>
 ## In-person courses in Hong Kong
@@ -166,13 +166,16 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 ## App
 
 - **[Canto Numbers](https://canto-numbers.netlify.app)** — Web app for practicing Cantonese numbers.
-- **[Cantone](https://play.google.com/store/apps/details?id=com.cantone.cantone&hl=en&gl=US)** — Android app for Cantonese learning.
+- **[Cantone (Android)](https://play.google.com/store/apps/details?id=com.cantone.cantone&hl=en&gl=US)** — Android app for Cantonese learning.
+- **[Cantone (iOS)](https://apps.apple.com/us/app/cantone/id1602297692)** — iOS app for Cantonese learning.
 - **[CanTONEse](https://apps.apple.com/us/app/cantonese/id1546692785)** — Interactive lessons that emphasize the general difference between the 6 tones.
 - **[Cantonese Cracker](https://apps.apple.com/hk/app/cantonese-cracker/id6446240589)** — To master the listening & speaking skills of Cantonese for daily social communication and their needs.
 - **[Cantonese.ai — WhatsApp speech-to-text](https://cantonese.ai/)** — WhatsApp plugin for Cantonese speech-to-text (related repos on GitHub).
 - **[Drops Cantonese](https://languagedrops.com/language/learn-cantonese)** — Vocabulary-focused Cantonese lessons in the Drops app.
 - **[Duolingo (Mandarin to Cantonese)](https://www.duolingo.com/course/zh-HK/zh/Learn-Chinese%20Cantonese)** — Duolingo path for learners with Mandarin background moving into Cantonese.
+- **[Jyut Dictionary](https://jyutdictionary.com/)** — Comprehensive Cantonese dictionary app.
 - **[LingQ Cantonese](https://www.lingq.com/en/learn-cantonese-online/)** — Reading- and listening-based Cantonese course on LingQ.
+- **[Miteiru](https://miteiru.hocky.id/)** — An open-source video player for learning Cantonese.
 - **[TalkDimSum](https://technicat.itch.io/talkdimsum)** — Dim sum–focused Cantonese food and phrase helper.
 
 <a id="category-browserextension"></a>
@@ -191,8 +194,8 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 - **[Chinese Worksheet Generator (GitHub)](https://github.com/lucivpav/cwg)** — Source for Chinese Worksheet Generator (cwg).
 - **[ChinVocab Canto Sounds DB](https://chinvocab.com/csdb)** — Cantonese sounds database on Chin Vocab.
 - **[ChinVocab HBL Data](https://chinvocab.com/hbl/data/)** — Data related to Ham Baang Laang on Chin Vocab.
-- **[JyutDict](https://github.com/aaronhktan/jyut-dict)** — Open-source Cantonese dictionary desktop app project.
-- **[Miteiru](https://github.com/hockyy/miteiru)** — Tooling for Japanese/CJK learners; repo listed among Cantonese open-source projects.
+- **[JyutDict (GitHub)](https://github.com/aaronhktan/jyut-dict)** — Open-source Cantonese dictionary desktop app project.
+- **[Miteiru (GitHub)](https://github.com/hockyy/miteiru)** — Source code for the Miteiru app.
 - **[PyCantonese](https://github.com/jacksonllee/pycantonese)** — Python library for Cantonese NLP and corpus work.
 - **[Rime Cantonese](https://github.com/rime/rime-cantonese)** — Rime input schema for Cantonese (Jyutping).
 - **[TalkDimSum (source code)](https://codeberg.org/technicat/talkdimsum)** — Archived source repository for the TalkDimSum project.
@@ -201,7 +204,7 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 <a id="category-creator"></a>
 ## Creator
 
-- **[Dr. Chaak Ming Lau](https://www.eduhk.hk/acad/people/teaching-staff/lau-chaak-ming/)** — Linguist; creator of the Ham Baang Laang graded reader project and contributor to Cantonese lexicography.
+- **[Dr. Chaak-Ming Lau](https://chaak.net/)** — Linguist & Digital Humanities researcher with a focus on Cantonese and under-resourced languages.
 - **[Instagram — @cantobigcircle](https://www.instagram.com/cantobigcircle/)** — Canto Big Circle on Instagram.
 - **[Instagram — @cantochat](https://www.instagram.com/cantochat/)** — Casual Cantonese chat and learning.
 - **[Instagram — @cantonese.sow](https://www.instagram.com/cantonese.sow/)** — Cantonese learning posts.
@@ -301,22 +304,22 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 <a id="category-gradedreader"></a>
 ## Graded Reader
 
+- **[ChinVocab Ham Baang Laang](https://chinvocab.com/hbl/)** — Ham Baang Laang stories with customized learning options & flashcards.
 - **[Ham Baang Laang](https://hambaanglaang.hk/)** — Graded readers in colloquial Cantonese with audio and illustrations.
 - **[Storybooks Canada (Cantonese)](https://www.storybookscanada.ca/stories/yue/)** — Free illustrated stories with Cantonese (yue) text and audio.
 
 <a id="category-dictionary"></a>
 ## Dictionary
 
+- **[Canto Words](https://cantowords.com/)** — Community Cantonese–English dictionary (Words HK in English).
 - **[Cantodict](http://www.cantonese.sheik.co.uk/)** — Long-running online Cantonese–English dictionary (CantoDict).
 - **[Cantodict Parser](https://www.cantonese.sheik.co.uk/dictionary/parser/)** — Sentence parser tool on Cantodict.
 - **[Cantonese Plus](https://www.cantoneseplus.com/)** — Cantonese learning site with dictionary and phrase tools.
-- **[Cantonese Plus Phrase Breakdown](https://www.cantoneseplus.com/PhraseBreakDown)** — Phrase breakdown / parser on Cantonese Plus.
-- **[CantoWords](https://cantowords.com/)** — Cantonese dictionary and word resources (cantowords.hk).
-- **[CC-Canto](https://cantonese.org/)** — Community Cantonese dictionary data and cantonese.org hub.
+- **[CC-Canto](https://cantonese.org/)** — A fast, free online Cantonese-English dictionary from Pleco.
 - **[MDBG Chinese Dictionary](https://www.mdbg.net/chinese/dictionary)** — MDBG dictionary (Chinese; useful alongside Cantonese resources).
 - **[Pleco](https://www.pleco.com/)** — Major Chinese dictionary app with Cantonese add-ons (Jyutping, audio).
 - **[SearchCanto](https://searchcanto.com/)** — Search interface for Cantonese dictionary data.
-- **[words.hk](https://words.hk/)** — Community Cantonese–English dictionary (LINE Dictionary Cantonese–English successor).
+- **[Words HK](https://words.hk/)** — Community Cantonese–English dictionary.
 
 <a id="category-tool"></a>
 ## Tool
@@ -339,9 +342,9 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 
 - **[Fluent Forever Cantonese pronunciation](https://www.youtube.com/@FluentForeverApp/videos)** — YouTube pronunciation content from Fluent Forever.
 - **[Forvo (Cantonese / Yue)](https://forvo.com/languages/yue/)** — User-contributed pronunciations for Yue/Cantonese words.
-- **[Jyutping chart (syllables, TalkBank)](https://sla.talkbank.org/Jyutping/index.html)** — Interactive Jyutping chart organized by syllable.
-- **[Jyutping chart (words, Baggio Wong)](https://baggiowonghk.github.io/jyutping-chart/#)** — Jyutping chart with example words.
+- **[Jyutping chart](https://baggiowonghk.github.io/jyutping-chart)** — Complete Jyutping chart with Chinese word examples, English definitions and recordings.
 - **[Jyutping.org](https://jyutping.org/en/)** — Reference site for Jyutping romanization.
+- **[The Jyutping Tutor](https://sla.talkbank.org/Jyutping/index.html)** — Interactive Jyutping chart organized by syllable.
 
 <a id="category-course"></a>
 ## Course
@@ -412,7 +415,7 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 <a id="category-music"></a>
 ## Music
 
-- **[0243.hk](https://www.0243.hk/)** — A specialized tool dedicated to Cantonese lyric writing based on the '0243' method matching tonal pitch to musical notes.
+- **[0243.hk](https://www.0243.hk/)** — A tool dedicated to Cantonese lyric writing based on the '0243' method that matches tonal pitch to musical notes.
 - **[Canto Jar](https://cantojar.com)** — Cantonese song lyrics, breakdowns, and learning posts.
 - **[Canto Jar — Terence Lam “Magical Medicine” transcription](https://cantojar.com/cantonese-songs-magical-medicine-by-terence-lam-ka-him-%E7%A5%9E%E5%A5%87%E7%9A%84%E7%B3%8A%E5%A1%8C%E9%AD%94%E8%97%A5-%E6%9E%97%E5%AE%B6%E8%AC%99/)** — Line-by-line Cantonese lyric transcription and notes.
 
