@@ -443,6 +443,18 @@
     },
     "votes": 0
   },
+  "cantone-app-ios": {
+    "avg_stars": 0,
+    "score": 0,
+    "stars": {
+      "CONFUSED": 0,
+      "HEART": 0,
+      "HOORAY": 0,
+      "THUMBS_DOWN": 0,
+      "THUMBS_UP": 0
+    },
+    "votes": 0
+  },
   "cantone-hk": {
     "avg_stars": 0,
     "score": 0,
@@ -516,18 +528,6 @@
     "votes": 0
   },
   "cantonese-plus": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
-  "cantonese-plus-parser": {
     "avg_stars": 0,
     "score": 0,
     "stars": {
@@ -646,6 +646,18 @@
       "THUMBS_UP": 0
     },
     "votes": 0
+  },
+  "chinvocab-hbl": {
+    "avg_stars": 5,
+    "score": 3.4657359027997265,
+    "stars": {
+      "CONFUSED": 0,
+      "HEART": 0,
+      "HOORAY": 1,
+      "THUMBS_DOWN": 0,
+      "THUMBS_UP": 0
+    },
+    "votes": 1
   },
   "chinvocab-hbl-data": {
     "avg_stars": 0,
@@ -1355,6 +1367,18 @@
     },
     "votes": 0
   },
+  "jyutdict-app": {
+    "avg_stars": 0,
+    "score": 0,
+    "stars": {
+      "CONFUSED": 0,
+      "HEART": 0,
+      "HOORAY": 0,
+      "THUMBS_DOWN": 0,
+      "THUMBS_UP": 0
+    },
+    "votes": 0
+  },
   "jyutping-chart-syllables-talkbank": {
     "avg_stars": 0,
     "score": 0,
@@ -1512,6 +1536,18 @@
     "votes": 0
   },
   "miteiru": {
+    "avg_stars": 0,
+    "score": 0,
+    "stars": {
+      "CONFUSED": 0,
+      "HEART": 0,
+      "HOORAY": 0,
+      "THUMBS_DOWN": 0,
+      "THUMBS_UP": 0
+    },
+    "votes": 0
+  },
+  "miteiru-app": {
     "avg_stars": 0,
     "score": 0,
     "stars": {
