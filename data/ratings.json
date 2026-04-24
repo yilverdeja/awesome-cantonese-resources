@@ -71,30 +71,6 @@
     },
     "votes": 0
   },
-  "blog-bilibili-cantonese-tones-article": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
-  "blog-language-obsession-tumblr": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
   "blog-lingtuitive-smartest-way-chinese": {
     "avg_stars": 0,
     "score": 0,
@@ -180,42 +156,6 @@
     "votes": 0
   },
   "blog-lo-verbal-aspect": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
-  "blog-moviefou-dr-stone": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
-  "blog-moviefou-dragon-ball-z": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
-  "blog-moviefou-stephen-chow": {
     "avg_stars": 0,
     "score": 0,
     "stars": {
@@ -707,7 +647,31 @@
     },
     "votes": 0
   },
-  "course-hkuspace-chinese-leisure": {
+  "course-hkuspace-advanced-1": {
+    "avg_stars": 0,
+    "score": 0,
+    "stars": {
+      "CONFUSED": 0,
+      "HEART": 0,
+      "HOORAY": 0,
+      "THUMBS_DOWN": 0,
+      "THUMBS_UP": 0
+    },
+    "votes": 0
+  },
+  "course-hkuspace-intermediate": {
+    "avg_stars": 0,
+    "score": 0,
+    "stars": {
+      "CONFUSED": 0,
+      "HEART": 0,
+      "HOORAY": 0,
+      "THUMBS_DOWN": 0,
+      "THUMBS_UP": 0
+    },
+    "votes": 0
+  },
+  "course-hkuspace-introductory": {
     "avg_stars": 0,
     "score": 0,
     "stars": {
@@ -744,6 +708,18 @@
     "votes": 0
   },
   "course-polyu-clc-ncs": {
+    "avg_stars": 0,
+    "score": 0,
+    "stars": {
+      "CONFUSED": 0,
+      "HEART": 0,
+      "HOORAY": 0,
+      "THUMBS_DOWN": 0,
+      "THUMBS_UP": 0
+    },
+    "votes": 0
+  },
+  "course-polyu-learn-canto-fun": {
     "avg_stars": 0,
     "score": 0,
     "stars": {
@@ -900,18 +876,6 @@
     "votes": 1
   },
   "edb-chinese-lexicon-hk-students": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
-  "fluent-forever-cantonese-pronunciation": {
     "avg_stars": 0,
     "score": 0,
     "stars": {
@@ -1103,18 +1067,6 @@
     },
     "votes": 0
   },
-  "instagram-eighteenstrokes": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
   "instagram-gabgabcantonese": {
     "avg_stars": 0,
     "score": 0,
@@ -1164,18 +1116,6 @@
     "votes": 0
   },
   "instagram-jyuttoi-cantonese": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
-  "instagram-kebbeth": {
     "avg_stars": 0,
     "score": 0,
     "stars": {
@@ -1272,18 +1212,6 @@
     "votes": 0
   },
   "instagram-tan90-cantoculture": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
-  "instagram-translation-bay": {
     "avg_stars": 0,
     "score": 0,
     "stars": {
@@ -1571,7 +1499,7 @@
     },
     "votes": 0
   },
-  "music-canto-jar-terence-lam-magical-medicine": {
+  "online-course-poetic-cantonese": {
     "avg_stars": 0,
     "score": 0,
     "stars": {
@@ -1584,18 +1512,6 @@
     "votes": 0
   },
   "open-baggiowonghk-github": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
-  "pimsleur-cantonese-archive": {
     "avg_stars": 0,
     "score": 0,
     "stars": {
@@ -1620,18 +1536,6 @@
     "votes": 1
   },
   "podcast-chatty-cantonese": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
-  "podcast-leslie-frank-medical-radiopublic": {
     "avg_stars": 0,
     "score": 0,
     "stars": {
@@ -1716,18 +1620,6 @@
     "votes": 0
   },
   "reddit-r-languagelearning": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
-  "reddit-user-keithhon": {
     "avg_stars": 0,
     "score": 0,
     "stars": {
@@ -1955,18 +1847,6 @@
     },
     "votes": 0
   },
-  "site-rhapsody-in-lingo": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
   "speaking-language-exchange": {
     "avg_stars": 0,
     "score": 0,
@@ -2003,7 +1883,7 @@
     },
     "votes": 0
   },
-  "sweetnote-cantonese-storybooks-youtube": {
+  "sweetnotelearning": {
     "avg_stars": 0,
     "score": 0,
     "stars": {
@@ -2123,30 +2003,6 @@
     },
     "votes": 0
   },
-  "tool-cantonesetools-writing-sheets": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
-  "tool-mic-monster-cantonese-tts": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
   "tool-speechnotes-yue-dictation": {
     "avg_stars": 0,
     "score": 0,
@@ -2172,18 +2028,6 @@
     "votes": 0
   },
   "tv-cantonese-dubs-google-drive": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
-  "tv-crayon-shin-chan-colafun": {
     "avg_stars": 0,
     "score": 0,
     "stars": {
@@ -2267,55 +2111,7 @@
     },
     "votes": 0
   },
-  "tv-professor-panda-cantonese-playlist": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
-  "tv-rthk-hong-kong-stories": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
-  "tv-rthk-lion-rock": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
   "video-bilibili-cantonese-tones-explainer": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
-  "wiki-cantonese-writing": {
     "avg_stars": 0,
     "score": 0,
     "stars": {
@@ -2459,18 +2255,6 @@
     },
     "votes": 0
   },
-  "youtube-guresu": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
   "youtube-inspirlang": {
     "avg_stars": 0,
     "score": 0,
@@ -2520,18 +2304,6 @@
     "votes": 0
   },
   "youtube-olly-richards-cantonese": {
-    "avg_stars": 0,
-    "score": 0,
-    "stars": {
-      "CONFUSED": 0,
-      "HEART": 0,
-      "HOORAY": 0,
-      "THUMBS_DOWN": 0,
-      "THUMBS_UP": 0
-    },
-    "votes": 0
-  },
-  "youtube-rhapsody-in-lingo": {
     "avg_stars": 0,
     "score": 0,
     "stars": {
