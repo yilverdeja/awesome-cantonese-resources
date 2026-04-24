@@ -71,7 +71,7 @@ Pronunciation and romanization, essential dictionaries, gentle video input, and 
 
 - **[Jyutping.org](https://jyutping.org/en/)** — Reference site for Jyutping romanization.
 - **[The Jyutping Tutor](https://sla.talkbank.org/Jyutping/index.html)** — Interactive Jyutping chart organized by syllable.
-- **[Forvo (Cantonese / Yue)](https://forvo.com/languages/yue/)** — User-contributed pronunciations for Yue/Cantonese words.
+- **[Forvo](https://forvo.com/languages/yue/)** — User-contributed pronunciations for Cantonese words.
 - **[Inject Jyutping](https://chromewebstore.google.com/detail/inject-jyutping/lfgpgjkjglogbndlkikjgbbfoiofbdjp?pli=1)** — Chrome extension to show Jyutping on Chinese web pages.
 - **[Pleco](https://www.pleco.com/)** — Major Chinese dictionary app with Cantonese add-ons (Jyutping, audio).
 - **[Words HK](https://words.hk/)** — Community Cantonese–English dictionary.
@@ -89,7 +89,7 @@ More reading and listening, colloquial graded stories, podcasts, and open tools 
 - **[Storybooks Canada (Cantonese)](https://www.storybookscanada.ca/stories/yue/)** — Free illustrated stories with Cantonese (yue) text and audio.
 - **[Chatty Cantonese](https://www.chattycantonese.com/)** — Conversational Cantonese podcast and site.
 - **[Poetic Cantonese](https://poeticcantonese.com/)** — Podcast site for Poetic Cantonese.
-- **[Canto Big Circle](https://www.youtube.com/@CantoBigCircle/playlists)** — YouTube playlists from Canto Big Circle.
+- **[Canto Big Circle](https://www.youtube.com/@CantoBigCircle)** — YouTube playlists from Canto Big Circle.
 - **[RTHK Hong Kong Stories (documentary)](https://www.youtube.com/watch?v=QFmpVKZlwAA&list=PLuwJy35eAVaK3Ku-iXNXdsfLaJuXuoQjI&index=1&ab_channel=RTHK%E9%A6%99%E6%B8%AF%E9%9B%BB%E5%8F%B0)** — RTHK documentary series about Hong Kong (YouTube playlist).
 - **[JyutDict (GitHub)](https://github.com/aaronhktan/jyut-dict)** — Open-source Cantonese dictionary desktop app project.
 - **[CC-Canto](https://cantonese.org/)** — A fast, free online Cantonese-English dictionary from Pleco.
@@ -123,7 +123,7 @@ A short list of especially helpful reference tools and learning resources that m
 - **[Words HK](https://words.hk/)** — Community Cantonese–English dictionary.
 - **[Jyutping.org](https://jyutping.org/en/)** — Reference site for Jyutping romanization.
 - **[Inject Jyutping](https://chromewebstore.google.com/detail/inject-jyutping/lfgpgjkjglogbndlkikjgbbfoiofbdjp?pli=1)** — Chrome extension to show Jyutping on Chinese web pages.
-- **[Forvo (Cantonese / Yue)](https://forvo.com/languages/yue/)** — User-contributed pronunciations for Yue/Cantonese words.
+- **[Forvo](https://forvo.com/languages/yue/)** — User-contributed pronunciations for Cantonese words.
 - **[JyutDict (GitHub)](https://github.com/aaronhktan/jyut-dict)** — Open-source Cantonese dictionary desktop app project.
 - **[Cantone (Android)](https://play.google.com/store/apps/details?id=com.cantone.cantone&hl=en&gl=US)** — Android app for Cantonese learning.
 
@@ -244,22 +244,22 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 - **[Assimil Cantonese (playlist)](https://www.youtube.com/playlist?list=PLVlB5oZ-RCuOOTKXfdGoz0dFyW4NccKf7)** — YouTube playlist aligned with Assimil-style Cantonese content.
 - **[Bilibili — Cantonese tones and melody (video)](https://www.bilibili.com/video/BV1ar4y1S7of/?spm_id_from=333.1387.homepage.video_card.click)** — Video explainer on tones in Cantonese songs.
 - **[Bilibili user — Cantonese lyrics content](https://space.bilibili.com/454869715)** — Creator space with Cantonese lyrics analyses and lists.
-- **[Brittany Chan (YouTube)](https://www.youtube.com/c/BrittanyChan888/playlists)** — Cantonese learning playlists by Brittany Chan.
-- **[Canto Big Circle](https://www.youtube.com/@CantoBigCircle/playlists)** — YouTube playlists from Canto Big Circle.
+- **[Brittany Chan (YouTube)](https://www.youtube.com/@cantobritt)** — Cantonese learning playlists by Brittany Chan.
+- **[Canto Big Circle](https://www.youtube.com/@CantoBigCircle)** — YouTube playlists from Canto Big Circle.
 - **[Canto Lounge (YouTube)](https://www.youtube.com/@Cantolounge)** — Cantolounge YouTube channel.
 - **[Cantonese with soft subtitles / transcript (playlist)](https://www.youtube.com/playlist?list=PLhFsPvkfpCXnWDUSPmA-8xUp7vPz-zCeg)** — YouTube playlist with spoken-form soft subtitles (last updated 2021 per source).
-- **[CantoneseClass101 (YouTube)](https://www.youtube.com/c/CantoneseClass101/playlists)** — Official CantoneseClass101 playlists on YouTube.
+- **[CantoneseClass101 (YouTube)](https://www.youtube.com/@CantoneseClass101)** — Official CantoneseClass101 playlists on YouTube.
 - **[Christian Tapper — Cantonese learning](https://www.youtube.com/watch?v=7dZBqA1XkRI&ab_channel=ChristianTapper)** — YouTube video on Cantonese learning; links to literacy blog.
 - **[Comprehensible Cantonese](https://www.youtube.com/@comprehensiblecantonese)** — Comprehensible-input style Cantonese videos.
 - **[Easy Cantonese (playlist)](https://www.youtube.com/playlist?list=PLA5UIoabheFMqUbbrqiiPGOz6n7jN1Crd)** — Street-interview style Easy Languages Cantonese playlist.
 - **[Guresu (YouTube)](https://www.youtube.com/@Guresu)** — YouTube channel by advanced Cantonese learner Guresu.
 - **[InspirLang — 100 Basic Cantonese Phrases](https://www.youtube.com/watch?v=mt6KJh4UTU4&ab_channel=InspirLang)** — YouTube video listing basic Cantonese phrases.
 - **[InspirLang (YouTube)](https://www.youtube.com/@InspirLang)** — InspirLang Cantonese lessons and playlists on YouTube.
-- **[Manki Cantonese](https://www.youtube.com/@mankicantonese1066/playlists)** — Cantonese teaching playlists on YouTube.
+- **[Manki Cantonese](https://www.youtube.com/@mankicantonese1066)** — Cantonese teaching playlists on YouTube.
 - **[Olly Richards on learning Cantonese](https://www.youtube.com/watch?v=3QRVpNbNzK8&ab_channel=OllyRichards)** — Video discussion on Cantonese learning approach.
 - **[Rhapsody in Lingo (YouTube)](https://www.youtube.com/@RhapsodyinLingo)** — YouTube channel for Rhapsody in Lingo.
-- **[Speaking Cantonese with Miss Winnie](https://www.youtube.com/@bubuwinnie2009)** — YouTube channel for spoken Cantonese with Miss Winnie.
-- **[Uncle Calvin Cantonese Class](https://www.youtube.com/c/UncleCalvin%E5%BB%A3%E6%9D%B1%E8%A9%B1%E6%95%99%E5%AE%A4/playlists)** — Structured Cantonese class playlists (Uncle Calvin 廣東話教室).
+- **[Speaking Cantonese with Miss Winnie](https://www.youtube.com/@winniecantonese)** — YouTube channel for spoken Cantonese with Miss Winnie.
+- **[Uncle Calvin Cantonese Class](https://www.youtube.com/@UncleCalvin)** — Structured Cantonese class playlists (Uncle Calvin 廣東話教室).
 
 <a id="category-podcast"></a>
 ## Podcast
@@ -340,8 +340,7 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 <a id="category-pronunciation"></a>
 ## Pronunciation
 
-- **[Fluent Forever Cantonese pronunciation](https://www.youtube.com/@FluentForeverApp/videos)** — YouTube pronunciation content from Fluent Forever.
-- **[Forvo (Cantonese / Yue)](https://forvo.com/languages/yue/)** — User-contributed pronunciations for Yue/Cantonese words.
+- **[Forvo](https://forvo.com/languages/yue/)** — User-contributed pronunciations for Cantonese words.
 - **[Jyutping chart](https://baggiowonghk.github.io/jyutping-chart)** — Complete Jyutping chart with Chinese word examples, English definitions and recordings.
 - **[Jyutping.org](https://jyutping.org/en/)** — Reference site for Jyutping romanization.
 - **[The Jyutping Tutor](https://sla.talkbank.org/Jyutping/index.html)** — Interactive Jyutping chart organized by syllable.
