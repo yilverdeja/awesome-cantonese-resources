@@ -185,6 +185,11 @@ function ThemeMobileRow({ onSwitch }: { onSwitch?: () => void }) {
 
 export function SiteHeader() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    setMobileOpen(false);
+  }, [pathname]);
 
   return (
     <header className="sticky top-0 z-40 border-b border-border/80 bg-background/80 backdrop-blur-md">
@@ -220,7 +225,6 @@ export function SiteHeader() {
               <div className="mt-4 flex flex-col gap-1 px-3 pb-6">
                 <NavLinks
                   className="flex-col items-stretch"
-                  onNavigate={() => setMobileOpen(false)}
                   variant="mobile"
                 />
                 <Separator className="my-2" />
