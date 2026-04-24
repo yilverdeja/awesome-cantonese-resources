@@ -86,11 +86,10 @@ Pronunciation and romanization, essential dictionaries, gentle video input, and 
 More reading and listening, colloquial graded stories, podcasts, and open tools to mine real Cantonese.
 
 - **[Ham Baang Laang](https://hambaanglaang.hk/)** — Graded readers in colloquial Cantonese with audio and illustrations.
-- **[Storybooks Canada (Cantonese)](https://www.storybookscanada.ca/stories/yue/)** — Free illustrated stories with Cantonese (yue) text and audio.
-- **[Chatty Cantonese](https://www.chattycantonese.com/)** — Conversational Cantonese podcast and site.
-- **[Poetic Cantonese](https://poeticcantonese.com/)** — Podcast site for Poetic Cantonese.
+- **[Storybooks Canada (Cantonese)](https://www.storybookscanada.ca/stories/yue/)** — Free illustrated stories with Cantonese text and audio.
+- **[Chatty Cantonese](https://www.chattycantonese.com/)** — Conversational Cantonese podcast for learners and lovers of the language.
+- **[Poetic Cantonese](https://creators.spotify.com/pod/profile/poetic-cantonese/)** — Podcast site for Poetic Cantonese.
 - **[Canto Big Circle](https://www.youtube.com/@CantoBigCircle)** — YouTube playlists from Canto Big Circle.
-- **[RTHK Hong Kong Stories (documentary)](https://www.youtube.com/watch?v=QFmpVKZlwAA&list=PLuwJy35eAVaK3Ku-iXNXdsfLaJuXuoQjI&index=1&ab_channel=RTHK%E9%A6%99%E6%B8%AF%E9%9B%BB%E5%8F%B0)** — RTHK documentary series about Hong Kong (YouTube playlist).
 - **[JyutDict (GitHub)](https://github.com/aaronhktan/jyut-dict)** — Open-source Cantonese dictionary desktop app project.
 - **[CC-Canto](https://cantonese.org/)** — A fast, free online Cantonese-English dictionary from Pleco.
 - **[SearchCanto](https://searchcanto.com/)** — Search interface for Cantonese dictionary data.
@@ -110,7 +109,7 @@ Grammar references, literary and dubbed immersion, specialized vocabulary, and r
 - **[Jon Chui — D100 read-along demo (Visual Fonts)](https://docs.visual-fonts.com/read-along/D100_7_OT/7_OT.html)** — Sample read-along drama with Jyutping, word glosses, and English lines (D100 collaboration).
 - **[Canto Jar](https://cantojar.com)** — Cantonese song lyrics, breakdowns, and learning posts.
 - **[Jujiso — Cantonese-dubbed shows search](https://www.jujiso.com/vsearch/-------------.html?wd=%E7%B2%A4%E8%AF%AD)** — Streaming index/search for Yue/Cantonese-dubbed anime and shows.
-- **[Cantonese dubs (Google Drive folder)](https://drive.google.com/drive/folders/1XQda3XOcTjlOiAdJeW7HQCxgndz3Bifz)** — Community drive of Cantonese-dubbed media (some with English subs).
+- **[Cantonese dubs (Google Drive folder)](https://drive.google.com/drive/folders/1XQda3XOcTjlOiAdJeW7HQCxgndz3Bifz)** — Community drive of Cantonese-dubbed media.
 - **[Cantonese with soft subtitles / transcript (playlist)](https://www.youtube.com/playlist?list=PLhFsPvkfpCXnWDUSPmA-8xUp7vPz-zCeg)** — YouTube playlist with spoken-form soft subtitles (last updated 2021 per source).
 
 <a id="collection-curated-essential-picks"></a>
@@ -191,7 +190,7 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 
 - **[Baggio Wong (GitHub)](https://github.com/BaggioWongHK?tab=repositories)** — GitHub profile for Baggio Wong (Jyutping chart and Cantolounge tooling).
 - **[Canto Numbers (GitHub)](https://github.com/yilverdeja/canto-numbers)** — Source for the Canto Numbers web app.
-- **[Chinese Worksheet Generator (GitHub)](https://github.com/lucivpav/cwg)** — Source for Chinese Worksheet Generator (cwg).
+- **[Chinese Worksheet Generator (GitHub)](https://github.com/lucivpav/cwg)** — Source for Chinese Worksheet Generator (CWG).
 - **[ChinVocab Canto Sounds DB](https://chinvocab.com/csdb)** — Cantonese sounds database on Chin Vocab.
 - **[ChinVocab HBL Data](https://chinvocab.com/hbl/data/)** — Data related to Ham Baang Laang on Chin Vocab.
 - **[JyutDict (GitHub)](https://github.com/aaronhktan/jyut-dict)** — Open-source Cantonese dictionary desktop app project.
@@ -199,7 +198,7 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 - **[PyCantonese](https://github.com/jacksonllee/pycantonese)** — Python library for Cantonese NLP and corpus work.
 - **[Rime Cantonese](https://github.com/rime/rime-cantonese)** — Rime input schema for Cantonese (Jyutping).
 - **[TalkDimSum (source code)](https://codeberg.org/technicat/talkdimsum)** — Archived source repository for the TalkDimSum project.
-- **[TianZiGeBiShun (GitHub)](https://github.com/bunian/tianzigebishun)** — Source for an2.net worksheet generator.
+- **[TianZiGeBiShun (GitHub)](https://github.com/bunian/tianzigebishun)** — Source for the TianZiGeBiShun Character Worksheet Generator.
 
 <a id="category-creator"></a>
 ## Creator
@@ -264,17 +263,16 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 <a id="category-podcast"></a>
 ## Podcast
 
-- **[Chatty Cantonese](https://www.chattycantonese.com/)** — Conversational Cantonese podcast and site.
+- **[Chatty Cantonese](https://www.chattycantonese.com/)** — Conversational Cantonese podcast for learners and lovers of the language.
 - **[Medical Cantonese & Mandarin (RadioPublic)](https://radiopublic.com/cantonese-and-mandarin-for-medica-8QdNJa)** — RadioPublic feed mirror for Leslie Frank medical terminology audio.
 - **[Medical terminology in Cantonese and Mandarin (Leslie Frank)](https://soundcloud.com/leslie-frank-643243096)** — Audio series for medical terminology in Cantonese and Mandarin.
-- **[Poetic Cantonese](https://poeticcantonese.com/)** — Podcast site for Poetic Cantonese.
+- **[Poetic Cantonese](https://creators.spotify.com/pod/profile/poetic-cantonese/)** — Podcast site for Poetic Cantonese.
 
 <a id="category-tv"></a>
 ## TV
 
-- **[Cantonese dubs (Google Drive folder)](https://drive.google.com/drive/folders/1XQda3XOcTjlOiAdJeW7HQCxgndz3Bifz)** — Community drive of Cantonese-dubbed media (some with English subs).
+- **[Cantonese dubs (Google Drive folder)](https://drive.google.com/drive/folders/1XQda3XOcTjlOiAdJeW7HQCxgndz3Bifz)** — Community drive of Cantonese-dubbed media.
 - **[Crayon Shin-chan Cantonese (channel)](https://www.youtube.com/@yanmo7953/videos)** — YouTube channel with Cantonese-dubbed Crayon Shin-chan content.
-- **[Crayon Shin-chan Cantonese (Colafun)](https://m.colafun.com/362-0-1.html)** — Streaming index for 2019 episodes onward (Colafun).
 - **[Crayon Shin-chan Cantonese (playlist)](https://www.youtube.com/watch?v=20XEZdNudbs&list=PLmpxExHJXorfex3w5r5TgKw5JeISdxPBe&ab_channel=Kahyao27)** — Alternate YouTube playlist for Cantonese Shin-chan.
 - **[Doraemon Cantonese dub (playlist)](https://www.youtube.com/watch?v=Z3mXsz3N18w&list=PL3y5IKECMIjsMNng1eTCLdV_5g00UD7o6&ab_channel=90'sFile)** — YouTube playlist of Doraemon in Cantonese.
 - **[Jujiso — Cantonese-dubbed shows search](https://www.jujiso.com/vsearch/-------------.html?wd=%E7%B2%A4%E8%AF%AD)** — Streaming index/search for Yue/Cantonese-dubbed anime and shows.
@@ -284,9 +282,6 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 - **[Movie Fou 2060 — Stephen Chow films](https://moviefou2060.blogspot.com/search?q=%E5%91%A8%E6%98%9F%E9%A9%B0)** — Blog search index for Stephen Chow movies (Cantonese).
 - **[Old Master Q Cantonese (playlist)](https://www.youtube.com/watch?v=eLZVPPKIRIE&list=PLYsj2iXn4sBzGfvuM5yse-ZmDKBk0xmUh&ab_channel=STORYSTORY)** — YouTube playlist of Old Master Q in Cantonese.
 - **[Peppa Pig Cantonese (playlist)](https://www.youtube.com/watch?v=A-iaNqQNt-Y&list=PLakSiSnj_sRh0XBQ9OOjTfCnGC-7H3Zo9&index=1&ab_channel=MRJM)** — YouTube playlist of Peppa Pig dubbed in Cantonese.
-- **[Professor Panda Says (Cantonese)](https://www.youtube.com/watch?v=2htwBFFgNXg&list=PL_x-hWg1OC9dUm_is65AJ8wiBynPyf0N3&index=1&ab_channel=BaBee%28%E7%88%B8%E7%88%B8%E5%AA%BD%E5%AA%BD%E3%80%81%E5%85%92%E7%AB%A5%E5%A4%A9%E5%9C%B0%29)** — YouTube playlist for 熊猫哥哥说故事 / Professor Panda.
-- **[RTHK Below the Lion Rock (half-hour)](https://www.youtube.com/watch?v=GT-yMa1AdoY&list=PLuwJy35eAVaKfWs6pBoYwFpYUsgMlucHV&index=2&ab_channel=RTHK%E9%A6%99%E6%B8%AF%E9%9B%BB%E5%8F%B0)** — Classic Hong Kong anthology series (YouTube playlist).
-- **[RTHK Hong Kong Stories (documentary)](https://www.youtube.com/watch?v=QFmpVKZlwAA&list=PLuwJy35eAVaK3Ku-iXNXdsfLaJuXuoQjI&index=1&ab_channel=RTHK%E9%A6%99%E6%B8%AF%E9%9B%BB%E5%8F%B0)** — RTHK documentary series about Hong Kong (YouTube playlist).
 
 <a id="category-book"></a>
 ## Book
@@ -306,7 +301,7 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 
 - **[ChinVocab Ham Baang Laang](https://chinvocab.com/hbl/)** — Ham Baang Laang stories with customized learning options & flashcards.
 - **[Ham Baang Laang](https://hambaanglaang.hk/)** — Graded readers in colloquial Cantonese with audio and illustrations.
-- **[Storybooks Canada (Cantonese)](https://www.storybookscanada.ca/stories/yue/)** — Free illustrated stories with Cantonese (yue) text and audio.
+- **[Storybooks Canada (Cantonese)](https://www.storybookscanada.ca/stories/yue/)** — Free illustrated stories with Cantonese text and audio.
 
 <a id="category-dictionary"></a>
 ## Dictionary
@@ -324,18 +319,18 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 <a id="category-tool"></a>
 ## Tool
 
-- **[an2.net Chinese writing worksheets](https://www.an2.net/zi/index_en.php)** — Generate Chinese writing grid worksheets (stroke order).
 - **[canto.hk](https://canto.hk/)** — Canto Font / Cantonese typography and learning tools (Jon Chui).
 - **[Cantonese character practice writing sheets](https://www.cantonesetools.org/en/cantonese-character-practise-writing-sheets)** — Jyutping writing practice sheet generator on cantonesetools.org.
 - **[cantonese.tools](https://www.cantonese.tools/)** — Miscellaneous Cantonese web utilities.
 - **[cantonesetools.org](https://www.cantonesetools.org/)** — Cantonese tools including converters and practice sheets.
 - **[Chin Vocab](https://chinvocab.com/)** — Vocabulary and Cantonese learning tools including linked datasets.
-- **[Chinese Worksheet Generator](http://chineseworksheetgenerator.org/)** — Web tool to generate Chinese practice worksheets.
-- **[CKC Copybook](https://ckc.eduhk.hk/ckccopybook/?lang=en)** — EDUHK copybook / writing practice tool.
+- **[Chinese Worksheet Generator (CWG)](http://chineseworksheetgenerator.org/)** — Web tool to generate Chinese practice worksheets with English definitions.
+- **[CKC Copybook (EDUHK)](https://ckc.eduhk.hk/ckccopybook/?lang=en)** — Allows users to select Chinese characters and phrases to create a handwriting practicing worksheet
 - **[Hong Kong Vision](https://hongkongvision.com/tool/en)** — HK Vision language tools including Cantonese-related utilities.
 - **[MicMonster — Cantonese TTS](https://micmonster.com/text-to-speech/chinese-cantonese-traditional/)** — Online text-to-speech with Cantonese (Traditional) — limited free length.
 - **[Online Cantonese input method](https://www.cantoneseinput.com/?lang=en)** — Web-based Cantonese romanization / input helper.
 - **[Speech Notes — Yue dictation](https://speechnotes.co/dictate/)** — SpeechNotes dictation with Cantonese (yue) option.
+- **[TianZiGeBiShun Character Worksheet Generator](https://www.an2.net/zi/index_en.php)** — Generate Chinese writing grid worksheets (stroke order).
 
 <a id="category-pronunciation"></a>
 ## Pronunciation
@@ -352,6 +347,7 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 - **[HKU SPACE — Chinese leisure courses](https://hkuspace.hku.hk/humanities-languages-law/chinese?m=pt&short_course_type[]=leisure-and-cultural&interest[]=100160&sort=m&order=asc&page=2)** — HKU School of Professional and Continuing Education Chinese short courses.
 - **[HKU SPACE — SCOLAR VCL for NCS school leavers](https://hkuspace.hku.hk/collection/foundation-certificate-in-vcl-for-ncs-school-leavers/course/)** — HKU SPACE foundation / vocational listening, speaking, literacy tracks under SCOLAR VCL (per source).
 - **[HKUST CLE — language courses](https://cle.hkust.edu.hk/courses/other)** — HKUST Center for Language Education other language/culture courses.
+- **[Poetic Cantonese Academy](https://poeticcantonese.com/)** — Learn Cantonese with Kahei Lee (Poetic Cantonese).
 - **[PolyU CLC — Chinese for NCS students](https://www.polyu.edu.hk/clc/study/subjects/chinese-subjects-for-non-chinese-speaking-students/)** — PolyU Chinese subjects for non-Chinese speaking students (includes Cantonese options).
 - **[Practical Mandarin — Cantonese](https://www.practicalmandarin.com/index.php?m=content&c=index&a=lists&catid=42)** — Hong Kong training centre offering Cantonese classes.
 - **[Q Language — Learn Cantonese](https://www.qlanguage.com.hk/chinese-courses/learn-cantonese/)** — Private language school Cantonese courses in Hong Kong.
@@ -427,7 +423,7 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 ## List
 
 - **[Bilibili — Cantonese lyrics section (list)](https://space.bilibili.com/454869715/lists/102883?type=season)** — Season/list of Cantonese lyrics videos on the creator's Bilibili space.
-- **[Cantonese anime list (Firefly Anime)](https://fireflyanime.blogspot.com/p/cantonese-anime.html?m=1)** — Blog list of anime available with Cantonese dubs.
+- **[Cantonese anime list (Firefly Anime)](https://fireflyanime.blogspot.com/)** — Blog list of anime available with Cantonese dubs.
 - **[Cantonese Captions index (Google Sheets)](https://docs.google.com/spreadsheets/d/1CmN8GPalrb45YFIPrWgh7GRYyoUhnizEOImY6kAW82w/edit#gid=396865486)** — Spreadsheet index linked from Cantonese Captions project.
 - **[DubDB — British Hong Kong dubs](https://dubdb.fandom.com/wiki/Category:British_Hong_Kong_dubs)** — Fandom wiki category for British Hong Kong era dubs.
 - **[DubDB — Cantonese-language dubs](https://dubdb.fandom.com/wiki/Category:Cantonese-language_dubs)** — Fandom wiki category indexing Cantonese dubs.
