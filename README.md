@@ -101,14 +101,13 @@ More reading and listening, colloquial graded stories, podcasts, and open tools 
 Grammar references, literary and dubbed immersion, specialized vocabulary, and rich annotated media.
 
 - **[Cantonese: A Comprehensive Grammar — multimedia](https://www.cuhk.edu.hk/lin/cbrc/CantoneseGrammar/)** — CUHK multimedia materials for the 2nd edition grammar reference.
-- **[Basic Cantonese Grammar (PDF)](https://drive.google.com/file/d/1X7C4-rkug4m_K9H2KTu2PV-Ow67k2YST/view)** — Community-shared PDF of Basic Cantonese Grammar (verify copyright).
+- **[Basic Cantonese Grammar (PDF)](https://drive.google.com/file/d/1X7C4-rkug4m_K9H2KTu2PV-Ow67k2YST/view)** — Community-shared PDF of the Basic Cantonese Grammar Workbook.
 - **[CantoLounge grammar series (Wayback)](https://web.archive.org/web/20221030021248/https://cantolounge.com/cantonese-grammar-series/)** — Archived Cantolounge Cantonese grammar article series.
-- **[Cantonese Wiki — Writing](https://cantonese.wiki/)** — Community wiki documenting written Cantonese.
 - **[Medical terminology in Cantonese and Mandarin (Leslie Frank)](https://soundcloud.com/leslie-frank-643243096)** — Audio series for medical terminology in Cantonese and Mandarin.
 - **[canto.hk](https://canto.hk/)** — Canto Font / Cantonese typography and learning tools (Jon Chui).
 - **[Jon Chui — D100 read-along demo (Visual Fonts)](https://docs.visual-fonts.com/read-along/D100_7_OT/7_OT.html)** — Sample read-along drama with Jyutping, word glosses, and English lines (D100 collaboration).
 - **[Canto Jar](https://cantojar.com)** — Cantonese song lyrics, breakdowns, and learning posts.
-- **[Jujiso — Cantonese-dubbed shows search](https://www.jujiso.com/vsearch/-------------.html?wd=%E7%B2%A4%E8%AF%AD)** — Streaming index/search for Yue/Cantonese-dubbed anime and shows.
+- **[Jujiso — Cantonese-dubbed shows search](https://www.ep234.com/vsearch/-------------.html?wd=%E7%B2%A4%E8%AF%AD)** — Streaming index/search for Yue/Cantonese-dubbed anime and shows.
 - **[Cantonese dubs (Google Drive folder)](https://drive.google.com/drive/folders/1XQda3XOcTjlOiAdJeW7HQCxgndz3Bifz)** — Community drive of Cantonese-dubbed media.
 - **[Cantonese with soft subtitles / transcript (playlist)](https://www.youtube.com/playlist?list=PLhFsPvkfpCXnWDUSPmA-8xUp7vPz-zCeg)** — YouTube playlist with spoken-form soft subtitles (last updated 2021 per source).
 
@@ -132,12 +131,11 @@ A short list of especially helpful reference tools and learning resources that m
 Universities, private centres, and SCOLAR-funded vocational programmes for learners in or moving to Hong Kong.
 
 - **[Yale-China Chinese Language Centre (CUHK)](https://www.ycclc.cuhk.edu.hk/)** — CUHK Chinese Language Centre courses (Yale-China CLC).
-- **[PolyU CLC — Chinese for NCS students](https://www.polyu.edu.hk/clc/study/subjects/chinese-subjects-for-non-chinese-speaking-students/)** — PolyU Chinese subjects for non-Chinese speaking students (includes Cantonese options).
-- **[HKUST CLE — language courses](https://cle.hkust.edu.hk/courses/other)** — HKUST Center for Language Education other language/culture courses.
-- **[HKU SPACE — Chinese leisure courses](https://hkuspace.hku.hk/humanities-languages-law/chinese?m=pt&short_course_type[]=leisure-and-cultural&interest[]=100160&sort=m&order=asc&page=2)** — HKU School of Professional and Continuing Education Chinese short courses.
+- **[PolyU CLC — Chinese for NCS students](https://www.polyu.edu.hk/clc/subjects/chinese-subjects-for-non-chinese-speaking-students/?sc_lang=en)** — PolyU Chinese subjects for non-Chinese speaking students (includes Cantonese options).
+- **[HKUST CLE — Cantonese Elective Courses](https://cle.hkust.edu.hk/courses/other)** — Cantonese Elective Courses offered by HKUST Center for Language Education.
 - **[HKU Chinese Language Centre](https://www.clc.hku.hk/)** — HKU CLC Chinese and Cantonese programmes.
 - **[Q Language — Learn Cantonese](https://www.qlanguage.com.hk/chinese-courses/learn-cantonese/)** — Private language school Cantonese courses in Hong Kong.
-- **[Practical Mandarin — Cantonese](https://www.practicalmandarin.com/index.php?m=content&c=index&a=lists&catid=42)** — Hong Kong training centre offering Cantonese classes.
+- **[Practical Mandarin — Cantonese](https://www.practicalmandarin.com/)** — Hong Kong training centre offering Cantonese classes.
 - **[SCOLAR Vocational Chinese for NCS School Leavers (program page)](https://scolarhk.edb.hkedcity.net/en/promotion_of_languages/promotion-of-languages-program.php?id=267)** — Vocational Chinese Language Programme for NCS school leavers — overview; up to 85% tuition reimbursement may apply.
 - **[Yale-China CLA — SCOLAR vocational Chinese (CUHK)](https://yccla.cuhk.edu.hk/scolar-can)** — Yale-China Chinese Language Centre SCOLAR-funded vocational courses (Elementary I–II, Intermediate I–II per source).
 - **[HKU SPACE — SCOLAR VCL for NCS school leavers](https://hkuspace.hku.hk/collection/foundation-certificate-in-vcl-for-ncs-school-leavers/course/)** — HKU SPACE foundation / vocational listening, speaking, literacy tracks under SCOLAR VCL (per source).
@@ -215,26 +213,22 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 - **[Instagram — @catlikestudiobooks](https://www.instagram.com/catlikestudiobooks/)** — Cantonese / Chinese children’s books studio.
 - **[Instagram — @chattycantonese](https://www.instagram.com/chattycantonese/)** — Instagram presence for Chatty Cantonese podcast.
 - **[Instagram — @dope.cantonese](https://www.instagram.com/dope.cantonese/)** — Cantonese slang and learning content.
-- **[Instagram — @eighteenstrokes](https://www.instagram.com/eighteenstrokes/)** — Chinese / Cantonese writing and stroke learning content.
 - **[Instagram — @gabgabcantonese](https://www.instagram.com/gabgabcantonese/)** — Conversational Cantonese content.
 - **[Instagram — @gp.cantonese](https://www.instagram.com/gp.cantonese/)** — Cantonese learning posts.
 - **[Instagram — @hambaanglaang](https://www.instagram.com/hambaanglaang/)** — Official Ham Baang Laang Instagram.
 - **[Instagram — @hongkong.english.record](https://www.instagram.com/hongkong.english.record/)** — Hong Kong English/Cantonese language content.
 - **[Instagram — @jyuttoi_cantonese](https://www.instagram.com/jyuttoi_cantonese/)** — Jyutping / Cantonese learning reels and posts.
-- **[Instagram — @kebbeth](https://www.instagram.com/kebbeth/)** — Cantonese learning creator.
 - **[Instagram — @kingkongcantonese](https://www.instagram.com/kingkongcantonese/)** — Cantonese learning channel on Instagram.
-- **[Instagram — @mslinchinese](https://www.instagram.com/mslinchinese/)** — Chinese/Cantonese teaching content.
+- **[Instagram — @mslincantonese](https://www.instagram.com/mslincantonese/)** — Chinese/Cantonese teaching content.
 - **[Instagram — @open_cant](https://www.instagram.com/opencant/)** — Open Cantonese–focused Instagram content.
 - **[Instagram — @poeticcantonese](https://www.instagram.com/poeticcantonese/)** — Poetic Cantonese podcast Instagram.
 - **[Instagram — @sik6dak1.cantonese](https://www.instagram.com/sik6dak1.cantonese/)** — Cantonese learning reels.
 - **[Instagram — @sketchykarr](https://www.instagram.com/sketchykarr/)** — Cantonese / HK culture sketches and language.
 - **[Instagram — @tan.cantonese.studio](https://www.instagram.com/tan.cantonese.studio/)** — Tan Cantonese audio / studio content (handle per source list).
 - **[Instagram — @tan90_cantoculture](https://www.instagram.com/tan90_cantoculture/)** — Cantonese culture posts.
-- **[Instagram — @translation_bay](https://www.instagram.com/translation_bay/)** — Translation and Cantonese language notes.
 - **[Instagram — @twin.voices.chinese](https://www.instagram.com/twin.voices.chinese/)** — Cantonese / Chinese learning content on Instagram (from community list).
 - **[Instagram — @winniecantonese](https://www.instagram.com/winniecantonese/)** — Instagram for Miss Winnie Cantonese content.
 - **[Keith Hon (GitHub)](https://github.com/Keith-Hon)** — Developer behind cantonese.ai tooling.
-- **[u/keithhon (Reddit)](https://www.reddit.com/user/keithhon/)** — Keith Hon Reddit profile.
 
 <a id="category-videochannel"></a>
 ## Video Channel
@@ -251,12 +245,10 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 - **[Christian Tapper — Cantonese learning](https://www.youtube.com/watch?v=7dZBqA1XkRI&ab_channel=ChristianTapper)** — YouTube video on Cantonese learning; links to literacy blog.
 - **[Comprehensible Cantonese](https://www.youtube.com/@comprehensiblecantonese)** — Comprehensible-input style Cantonese videos.
 - **[Easy Cantonese (playlist)](https://www.youtube.com/playlist?list=PLA5UIoabheFMqUbbrqiiPGOz6n7jN1Crd)** — Street-interview style Easy Languages Cantonese playlist.
-- **[Guresu (YouTube)](https://www.youtube.com/@Guresu)** — YouTube channel by advanced Cantonese learner Guresu.
 - **[InspirLang — 100 Basic Cantonese Phrases](https://www.youtube.com/watch?v=mt6KJh4UTU4&ab_channel=InspirLang)** — YouTube video listing basic Cantonese phrases.
 - **[InspirLang (YouTube)](https://www.youtube.com/@InspirLang)** — InspirLang Cantonese lessons and playlists on YouTube.
 - **[Manki Cantonese](https://www.youtube.com/@mankicantonese1066)** — Cantonese teaching playlists on YouTube.
 - **[Olly Richards on learning Cantonese](https://www.youtube.com/watch?v=3QRVpNbNzK8&ab_channel=OllyRichards)** — Video discussion on Cantonese learning approach.
-- **[Rhapsody in Lingo (YouTube)](https://www.youtube.com/@RhapsodyinLingo)** — YouTube channel for Rhapsody in Lingo.
 - **[Speaking Cantonese with Miss Winnie](https://www.youtube.com/@winniecantonese)** — YouTube channel for spoken Cantonese with Miss Winnie.
 - **[Uncle Calvin Cantonese Class](https://www.youtube.com/@UncleCalvin)** — Structured Cantonese class playlists (Uncle Calvin 廣東話教室).
 
@@ -264,7 +256,6 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 ## Podcast
 
 - **[Chatty Cantonese](https://www.chattycantonese.com/)** — Conversational Cantonese podcast for learners and lovers of the language.
-- **[Medical Cantonese & Mandarin (RadioPublic)](https://radiopublic.com/cantonese-and-mandarin-for-medica-8QdNJa)** — RadioPublic feed mirror for Leslie Frank medical terminology audio.
 - **[Medical terminology in Cantonese and Mandarin (Leslie Frank)](https://soundcloud.com/leslie-frank-643243096)** — Audio series for medical terminology in Cantonese and Mandarin.
 - **[Poetic Cantonese](https://creators.spotify.com/pod/profile/poetic-cantonese/)** — Podcast site for Poetic Cantonese.
 
@@ -275,11 +266,8 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 - **[Crayon Shin-chan Cantonese (channel)](https://www.youtube.com/@yanmo7953/videos)** — YouTube channel with Cantonese-dubbed Crayon Shin-chan content.
 - **[Crayon Shin-chan Cantonese (playlist)](https://www.youtube.com/watch?v=20XEZdNudbs&list=PLmpxExHJXorfex3w5r5TgKw5JeISdxPBe&ab_channel=Kahyao27)** — Alternate YouTube playlist for Cantonese Shin-chan.
 - **[Doraemon Cantonese dub (playlist)](https://www.youtube.com/watch?v=Z3mXsz3N18w&list=PL3y5IKECMIjsMNng1eTCLdV_5g00UD7o6&ab_channel=90'sFile)** — YouTube playlist of Doraemon in Cantonese.
-- **[Jujiso — Cantonese-dubbed shows search](https://www.jujiso.com/vsearch/-------------.html?wd=%E7%B2%A4%E8%AF%AD)** — Streaming index/search for Yue/Cantonese-dubbed anime and shows.
+- **[Jujiso — Cantonese-dubbed shows search](https://www.ep234.com/vsearch/-------------.html?wd=%E7%B2%A4%E8%AF%AD)** — Streaming index/search for Yue/Cantonese-dubbed anime and shows.
 - **[McDull Cantonese (playlist)](https://www.youtube.com/watch?v=6it8pfzp880&list=PLTpONarNIXVTLlEuOhw4m6saf7p0e2gaN&ab_channel=%E9%BA%A5%E5%85%9CMcdull)** — YouTube playlist of McDull in Cantonese.
-- **[Movie Fou 2060 — Dr. Stone (Cantonese)](https://moviefou2060.blogspot.com/2022/10/drstone1-25.html)** — Blog post index for Dr. Stone Cantonese dub.
-- **[Movie Fou 2060 — Dragon Ball Z (Cantonese)](https://moviefou2060.blogspot.com/2020/10/1.html?m=1)** — Blog post index for DBZ Cantonese dub.
-- **[Movie Fou 2060 — Stephen Chow films](https://moviefou2060.blogspot.com/search?q=%E5%91%A8%E6%98%9F%E9%A9%B0)** — Blog search index for Stephen Chow movies (Cantonese).
 - **[Old Master Q Cantonese (playlist)](https://www.youtube.com/watch?v=eLZVPPKIRIE&list=PLYsj2iXn4sBzGfvuM5yse-ZmDKBk0xmUh&ab_channel=STORYSTORY)** — YouTube playlist of Old Master Q in Cantonese.
 - **[Peppa Pig Cantonese (playlist)](https://www.youtube.com/watch?v=A-iaNqQNt-Y&list=PLakSiSnj_sRh0XBQ9OOjTfCnGC-7H3Zo9&index=1&ab_channel=MRJM)** — YouTube playlist of Peppa Pig dubbed in Cantonese.
 
@@ -290,8 +278,8 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 - **[Cantonese in Communication — Book 2 audio](http://publish.commercialpress.com.hk/misc/Cantonese_2/)** — Listening and speaking course: Book 2 companion audio.
 - **[Cantonese in Communication — Book 3 audio](http://publish.commercialpress.com.hk/misc/cantonese3/index.html)** — Listening and speaking course: Book 3 companion audio.
 - **[Cantonese: A Comprehensive Grammar — multimedia](https://www.cuhk.edu.hk/lin/cbrc/CantoneseGrammar/)** — CUHK multimedia materials for the 2nd edition grammar reference.
-- **[Teach Yourself — Complete Cantonese audio (Hodder)](https://library.teachyourself.com/id004325095/Complete-Cantonese)** — Official audio companion for Complete Cantonese (Teach Yourself).
-- **[Teach Yourself Cantonese (Internet Archive)](https://archive.org/details/TeachYourselfCantonese)** — Archived Teach Yourself Cantonese book (check legality in your region).
+- **[Teach Yourself — Complete Cantonese audio](https://library.teachyourself.com/id004325095/Complete-Cantonese)** — Official audio companion for Complete Cantonese.
+- **[Teach Yourself Cantonese (Internet Archive)](https://archive.org/details/TeachYourselfCantonese)** — Archived Teach Yourself Cantonese book.
 - **[粵語速成 — Advanced audio](http://publish.commercialpress.com.hk/misc/YYSCGJJC/index.html)** — Commercial Press 粵語速成 series: advanced audio materials.
 - **[粵語速成 — Elementary audio](http://publish.commercialpress.com.hk/misc/YYSCCJJC/)** — Commercial Press 粵語速成 series: elementary audio materials.
 - **[粵語速成 — Intermediate audio](http://publish.commercialpress.com.hk/misc/YYSCZJJC/index.html)** — Commercial Press 粵語速成 series: intermediate audio materials.
@@ -320,14 +308,12 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 ## Tool
 
 - **[canto.hk](https://canto.hk/)** — Canto Font / Cantonese typography and learning tools (Jon Chui).
-- **[Cantonese character practice writing sheets](https://www.cantonesetools.org/en/cantonese-character-practise-writing-sheets)** — Jyutping writing practice sheet generator on cantonesetools.org.
 - **[cantonese.tools](https://www.cantonese.tools/)** — Miscellaneous Cantonese web utilities.
 - **[cantonesetools.org](https://www.cantonesetools.org/)** — Cantonese tools including converters and practice sheets.
 - **[Chin Vocab](https://chinvocab.com/)** — Vocabulary and Cantonese learning tools including linked datasets.
 - **[Chinese Worksheet Generator (CWG)](http://chineseworksheetgenerator.org/)** — Web tool to generate Chinese practice worksheets with English definitions.
 - **[CKC Copybook (EDUHK)](https://ckc.eduhk.hk/ckccopybook/?lang=en)** — Allows users to select Chinese characters and phrases to create a handwriting practicing worksheet
 - **[Hong Kong Vision](https://hongkongvision.com/tool/en)** — HK Vision language tools including Cantonese-related utilities.
-- **[MicMonster — Cantonese TTS](https://micmonster.com/text-to-speech/chinese-cantonese-traditional/)** — Online text-to-speech with Cantonese (Traditional) — limited free length.
 - **[Online Cantonese input method](https://www.cantoneseinput.com/?lang=en)** — Web-based Cantonese romanization / input helper.
 - **[Speech Notes — Yue dictation](https://speechnotes.co/dictate/)** — SpeechNotes dictation with Cantonese (yue) option.
 - **[TianZiGeBiShun Character Worksheet Generator](https://www.an2.net/zi/index_en.php)** — Generate Chinese writing grid worksheets (stroke order).
@@ -344,12 +330,15 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 ## Course
 
 - **[HKU Chinese Language Centre](https://www.clc.hku.hk/)** — HKU CLC Chinese and Cantonese programmes.
-- **[HKU SPACE — Chinese leisure courses](https://hkuspace.hku.hk/humanities-languages-law/chinese?m=pt&short_course_type[]=leisure-and-cultural&interest[]=100160&sort=m&order=asc&page=2)** — HKU School of Professional and Continuing Education Chinese short courses.
 - **[HKU SPACE — SCOLAR VCL for NCS school leavers](https://hkuspace.hku.hk/collection/foundation-certificate-in-vcl-for-ncs-school-leavers/course/)** — HKU SPACE foundation / vocational listening, speaking, literacy tracks under SCOLAR VCL (per source).
-- **[HKUST CLE — language courses](https://cle.hkust.edu.hk/courses/other)** — HKUST Center for Language Education other language/culture courses.
+- **[HKU Space Advanced Cantonese 1](https://hkuspace.hku.hk/prog/adv-cantonese-1-for-non-chinese-speakers)** — 50-hour course aims to advance proficiency in listening and speaking, while also covering cultural nuances and advanced grammar.
+- **[HKU Space Intermediate Cantonese](https://hkuspace.hku.hk/prog/int-cantonese-for-non-chinese-speakers)** — 50-hour course that focuses on developing the ability to hold longer conversations about daily life and habits.
+- **[HKU Space Introductory Cantonese](https://hkuspace.hku.hk/prog/introductory-cantonese-for-non-chinese-speakers)** — 50-hour course focusing on daily life needs, speaking in full sentences and describing events.
+- **[HKUST CLE — Cantonese Elective Courses](https://cle.hkust.edu.hk/courses/other)** — Cantonese Elective Courses offered by HKUST Center for Language Education.
+- **[Learning Cantonese with Fun](https://www.polyu.edu.hk/sao/student-development-section/holistic-student-development/extra-curricular-enrichment-for-lifelong-learners-excell-programme/course-contents/learning-cantonese-with-fun-for-english-speaking-students/)** — Cantonese song lyrics, breakdowns, and learning posts.
 - **[Poetic Cantonese Academy](https://poeticcantonese.com/)** — Learn Cantonese with Kahei Lee (Poetic Cantonese).
-- **[PolyU CLC — Chinese for NCS students](https://www.polyu.edu.hk/clc/study/subjects/chinese-subjects-for-non-chinese-speaking-students/)** — PolyU Chinese subjects for non-Chinese speaking students (includes Cantonese options).
-- **[Practical Mandarin — Cantonese](https://www.practicalmandarin.com/index.php?m=content&c=index&a=lists&catid=42)** — Hong Kong training centre offering Cantonese classes.
+- **[PolyU CLC — Chinese for NCS students](https://www.polyu.edu.hk/clc/subjects/chinese-subjects-for-non-chinese-speaking-students/?sc_lang=en)** — PolyU Chinese subjects for non-Chinese speaking students (includes Cantonese options).
+- **[Practical Mandarin — Cantonese](https://www.practicalmandarin.com/)** — Hong Kong training centre offering Cantonese classes.
 - **[Q Language — Learn Cantonese](https://www.qlanguage.com.hk/chinese-courses/learn-cantonese/)** — Private language school Cantonese courses in Hong Kong.
 - **[SCOLAR Vocational Chinese for NCS School Leavers (program page)](https://scolarhk.edb.hkedcity.net/en/promotion_of_languages/promotion-of-languages-program.php?id=267)** — Vocational Chinese Language Programme for NCS school leavers — overview; up to 85% tuition reimbursement may apply.
 - **[Yale-China Chinese Language Centre (CUHK)](https://www.ycclc.cuhk.edu.hk/)** — CUHK Chinese Language Centre courses (Yale-China CLC).
@@ -367,16 +356,13 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 - **[Language Crush — Cantonese Conversations](https://languagecrush.com/reading/course/258)** — Reading course with Cantonese conversations (free with sign-up).
 - **[LingQ — Mini Stories (Cantonese)](https://www.lingq.com/en/learn-cantonese-online/courses/432593/)** — Mini Stories course for Cantonese on LingQ (free with sign-up per source list).
 - **[Mango Languages — Cantonese](https://mangolanguages.com/available-languages/cantonese-chinese/)** — Library-subscription language course including Cantonese Chinese.
-- **[Pimsleur Cantonese (Internet Archive mirror)](https://ia801507.us.archive.org/view_archive.php?archive=/16/items/pimsleur-complete-collection/Pimsleur%20Complete%20Collection.zip)** — Archived Pimsleur collection zip (verify licensing; often available via libraries).
-- **[Rhapsody in Lingo](https://rhapsodyinlingo.com)** — Cantonese learning site with blog-style lessons.
 
 <a id="category-reference"></a>
 ## Reference
 
 - **[Animal Farm — Cantonese text](https://www.cantonese.com.hk/animalfarm/text/)** — Animal Farm in Cantonese on cantonese.com.hk.
-- **[Basic Cantonese Grammar (PDF)](https://drive.google.com/file/d/1X7C4-rkug4m_K9H2KTu2PV-Ow67k2YST/view)** — Community-shared PDF of Basic Cantonese Grammar (verify copyright).
+- **[Basic Cantonese Grammar (PDF)](https://drive.google.com/file/d/1X7C4-rkug4m_K9H2KTu2PV-Ow67k2YST/view)** — Community-shared PDF of the Basic Cantonese Grammar Workbook.
 - **[CantoLounge grammar series (Wayback)](https://web.archive.org/web/20221030021248/https://cantolounge.com/cantonese-grammar-series/)** — Archived Cantolounge Cantonese grammar article series.
-- **[Cantonese Wiki — Writing](https://cantonese.wiki/)** — Community wiki documenting written Cantonese.
 - **[cantonese.com.hk — book texts](https://www.cantonese.com.hk/)** — Cantonese book texts and parallel readings hosted on cantonese.com.hk.
 - **[Hong Kong Cantonese Articulation Test (DH)](https://www.dhcas.gov.hk/en/cat.html)** — Government information on the Cantonese articulation test.
 - **[Jon Chui — D100 read-along demo (Visual Fonts)](https://docs.visual-fonts.com/read-along/D100_7_OT/7_OT.html)** — Sample read-along drama with Jyutping, word glosses, and English lines (D100 collaboration).
@@ -394,25 +380,22 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 <a id="category-blog"></a>
 ## Blog
 
-- **[Bilibili — Cantonese tones and melody (article)](https://www.bilibili.com/opus/547903768164578795)** — Article (Chinese) on how Cantonese tones interact with melody.
 - **[Language Obsession — Cantonese final particles](https://language-obsession.tumblr.com/post/130229966778/cantonese-final-particles)** — Tumblr overview of sentence-final particles.
 - **[Language Obsession — Cantonese in 300 words](https://language-obsession.tumblr.com/post/123280737040/cantonese-in-300-words)** — Tumblr post: high-frequency Cantonese word overview.
 - **[Language Obsession — Cantonese music masterpost](https://language-obsession.tumblr.com/post/139442935221/cantonese-music-masterpost)** — Tumblr masterpost linking Cantonese music learning resources.
 - **[Language Obsession — Cantonese number expressions](https://language-obsession.tumblr.com/post/132485641665/cantonese-number-expressions)** — Tumblr note on Cantonese numerals and classifiers.
 - **[Language Obsession — Cantonese verbal aspect](https://language-obsession.tumblr.com/post/144711402296/cantonese-verbal-aspect)** — Tumblr grammar note on verbal aspect in Cantonese.
 - **[Language Obsession — negation in Cantonese](https://language-obsession.tumblr.com/post/153828690118/negation-in-cantonese)** — Tumblr note on negation patterns.
-- **[Language Obsession — spoken to written characters (image)](https://64.media.tumblr.com/0a116b5cc2eb8df6ce0e102d67555ba0/tumblr_nqde9dH7MZ1trelico1_r3_640.png)** — Image post mapping spoken Cantonese to written Chinese forms.
-- **[Language Obsession (Tumblr)](https://language-obsession.tumblr.com/)** — Tumblr masterposts on Cantonese grammar, particles, and music.
+- **[Language Obsession — spoken to written characters](https://language-obsession.tumblr.com/post/122208994995/spoken-cantonese-vs-written-chinese-essentially)** — Image post mapping spoken Cantonese to written Chinese forms.
 - **[Lingtuitive — smartest way to learn to read/write Chinese](https://lingtuitive.com/blog/the-smartest-way-to-learn-to-read-write-chinese)** — Blog post linked from Christian Tapper on Chinese literacy strategies.
 - **[Movie Fou 2060 (Blogspot)](https://moviefou2060.blogspot.com/)** — Blog indexing Cantonese-dubbed series and movies.
-- **[Sweet Note — Cantonese storybooks on YouTube](https://sweetnotelearning.com/2021/02/26/cantonese-storybooks-on-youtube/)** — Blog post curating Cantonese storybook channels on YouTube.
+- **[Sweet Note Learning](https://sweetnotelearning.com)** — Making Cantonese Chinese learning accessible to families and kids everywhere.
 
 <a id="category-music"></a>
 ## Music
 
 - **[0243.hk](https://www.0243.hk/)** — A tool dedicated to Cantonese lyric writing based on the '0243' method that matches tonal pitch to musical notes.
 - **[Canto Jar](https://cantojar.com)** — Cantonese song lyrics, breakdowns, and learning posts.
-- **[Canto Jar — Terence Lam “Magical Medicine” transcription](https://cantojar.com/cantonese-songs-magical-medicine-by-terence-lam-ka-him-%E7%A5%9E%E5%A5%87%E7%9A%84%E7%B3%8A%E5%A1%8C%E9%AD%94%E8%97%A5-%E6%9E%97%E5%AE%B6%E8%AC%99/)** — Line-by-line Cantonese lyric transcription and notes.
 
 <a id="category-languageexchange"></a>
 ## Language Exchange
