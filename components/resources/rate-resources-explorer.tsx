@@ -285,7 +285,11 @@ export function RateResourcesExplorer({
                   Filters
                 </Button>
               </SheetTrigger>
-              <SheetContent side="left" className="data-[side=left]:w-80 gap-0 p-0">
+              <SheetContent
+                side="left"
+                disableAutoFocus
+                className="data-[side=left]:w-80 gap-0 p-0"
+              >
                 <SheetHeader className="px-5 pt-5 pb-4">
                   <SheetTitle>Filters</SheetTitle>
                   <p className="text-sm text-muted-foreground">
