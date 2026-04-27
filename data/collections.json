@@ -8,15 +8,14 @@
     "order": 1,
     "resource_ids": [
       "jyutping-org",
-      "jyutping-chart-syllables-talkbank",
-      "forvo-yue",
-      "inject-jyutping",
       "pleco",
       "words-hk",
-      "youtube-comprehensible-cantonese",
-      "cuhk-cantonese-elementary-lessons",
       "ham-baang-laang",
-      "cantone-app"
+      "forvo-yue",
+      "podcast-poetic-cantonese",
+      "youtube-brittany-chan",
+      "youtube-cantoneseclass101",
+      "cuhk-cantonese-elementary-lessons"
     ]
   },
   {
@@ -29,13 +28,11 @@
     "resource_ids": [
       "ham-baang-laang",
       "storybooks-canada-yue",
-      "podcast-chatty-cantonese",
-      "podcast-poetic-cantonese",
-      "youtube-canto-big-circle",
-      "jyutdict",
-      "cc-canto",
-      "searchcanto",
-      "language-crush-cantonese-conversations"
+      "inject-jyutping",
+      "cuhk-cantonese-intermediate-lessons",
+      "book-cantonese-in-communication-audio-2",
+      "book-cantonese-comprehensive-grammar-multimedia",
+      "ref-basic-cantonese-grammar-pdf"
     ]
   },
   {
@@ -46,15 +43,9 @@
     "target_level": "Advanced",
     "order": 3,
     "resource_ids": [
+      "podcast-chatty-cantonese",
       "book-cantonese-comprehensive-grammar-multimedia",
-      "ref-basic-cantonese-grammar-pdf",
-      "ref-cantolounge-grammar-archive",
-      "podcast-leslie-frank-medical-soundcloud",
-      "site-canto-hk",
-      "ref-jon-chui-d100-read-along-sample",
-      "music-canto-jar",
-      "streaming-jujiso",
-      "tv-cantonese-dubs-google-drive",
+      "youtube-easy-cantonese",
       "youtube-cantonese-soft-subtitles-playlist"
     ]
   },
@@ -66,14 +57,11 @@
     "target_level": "All Levels",
     "order": 5,
     "resource_ids": [
-      "pleco",
-      "ham-baang-laang",
-      "words-hk",
       "jyutping-org",
+      "pleco",
+      "words-hk",
       "inject-jyutping",
-      "forvo-yue",
-      "jyutdict",
-      "cantone-app"
+      "ham-baang-laang"
     ]
   },
   {
@@ -86,14 +74,8 @@
     "resource_ids": [
       "course-yale-cuhk-clc",
       "course-polyu-clc-ncs",
-      "course-hkust-cle",
       "course-hku-clc",
-      "institution-q-language-cantonese",
-      "institution-practical-mandarin-cantonese",
-      "scolar-vcl-ncs-program",
-      "course-yale-china-cla-scolar-vcl",
-      "course-hkuspace-scolar-vcl-ncs",
-      "course-ymca-coc-scolar-vcl"
+      "scolar-vcl-ncs-program"
     ]
   }
 ]
