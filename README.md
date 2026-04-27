@@ -70,15 +70,14 @@ The README section between the markers below is **generated**. Edit the JSON (or
 Pronunciation and romanization, essential dictionaries, gentle video input, and a first graded reader — a small coherent path for day one.
 
 - **[Jyutping.org](https://jyutping.org/en/)** — Reference site for Jyutping romanization.
-- **[The Jyutping Tutor](https://sla.talkbank.org/Jyutping/index.html)** — Interactive Jyutping chart organized by syllable.
-- **[Forvo](https://forvo.com/languages/yue/)** — User-contributed pronunciations for Cantonese words.
-- **[Inject Jyutping](https://chromewebstore.google.com/detail/inject-jyutping/lfgpgjkjglogbndlkikjgbbfoiofbdjp?pli=1)** — Chrome extension to show Jyutping on Chinese web pages.
 - **[Pleco](https://www.pleco.com/)** — Major Chinese dictionary app with Cantonese add-ons (Jyutping, audio).
 - **[Words HK](https://words.hk/)** — Community Cantonese–English dictionary.
-- **[Comprehensible Cantonese](https://www.youtube.com/@comprehensiblecantonese)** — Comprehensible-input style Cantonese videos.
-- **[CUHK ILC — Elementary Cantonese lessons](https://www.ilc.cuhk.edu.hk/workshop/chinese/cantonese/onlinetutorial/courseListA.aspx#pgContent)** — CUHK self-study workshop: elementary Cantonese online tutorials.
 - **[Ham Baang Laang](https://hambaanglaang.hk/)** — Graded readers in colloquial Cantonese with audio and illustrations.
-- **[Cantone (Android)](https://play.google.com/store/apps/details?id=com.cantone.cantone&hl=en&gl=US)** — Android app for Cantonese learning.
+- **[Forvo](https://forvo.com/languages/yue/)** — User-contributed pronunciations for Cantonese words.
+- **[Poetic Cantonese](https://creators.spotify.com/pod/profile/poetic-cantonese/)** — Podcast site for Poetic Cantonese.
+- **[Brittany Chan (YouTube)](https://www.youtube.com/@cantobritt)** — Cantonese learning playlists by Brittany Chan.
+- **[CantoneseClass101 (YouTube)](https://www.youtube.com/@CantoneseClass101)** — Official CantoneseClass101 playlists on YouTube.
+- **[CUHK ILC — Elementary Cantonese lessons](https://www.ilc.cuhk.edu.hk/workshop/chinese/cantonese/onlinetutorial/courseListA.aspx#pgContent)** — CUHK self-study workshop: elementary Cantonese online tutorials.
 
 <a id="collection-starter-kit-intermediate"></a>
 ## Intermediate starter kit
@@ -87,28 +86,20 @@ More reading and listening, colloquial graded stories, podcasts, and open tools 
 
 - **[Ham Baang Laang](https://hambaanglaang.hk/)** — Graded readers in colloquial Cantonese with audio and illustrations.
 - **[Storybooks Canada (Cantonese)](https://www.storybookscanada.ca/stories/yue/)** — Free illustrated stories with Cantonese text and audio.
-- **[Chatty Cantonese](https://www.chattycantonese.com/)** — Conversational Cantonese podcast for learners and lovers of the language.
-- **[Poetic Cantonese](https://creators.spotify.com/pod/profile/poetic-cantonese/)** — Podcast site for Poetic Cantonese.
-- **[Canto Big Circle](https://www.youtube.com/@CantoBigCircle)** — YouTube playlists from Canto Big Circle.
-- **[JyutDict (GitHub)](https://github.com/aaronhktan/jyut-dict)** — Open-source Cantonese dictionary desktop app project.
-- **[CC-Canto](https://cantonese.org/)** — A fast, free online Cantonese-English dictionary from Pleco.
-- **[SearchCanto](https://searchcanto.com/)** — Search interface for Cantonese dictionary data.
-- **[Language Crush — Cantonese Conversations](https://languagecrush.com/reading/course/258)** — Reading course with Cantonese conversations (free with sign-up).
+- **[Inject Jyutping](https://chromewebstore.google.com/detail/inject-jyutping/lfgpgjkjglogbndlkikjgbbfoiofbdjp?pli=1)** — Chrome extension to show Jyutping on Chinese web pages.
+- **[CUHK ILC — Intermediate Cantonese lessons](https://www.ilc.cuhk.edu.hk/workshop/chinese/cantonese/onlinetutorial/courseListB.aspx#pgContent)** — CUHK self-study workshop: intermediate Cantonese online tutorials.
+- **[Cantonese in Communication — Book 2 audio](http://publish.commercialpress.com.hk/misc/Cantonese_2/)** — Listening and speaking course: Book 2 companion audio.
+- **[Cantonese: A Comprehensive Grammar — multimedia](https://www.cuhk.edu.hk/lin/cbrc/CantoneseGrammar/)** — CUHK multimedia materials for the 2nd edition grammar reference.
+- **[Basic Cantonese Grammar (PDF)](https://drive.google.com/file/d/1X7C4-rkug4m_K9H2KTu2PV-Ow67k2YST/view)** — Community-shared PDF of the Basic Cantonese Grammar Workbook.
 
 <a id="collection-starter-kit-advanced"></a>
 ## Advanced starter kit
 
 Grammar references, literary and dubbed immersion, specialized vocabulary, and rich annotated media.
 
+- **[Chatty Cantonese](https://www.chattycantonese.com/)** — Conversational Cantonese podcast for learners and lovers of the language.
 - **[Cantonese: A Comprehensive Grammar — multimedia](https://www.cuhk.edu.hk/lin/cbrc/CantoneseGrammar/)** — CUHK multimedia materials for the 2nd edition grammar reference.
-- **[Basic Cantonese Grammar (PDF)](https://drive.google.com/file/d/1X7C4-rkug4m_K9H2KTu2PV-Ow67k2YST/view)** — Community-shared PDF of the Basic Cantonese Grammar Workbook.
-- **[CantoLounge grammar series (Wayback)](https://web.archive.org/web/20221030021248/https://cantolounge.com/cantonese-grammar-series/)** — Archived Cantolounge Cantonese grammar article series.
-- **[Medical terminology in Cantonese and Mandarin (Leslie Frank)](https://soundcloud.com/leslie-frank-643243096)** — Audio series for medical terminology in Cantonese and Mandarin.
-- **[canto.hk](https://canto.hk/)** — Canto Font / Cantonese typography and learning tools (Jon Chui).
-- **[Jon Chui — D100 read-along demo (Visual Fonts)](https://docs.visual-fonts.com/read-along/D100_7_OT/7_OT.html)** — Sample read-along drama with Jyutping, word glosses, and English lines (D100 collaboration).
-- **[Canto Jar](https://cantojar.com)** — Cantonese song lyrics, breakdowns, and learning posts.
-- **[Jujiso — Cantonese-dubbed shows search](https://www.ep234.com/vsearch/-------------.html?wd=%E7%B2%A4%E8%AF%AD)** — Streaming index/search for Yue/Cantonese-dubbed anime and shows.
-- **[Cantonese dubs (Google Drive folder)](https://drive.google.com/drive/folders/1XQda3XOcTjlOiAdJeW7HQCxgndz3Bifz)** — Community drive of Cantonese-dubbed media.
+- **[Easy Cantonese (playlist)](https://www.youtube.com/playlist?list=PLA5UIoabheFMqUbbrqiiPGOz6n7jN1Crd)** — Street-interview style Easy Languages Cantonese playlist.
 - **[Cantonese with soft subtitles / transcript (playlist)](https://www.youtube.com/playlist?list=PLhFsPvkfpCXnWDUSPmA-8xUp7vPz-zCeg)** — YouTube playlist with spoken-form soft subtitles (last updated 2021 per source).
 
 <a id="collection-curated-essential-picks"></a>
@@ -116,14 +107,11 @@ Grammar references, literary and dubbed immersion, specialized vocabulary, and r
 
 A short list of especially helpful reference tools and learning resources that many Cantonese learners use again and again.
 
-- **[Pleco](https://www.pleco.com/)** — Major Chinese dictionary app with Cantonese add-ons (Jyutping, audio).
-- **[Ham Baang Laang](https://hambaanglaang.hk/)** — Graded readers in colloquial Cantonese with audio and illustrations.
-- **[Words HK](https://words.hk/)** — Community Cantonese–English dictionary.
 - **[Jyutping.org](https://jyutping.org/en/)** — Reference site for Jyutping romanization.
+- **[Pleco](https://www.pleco.com/)** — Major Chinese dictionary app with Cantonese add-ons (Jyutping, audio).
+- **[Words HK](https://words.hk/)** — Community Cantonese–English dictionary.
 - **[Inject Jyutping](https://chromewebstore.google.com/detail/inject-jyutping/lfgpgjkjglogbndlkikjgbbfoiofbdjp?pli=1)** — Chrome extension to show Jyutping on Chinese web pages.
-- **[Forvo](https://forvo.com/languages/yue/)** — User-contributed pronunciations for Cantonese words.
-- **[JyutDict (GitHub)](https://github.com/aaronhktan/jyut-dict)** — Open-source Cantonese dictionary desktop app project.
-- **[Cantone (Android)](https://play.google.com/store/apps/details?id=com.cantone.cantone&hl=en&gl=US)** — Android app for Cantonese learning.
+- **[Ham Baang Laang](https://hambaanglaang.hk/)** — Graded readers in colloquial Cantonese with audio and illustrations.
 
 <a id="collection-curated-hk-in-person-courses"></a>
 ## In-person courses in Hong Kong
@@ -132,14 +120,8 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 
 - **[Yale-China Chinese Language Centre (CUHK)](https://www.ycclc.cuhk.edu.hk/)** — CUHK Chinese Language Centre courses (Yale-China CLC).
 - **[PolyU CLC — Chinese for NCS students](https://www.polyu.edu.hk/clc/subjects/chinese-subjects-for-non-chinese-speaking-students/?sc_lang=en)** — PolyU Chinese subjects for non-Chinese speaking students (includes Cantonese options).
-- **[HKUST CLE — Cantonese Elective Courses](https://cle.hkust.edu.hk/courses/other)** — Cantonese Elective Courses offered by HKUST Center for Language Education.
 - **[HKU Chinese Language Centre](https://www.clc.hku.hk/)** — HKU CLC Chinese and Cantonese programmes.
-- **[Q Language — Learn Cantonese](https://www.qlanguage.com.hk/chinese-courses/learn-cantonese/)** — Private language school Cantonese courses in Hong Kong.
-- **[Practical Mandarin — Cantonese](https://www.practicalmandarin.com/)** — Hong Kong training centre offering Cantonese classes.
 - **[SCOLAR Vocational Chinese for NCS School Leavers (program page)](https://scolarhk.edb.hkedcity.net/en/promotion_of_languages/promotion-of-languages-program.php?id=267)** — Vocational Chinese Language Programme for NCS school leavers — overview; up to 85% tuition reimbursement may apply.
-- **[Yale-China CLA — SCOLAR vocational Chinese (CUHK)](https://yccla.cuhk.edu.hk/scolar-can)** — Yale-China Chinese Language Centre SCOLAR-funded vocational courses (Elementary I–II, Intermediate I–II per source).
-- **[HKU SPACE — SCOLAR VCL for NCS school leavers](https://hkuspace.hku.hk/collection/foundation-certificate-in-vcl-for-ncs-school-leavers/course/)** — HKU SPACE foundation / vocational listening, speaking, literacy tracks under SCOLAR VCL (per source).
-- **[YMCA College of Careers — SCOLAR vocational Chinese](https://coc.cymca.edu.hk/portfolio_category/scolar-en/?lang=en)** — YMCA COC SCOLAR English portfolio — Foundation, QF Level 1 and 2 courses (per source).
 
 <a id="category-community"></a>
 ## Community
