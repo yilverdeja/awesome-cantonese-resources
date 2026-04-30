@@ -152,7 +152,9 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 - **[Cantonese.ai — WhatsApp speech-to-text](https://cantonese.ai/)** — WhatsApp plugin for Cantonese speech-to-text (related repos on GitHub).
 - **[Drops Cantonese](https://languagedrops.com/language/learn-cantonese)** — Vocabulary-focused Cantonese lessons in the Drops app.
 - **[Duolingo (Mandarin to Cantonese)](https://www.duolingo.com/course/zh-HK/zh/Learn-Chinese%20Cantonese)** — Duolingo path for learners with Mandarin background moving into Cantonese.
+- **[Hauyu](https://www.hauyulearn.com/)** — A website to help learners read texts in Cantonese and practice vocabulary.
 - **[Jyut Dictionary](https://jyutdictionary.com/)** — Comprehensive Cantonese dictionary app.
+- **[Lingora](https://lingora.org/cantonese/)** — 500 sentence-centric Cantonese lessons that include dynamic practice and grammar reinforcement.
 - **[LingQ Cantonese](https://www.lingq.com/en/learn-cantonese-online/)** — Reading- and listening-based Cantonese course on LingQ.
 - **[Miteiru](https://miteiru.hocky.id/)** — An open-source video player for learning Cantonese.
 - **[TalkDimSum](https://technicat.itch.io/talkdimsum)** — Dim sum–focused Cantonese food and phrase helper.
@@ -281,6 +283,8 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 - **[Cantodict Parser](https://www.cantonese.sheik.co.uk/dictionary/parser/)** — Sentence parser tool on Cantodict.
 - **[Cantonese Plus](https://www.cantoneseplus.com/)** — Cantonese learning site with dictionary and phrase tools.
 - **[CC-Canto](https://cantonese.org/)** — A fast, free online Cantonese-English dictionary from Pleco.
+- **[Hanping Cantonese Dictionary (Android)](https://play.google.com/store/apps/details?id=com.embermitre.hanping.cantodict.app.pro&hl=en_US&gl=US)** — A proper Cantonese dictionary with offline search and handwriting practice. $10 USD one-time purchase.
+- **[Hanping Cantonese Dictionary (iOS)](https://apps.apple.com/us/app/hanping-cantonese-dictionary/id6755623391)** — A proper Cantonese dictionary with offline search and handwriting practice. $10 USD one-time purchase.
 - **[MDBG Chinese Dictionary](https://www.mdbg.net/chinese/dictionary)** — MDBG dictionary (Chinese; useful alongside Cantonese resources).
 - **[Pleco](https://www.pleco.com/)** — Major Chinese dictionary app with Cantonese add-ons (Jyutping, audio).
 - **[SearchCanto](https://searchcanto.com/)** — Search interface for Cantonese dictionary data.
@@ -289,16 +293,20 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 <a id="category-tool"></a>
 ## Tool
 
+- **[Bing Translate Cantonese](https://www.bing.com/translator?to=yue&setlang=si)** — Bing Translate for Cantonese.
 - **[canto.hk](https://canto.hk/)** — Canto Font / Cantonese typography and learning tools (Jon Chui).
 - **[cantonese.tools](https://www.cantonese.tools/)** — Miscellaneous Cantonese web utilities.
 - **[cantonesetools.org](https://www.cantonesetools.org/)** — Cantonese tools including converters and practice sheets.
 - **[Chin Vocab](https://chinvocab.com/)** — Vocabulary and Cantonese learning tools including linked datasets.
 - **[Chinese Worksheet Generator (CWG)](http://chineseworksheetgenerator.org/)** — Web tool to generate Chinese practice worksheets with English definitions.
 - **[CKC Copybook (EDUHK)](https://ckc.eduhk.hk/ckccopybook/?lang=en)** — Allows users to select Chinese characters and phrases to create a handwriting practicing worksheet
+- **[Google Translate Cantonese](https://translate.google.com/?hl=en&sl=en&tl=yue&op=translate)** — Google Translate for Cantonese.
 - **[Hong Kong Vision](https://hongkongvision.com/tool/en)** — HK Vision language tools including Cantonese-related utilities.
+- **[Narakeet (Text to Speech)](https://www.narakeet.com/languages/cantonese-text-to-speech/)** — A text to speech tool for Cantonese with over 80 voices to choose from.
 - **[Online Cantonese input method](https://www.cantoneseinput.com/?lang=en)** — Web-based Cantonese romanization / input helper.
 - **[Speech Notes — Yue dictation](https://speechnotes.co/dictate/)** — SpeechNotes dictation with Cantonese (yue) option.
 - **[TianZiGeBiShun Character Worksheet Generator](https://www.an2.net/zi/index_en.php)** — Generate Chinese writing grid worksheets (stroke order).
+- **[Type Duck](https://www.typeduck.hk/)** — A super fast Cantonese input method for speakers & learners.
 
 <a id="category-pronunciation"></a>
 ## Pronunciation
@@ -345,6 +353,7 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 - **[Animal Farm — Cantonese text](https://www.cantonese.com.hk/animalfarm/text/)** — Animal Farm in Cantonese on cantonese.com.hk.
 - **[Basic Cantonese Grammar (PDF)](https://drive.google.com/file/d/1X7C4-rkug4m_K9H2KTu2PV-Ow67k2YST/view)** — Community-shared PDF of the Basic Cantonese Grammar Workbook.
 - **[CantoLounge grammar series (Wayback)](https://web.archive.org/web/20221030021248/https://cantolounge.com/cantonese-grammar-series/)** — Archived Cantolounge Cantonese grammar article series.
+- **[Cantonese Grammar (Wikipedia)](https://en.wikipedia.org/wiki/Cantonese_grammar)** — Encyclopedia overview of Cantonese grammar.
 - **[cantonese.com.hk — book texts](https://www.cantonese.com.hk/)** — Cantonese book texts and parallel readings hosted on cantonese.com.hk.
 - **[Hong Kong Cantonese Articulation Test (DH)](https://www.dhcas.gov.hk/en/cat.html)** — Government information on the Cantonese articulation test.
 - **[Jon Chui — D100 read-along demo (Visual Fonts)](https://docs.visual-fonts.com/read-along/D100_7_OT/7_OT.html)** — Sample read-along drama with Jyutping, word glosses, and English lines (D100 collaboration).
