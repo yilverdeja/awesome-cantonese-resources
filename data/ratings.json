@@ -71,6 +71,18 @@
     },
     "votes": 0
   },
+  "bing-translate-cantonese": {
+    "avg_stars": 0,
+    "score": 0,
+    "stars": {
+      "CONFUSED": 0,
+      "HEART": 0,
+      "HOORAY": 0,
+      "THUMBS_DOWN": 0,
+      "THUMBS_UP": 0
+    },
+    "votes": 0
+  },
   "blog-lingtuitive-smartest-way-chinese": {
     "avg_stars": 0,
     "score": 0,
@@ -899,6 +911,18 @@
     },
     "votes": 0
   },
+  "google-translate-cantonese": {
+    "avg_stars": 0,
+    "score": 0,
+    "stars": {
+      "CONFUSED": 0,
+      "HEART": 0,
+      "HOORAY": 0,
+      "THUMBS_DOWN": 0,
+      "THUMBS_UP": 0
+    },
+    "votes": 0
+  },
   "ham-baang-laang": {
     "avg_stars": 5,
     "score": 3.4657359027997265,
@@ -910,6 +934,42 @@
       "THUMBS_UP": 0
     },
     "votes": 1
+  },
+  "hanping-cantonese-dictionary-android": {
+    "avg_stars": 0,
+    "score": 0,
+    "stars": {
+      "CONFUSED": 0,
+      "HEART": 0,
+      "HOORAY": 0,
+      "THUMBS_DOWN": 0,
+      "THUMBS_UP": 0
+    },
+    "votes": 0
+  },
+  "hanping-cantonese-dictionary-ios": {
+    "avg_stars": 0,
+    "score": 0,
+    "stars": {
+      "CONFUSED": 0,
+      "HEART": 0,
+      "HOORAY": 0,
+      "THUMBS_DOWN": 0,
+      "THUMBS_UP": 0
+    },
+    "votes": 0
+  },
+  "hauyu-learn-spoken-cantonese": {
+    "avg_stars": 0,
+    "score": 0,
+    "stars": {
+      "CONFUSED": 0,
+      "HEART": 0,
+      "HOORAY": 0,
+      "THUMBS_DOWN": 0,
+      "THUMBS_UP": 0
+    },
+    "votes": 0
   },
   "hong-kong-vision-tool": {
     "avg_stars": 0,
@@ -1355,6 +1415,18 @@
     },
     "votes": 0
   },
+  "lingora-cantonese": {
+    "avg_stars": 4,
+    "score": 2.772588722239781,
+    "stars": {
+      "CONFUSED": 0,
+      "HEART": 1,
+      "HOORAY": 0,
+      "THUMBS_DOWN": 0,
+      "THUMBS_UP": 0
+    },
+    "votes": 1
+  },
   "lingq-cantonese": {
     "avg_stars": 0,
     "score": 0,
@@ -1488,6 +1560,18 @@
     "votes": 0
   },
   "music-canto-jar": {
+    "avg_stars": 0,
+    "score": 0,
+    "stars": {
+      "CONFUSED": 0,
+      "HEART": 0,
+      "HOORAY": 0,
+      "THUMBS_DOWN": 0,
+      "THUMBS_UP": 0
+    },
+    "votes": 0
+  },
+  "narakeet-text-to-speech": {
     "avg_stars": 0,
     "score": 0,
     "stars": {
@@ -1656,6 +1740,18 @@
     "votes": 0
   },
   "ref-cantolounge-grammar-archive": {
+    "avg_stars": 0,
+    "score": 0,
+    "stars": {
+      "CONFUSED": 0,
+      "HEART": 0,
+      "HOORAY": 0,
+      "THUMBS_DOWN": 0,
+      "THUMBS_UP": 0
+    },
+    "votes": 0
+  },
+  "ref-cantonese-grammar-wikipedia": {
     "avg_stars": 0,
     "score": 0,
     "stars": {
@@ -2110,6 +2206,18 @@
       "THUMBS_UP": 0
     },
     "votes": 0
+  },
+  "type-duck": {
+    "avg_stars": 5,
+    "score": 3.4657359027997265,
+    "stars": {
+      "CONFUSED": 0,
+      "HEART": 0,
+      "HOORAY": 1,
+      "THUMBS_DOWN": 0,
+      "THUMBS_UP": 0
+    },
+    "votes": 1
   },
   "video-bilibili-cantonese-tones-explainer": {
     "avg_stars": 0,
