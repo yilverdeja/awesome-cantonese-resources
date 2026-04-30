@@ -2637,5 +2637,18 @@
     "cost": "Free",
     "platforms": ["Web"],
     "features": ["Jyutping"]
+  },
+  {
+    "id": "caretaker-phrasebook-cantonese",
+    "name": "Caretaker Phrasebook",
+    "category": "SelfStudy",
+    "description": "Designed to help caregivers communicate essential ideas in healthcare and elder-care settings.",
+    "url": "https://blogs.ubc.ca/caretakerdictionaryincantonese/",
+    "levels": ["Intermediate", "Advanced"],
+    "tags": ["reading", "vocabulary"],
+    "related_ids": [],
+    "cost": "Free",
+    "platforms": ["Web"],
+    "features": ["Jyutping"]
   }
 ]
