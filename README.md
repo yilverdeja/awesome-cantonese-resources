@@ -340,6 +340,7 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 
 - **[Cantonese Learning](https://www.cantoneselearning.com/)** — Lessons, video with Jyutping transcripts, and songs (per source list).
 - **[CantoneseClass101](https://www.cantoneseclass101.com/)** — Paid lesson library and study tools for Cantonese.
+- **[Caretaker Phrasebook](https://blogs.ubc.ca/caretakerdictionaryincantonese/)** — Designed to help caregivers communicate essential ideas in healthcare and elder-care settings.
 - **[CUHK — Online Cantonese hub](https://www.ilc.cuhk.edu.hk/workshop/Chinese/Cantonese/OnlineCantonese/index.aspx)** — CUHK ILC landing page for Online Cantonese materials.
 - **[CUHK ILC — Elementary Cantonese lessons](https://www.ilc.cuhk.edu.hk/workshop/chinese/cantonese/onlinetutorial/courseListA.aspx#pgContent)** — CUHK self-study workshop: elementary Cantonese online tutorials.
 - **[CUHK ILC — Intermediate Cantonese lessons](https://www.ilc.cuhk.edu.hk/workshop/chinese/cantonese/onlinetutorial/courseListB.aspx#pgContent)** — CUHK self-study workshop: intermediate Cantonese online tutorials.
