@@ -273,6 +273,7 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 
 - **[ChinVocab Ham Baang Laang](https://chinvocab.com/hbl/)** — Ham Baang Laang stories with customized learning options & flashcards.
 - **[Ham Baang Laang](https://hambaanglaang.hk/)** — Graded readers in colloquial Cantonese with audio and illustrations.
+- **[Lida Stories](https://lidastories.net/hongkong/)** — 30 illustrated Cantonese stories for teens and adults, with audio.
 - **[Storybooks Canada (Cantonese)](https://www.storybookscanada.ca/stories/yue/)** — Free illustrated stories with Cantonese text and audio.
 
 <a id="category-dictionary"></a>

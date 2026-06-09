@@ -2650,5 +2650,18 @@
     "cost": "Free",
     "platforms": ["Web"],
     "features": ["Jyutping"]
+  },
+  {
+    "id": "lida-stories-hong-kong",
+    "name": "Lida Stories",
+    "category": "GradedReader",
+    "description": "30 illustrated Cantonese stories for teens and adults, with audio.",
+    "url": "https://lidastories.net/hongkong/",
+    "levels": ["All Levels", "Beginner", "Intermediate", "Advanced"],
+    "tags": ["reading"],
+    "related_ids": [],
+    "cost": "Free",
+    "platforms": ["Web"],
+    "features": ["Audio"]
   }
 ]
