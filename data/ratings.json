@@ -1415,6 +1415,18 @@
     },
     "votes": 0
   },
+  "lida-stories-hong-kong": {
+    "avg_stars": 0,
+    "score": 0,
+    "stars": {
+      "CONFUSED": 0,
+      "HEART": 0,
+      "HOORAY": 0,
+      "THUMBS_DOWN": 0,
+      "THUMBS_UP": 0
+    },
+    "votes": 0
+  },
   "lingora-cantonese": {
     "avg_stars": 4,
     "score": 2.772588722239781,
