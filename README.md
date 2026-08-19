@@ -1,3 +1,5 @@
+
+
 # Awesome Cantonese Resources
 
 A community-maintained list of **Cantonese (Yue)** learning resources: apps, courses, media, dictionaries, reference sites, grassroots projects, and more. Cantonese is spoken across Hong Kong, Macau, Guangdong, and diaspora communities worldwide. This repository exists to **celebrate the language**, make quality materials easier to find, and support learners wherever they are.
@@ -394,7 +396,7 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 - **[Canto Jar](https://cantojar.com)** — Cantonese song lyrics, breakdowns, and learning posts.
 - **[Lyrics Decode](https://lyricsdecode.com/tags/cantopop)** — Cantopop lyrics with Jyutping, English, and practice/challenge lyric quizzes.
 
-<a id="category-languageexchange"></a>
+<a id="category-languageExchange"></a>
 ## Language Exchange
 
 - **[Speaking Language Exchange](https://speakinglanguageexchange.com/)** — Platform to find language exchange partners including Cantonese.
@@ -426,7 +428,7 @@ Each **resource** in `data/resources.json` may include:
 | `category` | One of the category labels used for README sections (see generated headings). |
 | `description` | Short English summary; also shown in the README list. |
 | `url` | Primary link for the resource. |
-| `levels` | Rough difficulty: `Beginner`, `Intermediate`, `Advanced`, or `All Levels`. |
+| `levels` | Array of rough difficulty labels: `Beginner`, `Intermediate`, `Advanced`, or `All Levels`. |
 | `platforms` | Where it runs or is consumed (`Web`, `YouTube`, `iOS`, …). |
 | `tags` | Free-form labels for search/filtering in the app. |
 | `features` | Notable capabilities (e.g. romanization, flashcards). |
