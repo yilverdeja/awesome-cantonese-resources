@@ -304,6 +304,7 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 - **[Chin Vocab](https://chinvocab.com/)** — Vocabulary and Cantonese learning tools including linked datasets.
 - **[Chinese Worksheet Generator (CWG)](http://chineseworksheetgenerator.org/)** — Web tool to generate Chinese practice worksheets with English definitions.
 - **[CKC Copybook (EDUHK)](https://ckc.eduhk.hk/ckccopybook/?lang=en)** — Allows users to select Chinese characters and phrases to create a handwriting practicing worksheet
+- **[Formatted Chinese](https://formattedchinese.com/)** — Puts Jyutping, Yale or pinyin under each character and translates to or from English, Japanese, Spanish, French, Italian or Russian, exporting as PDF, DOCX or Markdown. Write English and the Chinese it returns is romanized too. Translation and OCR run on its own servers, not a third-party AI service. Obsidian plugin and Telegram bot available.
 - **[Google Translate Cantonese](https://translate.google.com/?hl=en&sl=en&tl=yue&op=translate)** — Google Translate for Cantonese.
 - **[Hong Kong Vision](https://hongkongvision.com/tool/en)** — HK Vision language tools including Cantonese-related utilities.
 - **[Narakeet (Text to Speech)](https://www.narakeet.com/languages/cantonese-text-to-speech/)** — A text to speech tool for Cantonese with over 80 voices to choose from.

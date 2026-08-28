@@ -2613,6 +2613,19 @@
     "features": []
   },
   {
+    "id": "formatted-chinese",
+    "name": "Formatted Chinese",
+    "category": "Tool",
+    "description": "Puts Jyutping, Yale or pinyin under each character and translates to or from English, Japanese, Spanish, French, Italian or Russian, exporting as PDF, DOCX or Markdown. Write English and the Chinese it returns is romanized too. Translation and OCR run on its own servers, not a third-party AI service. Obsidian plugin and Telegram bot available.",
+    "url": "https://formattedchinese.com/",
+    "levels": ["All Levels"],
+    "tags": ["romanization", "worksheet", "translation", "export", "privacy"],
+    "related_ids": [],
+    "cost": "Free",
+    "platforms": ["Web"],
+    "features": ["Jyutping", "Yale", "Pinyin", "Image OCR", "Simplified/Traditional conversion", "Obsidian plugin", "Telegram bot", "API"]
+  },
+  {
     "id": "lingora-cantonese",
     "name": "Lingora",
     "category": "App",
