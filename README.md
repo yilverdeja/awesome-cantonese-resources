@@ -305,6 +305,7 @@ Universities, private centres, and SCOLAR-funded vocational programmes for learn
 - **[Chinese Worksheet Generator (CWG)](http://chineseworksheetgenerator.org/)** — Web tool to generate Chinese practice worksheets with English definitions.
 - **[CKC Copybook (EDUHK)](https://ckc.eduhk.hk/ckccopybook/?lang=en)** — Allows users to select Chinese characters and phrases to create a handwriting practicing worksheet
 - **[Google Translate Cantonese](https://translate.google.com/?hl=en&sl=en&tl=yue&op=translate)** — Google Translate for Cantonese.
+- **[HanziTots](https://hanzitots.com)** — Interactive Chinese character tracing and printable Tianzige worksheet generator with native Cantonese audio (Jyutping) and personalized name practice.
 - **[Hong Kong Vision](https://hongkongvision.com/tool/en)** — HK Vision language tools including Cantonese-related utilities.
 - **[Narakeet (Text to Speech)](https://www.narakeet.com/languages/cantonese-text-to-speech/)** — A text to speech tool for Cantonese with over 80 voices to choose from.
 - **[Online Cantonese input method](https://www.cantoneseinput.com/?lang=en)** — Web-based Cantonese romanization / input helper.
