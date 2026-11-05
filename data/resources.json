@@ -2728,5 +2728,18 @@
     "cost": "Freemium",
     "platforms": ["Web"],
     "features": ["Jyutping", "Audio", "Conversation", "AI"]
+  },
+  {
+    "id": "hanzitots",
+    "name": "HanziTots",
+    "category": "Tool",
+    "description": "Interactive Chinese character tracing and printable Tianzige worksheet generator with native Cantonese audio (Jyutping) and personalized name practice.",
+    "url": "https://hanzitots.com",
+    "levels": ["Beginner"],
+    "tags": ["writing", "stroke-order", "kids", "worksheets", "jyutping"],
+    "related_ids": [],
+    "cost": "Free",
+    "platforms": ["Web"],
+    "features": ["Audio", "Pronunciation", "Worksheets"]
   }
 ]
